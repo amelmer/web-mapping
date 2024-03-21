@@ -50,13 +50,6 @@
 	}).addTo(mymap);
 //(10) right above here, you see you're adding this tileset and setting the max zoom level of "mymap" 
 
-var Stadia_StamenWatercolor = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.{ext}', {
-	minZoom: 1,
-	maxZoom: 16,
-	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-	ext: 'jpg'
-});
-
 //(11) this is how you define individual features on the map - a marker, a cirlce, a polygon. You could also call up a variable and point it to a hosted GIS file to load it in.
 //(12) note that each popup has preloaded text here. You could also have a variable that points attributes in a dataset to populate a popup; we will do this in the future
 	L.marker([41.790715953497575, -87.60288618974094]).addTo(mymap)
@@ -96,7 +89,7 @@ var Stadia_StamenWatercolor = L.tileLayer('https://tiles.stadiamaps.com/tiles/st
 }
 
 	L.geoJSON(walker303).addTo(mymap)
-	.bindPopup("This is the Walker Museum!");
+	.bindPopup("This is a library!");
 
 
 //(17) you can also comment out mapped items if you do not want them to draw. note that the var reference above is still present but below i have turned off a layer
