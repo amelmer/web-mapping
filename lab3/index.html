@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Leaflet preview</title>
+        <title>Chicago Transit</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"integrity="sha384-o/2yZuJZWGJ4s/adjxVW71R+EO/LyCwdQfP5UWSgX/w87iiTXuvDZaejd3TsN7mf"crossorigin=""/>
@@ -14,7 +14,7 @@
         <script>
         var map = L.map('map', {attributionControl: false}).setView([41.7948, -87.5949], 14);
         L.control.attribution({prefix: false}).addTo(map);
-        var tilesource_layer = L.tileLayer('file:////Users/allisonelmer/Documents/web-mapping/{z}/{x}/{y}.png', {minZoom: 13, maxZoom: 15, tms: false, attribution: 'Created by QGIS'}).addTo(map);
+        var tilesource_layer = L.tileLayer('https://amelmer.github.io/web-mapping/lab3/{z}/{x}/{y}.png', {minZoom: 13, maxZoom: 15, tms: false, attribution: 'Created by QGIS'}).addTo(map);
         var bus = new L.geoJson(bus).addTo(map);
         </script>
     </body>
