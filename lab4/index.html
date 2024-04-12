@@ -2,12 +2,13 @@
     <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
-    <title>Assignment 4 | YOUR NAME</title>
+    <title>Assignment 4 | Allison Elmer</title>
     <style> html, body, #viewDiv {padding: 0; margin: 0; height: 100%; width: 100%;}
 </style>
 
 <link rel="stylesheet" href="https://js.arcgis.com/4.29/esri/themes/light/main.css"/>
 <script src="https://js.arcgis.com/4.29/"></script>
+<script src="sites.js"></script>
 
     <script>
         require([
@@ -70,9 +71,9 @@
                 url:"https://gisext.lincoln.ne.gov/arcgis/rest/services/Parks/Park_Boundaries/MapServer/0"
             });
 
-            /* var sites = new FeatureLayer({
+            var sitesLayer = new FeatureLayer({
                 url:"https://amelmer.github.io/web-mapping/lab4/sites.js"
-            })*/
+            });
 
             var map = new Map({
                 layers: [thebasemap, geojsonLayer]
@@ -86,7 +87,7 @@
             });
 
             map.add(featureLayer);
-            //map.add(sites)
+            map.add(sitesLayer);
 
             const legend = new Legend({
                 view:view,
