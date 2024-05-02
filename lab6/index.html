@@ -34,11 +34,6 @@
             "esri/widgets/TimeSlider",
             "esri/widgets/Legend"
         ], function (Map, MapView, FeatureLayer, TimeSlider, Legend) {
-    
-    const layer = new FeatureLayer({
-        url:
-            "https://services9.arcgis.com/RHVPKKiFTONKtxq3/ArcGIS/rest/services/USGS_Seismic_Data_v1/FeatureServer/0"
-    });
 
     const popupTemplate = {
         // autocasts as new PopupTemplate()
@@ -68,9 +63,9 @@
                     
                     }
                 }
-]}]};
+    ]}]};
 
-    const popupLayer = new FeatureLayer({
+    const layer = new FeatureLayer({
         url:
             "https://services9.arcgis.com/RHVPKKiFTONKtxq3/ArcGIS/rest/services/USGS_Seismic_Data_v1/FeatureServer/0",
         outFields: ["eventType", "depth", "mag", "rms", "place"], // used to specify what attribute fields to query
@@ -79,7 +74,7 @@
 
     const map = new Map({
         basemap: "oceans",
-        layers: [popupLayer] //if you add more layers, separate by a comma
+        layers: [layer] //if you add more layers, separate by a comma
     });
     
     const view = new MapView({
