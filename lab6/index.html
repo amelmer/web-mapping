@@ -42,7 +42,7 @@
 
     const popupTemplate = {
         // autocasts as new PopupTemplate()
-        title: "this event took place at {depth} feet deep",
+        title: "This {eventType} took place at {depth} feet deep.",
         content: [
             {
                 type: "fields",
@@ -73,12 +73,12 @@
     const popupLayer = new FeatureLayer({
         url:
             "https://services9.arcgis.com/RHVPKKiFTONKtxq3/ArcGIS/rest/services/USGS_Seismic_Data_v1/FeatureServer/0",
-        outFields: ["depth", "mag", "rms", "place"], // used to specify what attribute fields to query
+        outFields: ["eventType", "depth", "mag", "rms", "place"], // used to specify what attribute fields to query
         popupTemplate: popupTemplate
     });
 
     const map = new Map({
-        basemap: "hybrid",
+        basemap: "oceans",
         layers: [popupLayer] //if you add more layers, separate by a comma
     });
     
