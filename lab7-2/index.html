@@ -37,14 +37,14 @@
                     value >= 4 ? '#9ACEEB':
                     value >= 2 ? '#bedaea':
                     value >= -2 ? '#ffffbf':
-                    value >= -4 ? '#EB9A9A':
-                    value >= -6 ? '#fddbc7':
-                    value >= -9 ? '#ef8a62':
-                    '#b2182b';
+                    value >= -4 ? '#EABEBE':
+                    value >= -6 ? '#EB9A9A':
+                    value >= -9 ? '#C95454':
+                    '#AC2121';
             }
 
-            var minValue = 500; 
-            var minRadius = 100;
+            var minValue = 1000; 
+            var minRadius = 300;
 
             function calcRadius(val) {
                 return 0.9 * Math.pow(val/minValue, .7) * minRadius;
