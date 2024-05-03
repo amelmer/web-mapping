@@ -42,6 +42,13 @@
                     value >= -9 ? '#ef8a62':
                     '#b2182b';
             }
+
+            var minValue = 500; 
+            var minRadius = 100;
+
+            function calcRadius(val) {
+                return 0.9 * Math.pow(val/minValue, .7) * minRadius;
+            }
             
             var background =
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
@@ -56,15 +63,18 @@
             var timeline;
             var timelineControl;
 
-            function onLoadData(data) {
+            function onLoadData(data, ll) {
                 timeline = L.timeline(data, {
-                    style: function (data) {
-                        return {
-                            stroke: false,
+                    pointToLayer: function (data, ll) {
+                        return L.circleMarker(ll, {
                             color: getColorFor(data.properties.DIFF),
+                            opacity: 1,
+                            weight: 2,
+                            fillColor: getColorFor(data.properties.DIFF),
                             fillOpacity: 0.9,
-                };
-            },
+                            radius: calcRadius(data.properties.EV_EV)
+                    });   
+                },
             waitToUpdateMap: true,
             onEachFeature: function (feature, layer) {
                 layer.bindTooltip('<h3>'+ feature.properties.NAME + '</h3> <p>' + ' <br>Biden: <strong>' +
