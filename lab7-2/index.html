@@ -43,8 +43,8 @@
                     '#AC2121';
             }
 
-            var minValue = 1000; 
-            var minRadius = 300;
+            var minValue = 3; 
+            var minRadius = 7;
 
             function calcRadius(val) {
                 return 0.9 * Math.pow(val/minValue, .7) * minRadius;
@@ -71,7 +71,7 @@
                             opacity: 1,
                             weight: 2,
                             fillColor: getColorFor(data.properties.DIFF),
-                            fillOpacity: 0.9,
+                            fillOpacity: 0.8,
                             radius: calcRadius(data.properties.EV_EV)
                     });   
                 },
