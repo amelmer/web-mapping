@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-05-05T18:32:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7572945113",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5285",
+        "addr:postcode": "95123",
+        "addr:street": "Snell Avenue",
+        "shop": "farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.831433,
+          37.2594009
+        ]
+      },
+      "id": "node/7572945113"
+    }
+  ]
+}

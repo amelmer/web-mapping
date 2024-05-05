@@ -1,0 +1,828 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-05-05T18:33:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/487657729",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1080",
+        "addr:postcode": "95129",
+        "addr:state": "CA",
+        "addr:street": "South De Anza Boulevard",
+        "addr:unit": "B",
+        "amenity": "school",
+        "indoor": "yes",
+        "leisure": "sports_centre",
+        "name": "De Anza Cupertino Aquatics Swim Center",
+        "short_name": "DACA",
+        "sport": "swimming",
+        "website": "https://www.daca.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.031698,
+          37.3068131
+        ]
+      },
+      "id": "node/487657729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2845366619",
+        "addr:city": "San Jose",
+        "addr:housename": "Montessori Garden Academy Preschool & Day Care",
+        "addr:housenumber": "3117",
+        "addr:postcode": "95148",
+        "addr:street": "Perivale Court",
+        "amenity": "school",
+        "name": "Montessori Garden Academy Preschool & Day Care"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7832305,
+          37.3176449
+        ]
+      },
+      "id": "node/2845366619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3463502783",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5200",
+        "addr:postcode": "95118",
+        "addr:state": "CA",
+        "addr:street": "Dent Avenue",
+        "amenity": "school",
+        "name": "Stratford School Almaden",
+        "phone": "(408) 669-3107",
+        "website": "https://www.stratfordschools.com/schools/northern-california/south-bay/san-jose-almaden/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8978613,
+          37.2495407
+        ]
+      },
+      "id": "node/3463502783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3463502784",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5200",
+        "addr:postcode": "95118",
+        "addr:state": "CA",
+        "addr:street": "Dent Avenue",
+        "amenity": "school",
+        "name": "AppleSeed Almaden Montessori School",
+        "phone": "(408) 264 - 7333",
+        "website": "http://www.appleseedalmaden.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8973826,
+          37.2490924
+        ]
+      },
+      "id": "node/3463502784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3478495355",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1051",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "West San Fernando Street",
+        "amenity": "school",
+        "denomination": "roman_catholic",
+        "name": "Saint Leo the Great School",
+        "operator": "Institute of the Incarnate Word",
+        "operator:type": "religious",
+        "operator:wikidata": "Q1058751",
+        "religion": "christian",
+        "website": "http://www.edline.net/pages/StLeo",
+        "wikidata": "Q7589519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.910779,
+          37.3289094
+        ]
+      },
+      "id": "node/3478495355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5675220171",
+        "addr:city": "San Jose",
+        "addr:housenumber": "111",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "West Saint John Street",
+        "amenity": "school",
+        "beauty": "hair;hair_colour;facial;nails;makeup",
+        "brand": "Cinta Aveda Institute;Aveda",
+        "brand:wikidata": "Q4827965",
+        "level": "0",
+        "name": "Cinta Aveda Institute San Jose",
+        "operator": "Cinta Aveda Institute",
+        "operator:type": "private",
+        "school": "vocational",
+        "shop": "beauty",
+        "training": "hairdressing;cosmetology;massage",
+        "website": "https://aveda.edu/locations/students/san-jose-ca/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.894178,
+          37.3372707
+        ]
+      },
+      "id": "node/5675220171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7093940270",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3588",
+        "addr:postcode": "95134",
+        "addr:street": "Zanker Road",
+        "amenity": "school",
+        "name": "Kathleen MacDonald High School",
+        "operator": "Santa Clara Unified School District",
+        "operator:short": "SCUSD",
+        "operator:type": "public",
+        "operator:wikidata": "Q7419336",
+        "start_date": "2021-08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9335633,
+          37.4080993
+        ]
+      },
+      "id": "node/7093940270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7757334638",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1072",
+        "addr:postcode": "95129",
+        "addr:state": "CA",
+        "addr:street": "South De Anza Boulevard",
+        "addr:unit": "A201",
+        "amenity": "school",
+        "name": "WhizKidz Computer Center",
+        "phone": "+1-408-389-4231"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0314328,
+          37.3079494
+        ]
+      },
+      "id": "node/7757334638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8057469670",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3105",
+        "addr:postcode": "95111",
+        "addr:street": "Monterey Road",
+        "name": "Suburban Propane",
+        "shop": "gas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8453303,
+          37.2871986
+        ]
+      },
+      "id": "node/8057469670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8249929910",
+        "addr:city": "San Jose",
+        "addr:housenumber": "639",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 5th Street",
+        "amenity": "school",
+        "denomination": "jodo_shinshu",
+        "name": "Dharma School",
+        "name:en": "Dharma School",
+        "operator": "San Jose Buddhist Church Betsuin",
+        "operator:type": "religious",
+        "operator:wikidata": "Q125549857",
+        "religion": "buddhist",
+        "school": "religious",
+        "training": "religion",
+        "website": "https://www.sjbetsuin.org/programs/dharma-school/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.895392,
+          37.3495495
+        ]
+      },
+      "id": "node/8249929910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8348281206",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3550",
+        "addr:postcode": "95136",
+        "addr:state": "CA",
+        "addr:street": "Snell Avenue",
+        "amenity": "school",
+        "brand": "Opportunity Youth Academy",
+        "grades": "9-12",
+        "name": "Opportunity Youth Academy Snell",
+        "operator": "Santa Clara County Office of Education",
+        "operator:type": "public",
+        "operator:wikidata": "Q104999100",
+        "short_name": "OYA Snell",
+        "social_facility": "school",
+        "social_facility:for": "juvenile",
+        "website": "https://www.sccoe.org/depts/students/oya/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8466277,
+          37.2808117
+        ]
+      },
+      "id": "node/8348281206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8559314968",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2262",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "North 1st Street",
+        "amenity": "school",
+        "name": "First Support CPR",
+        "school": "vocational",
+        "training": "medicine",
+        "website": "https://firstsupportcpr.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9207766,
+          37.378047
+        ]
+      },
+      "id": "node/8559314968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8581736821",
+        "addr:city": "San Jose",
+        "addr:housenumber": "591",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "North King Road",
+        "addr:unit": "1",
+        "alt_name": "OYA The Hub",
+        "amenity": "school",
+        "brand": "Opportunity Youth Academy",
+        "government": "social_services",
+        "name": "The Hub",
+        "operator": "Santa Clara County Office of Education",
+        "operator:type": "public",
+        "operator:wikidata": "Q104999100",
+        "social_facility": "school",
+        "social_facility:for": "juvenile",
+        "website": "https://www.sccoe.org/depts/students/oya/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8652374,
+          37.3618046
+        ]
+      },
+      "id": "node/8581736821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8581964837",
+        "addr:city": "San Jose",
+        "addr:housenumber": "100",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Skyway Drive",
+        "addr:unit": "110",
+        "amenity": "school",
+        "name": "Valley Christian High School",
+        "operator": "Valley Christian Schools",
+        "operator:type": "private",
+        "operator:wikidata": "Q106310180",
+        "religion": "christian",
+        "short_name": "VCHS",
+        "wikidata": "Q7912006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8267102,
+          37.2763185
+        ]
+      },
+      "id": "node/8581964837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8581964838",
+        "addr:city": "San Jose",
+        "addr:housenumber": "100",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Skyway Drive",
+        "addr:unit": "130",
+        "amenity": "school",
+        "name": "Valley Christian Junior High School",
+        "operator": "Valley Christian Schools",
+        "operator:type": "private",
+        "operator:wikidata": "Q106310180",
+        "religion": "christian",
+        "short_name": "VCJH",
+        "website": "https://www.vcs.net/junior-high"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8267102,
+          37.2758703
+        ]
+      },
+      "id": "node/8581964838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8594688031",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1776",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "Educational Park Drive",
+        "addr:unit": "K-09",
+        "alt_name": "Alum Rock High School",
+        "amenity": "school",
+        "fixme": "Somewhere in this cluster of buildings",
+        "grades": "9-12",
+        "name": "DCP Alum Rock High School",
+        "official_name": "Downtown College Prep Alum Rock High School",
+        "operator": "Downtown College Prep",
+        "operator:type": "private",
+        "operator:wikidata": "Q105984927",
+        "school": "charter",
+        "website": "https://www.dcp.org/dcp-alum-rock-high-school/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8586718,
+          37.3675795
+        ]
+      },
+      "id": "node/8594688031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8605611085",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1692",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "100",
+        "amenity": "school",
+        "fixme": "Somewhere in this building",
+        "name": "Beauty & Elegance Academy",
+        "school": "vocational"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8421947,
+          37.3383035
+        ]
+      },
+      "id": "node/8605611085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8616867377",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2715",
+        "addr:postcode": "95148",
+        "addr:state": "CA",
+        "addr:street": "South White Road",
+        "amenity": "school",
+        "grades": "K-8",
+        "name": "East Valley Christian School",
+        "operator": "East Valley Christian Schools",
+        "operator:type": "religious",
+        "website": "https://evcsonline.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7989756,
+          37.3274298
+        ]
+      },
+      "id": "node/8616867377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8617296056",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1371",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "South Bascom Avenue",
+        "amenity": "school",
+        "healthcare": "training",
+        "name": "HeartShare Training Services",
+        "office": "company",
+        "official_name": "HeartShare Training Services, Incorporated",
+        "school": "vocational",
+        "training": "healthcare",
+        "website": "https://heartsharetraining.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9321489,
+          37.2998767
+        ]
+      },
+      "id": "node/8617296056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8620772876",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1855",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Lucretia Avenue",
+        "amenity": "school",
+        "fixme": "Somewhere on this campus",
+        "grades": "7-12",
+        "name": "College Connection Academy",
+        "operator": "Franklin-McKinley School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q16965362",
+        "short_name": "CCA",
+        "website": "https://cca.fmsd.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8485967,
+          37.3203405
+        ]
+      },
+      "id": "node/8620772876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8654541329",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1580",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Oakland Road",
+        "addr:unit": "C106",
+        "amenity": "school",
+        "level": "0",
+        "name": "South Bay School of Nursing",
+        "school": "vocational",
+        "training": "medicine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.894023,
+          37.3804603
+        ]
+      },
+      "id": "node/8654541329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8657965739",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2025",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Gateway Place",
+        "addr:unit": "390",
+        "amenity": "school",
+        "fixme": "Somewhere on this floor",
+        "level": "2",
+        "name": "Motivaim",
+        "operator": "Aim Training Solutions",
+        "operator:type": "private",
+        "school": "vocational",
+        "training": "computer",
+        "website": "https://motivaim.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9243295,
+          37.3708001
+        ]
+      },
+      "id": "node/8657965739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8678411915",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2635",
+        "addr:postcode": "95148",
+        "addr:state": "CA",
+        "addr:street": "Cunningham Avenue",
+        "addr:unit": "A",
+        "gas": "oxygen",
+        "name": "The Airport Shoppe",
+        "official_name": "Aviation Oxygen",
+        "shop": "gas",
+        "website": "https://www.aviationoxygen.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8186923,
+          37.3373839
+        ]
+      },
+      "id": "node/8678411915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8689928865",
+        "addr:city": "San Jose",
+        "addr:housenumber": "14271",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "amenity": "school",
+        "grades": "0-8",
+        "name": "Voices Mount Pleasant",
+        "operator": "Voices College-Bound Language Academies",
+        "operator:type": "private",
+        "religion": "none",
+        "website": "https://voicesacademies.org/schools/voices-mount-pleasant/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.815616,
+          37.3601192
+        ]
+      },
+      "id": "node/8689928865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8907901535",
+        "addr:city": "San Jose",
+        "addr:housenumber": "210",
+        "addr:postcode": "95112",
+        "addr:street": "Paseo De San Carlos",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8820636,
+          37.3336174
+        ]
+      },
+      "id": "node/8907901535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9163740656",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1750",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "South White Road",
+        "amenity": "school",
+        "brand": "KIPP",
+        "brand:wikidata": "Q6423304",
+        "grades": "9-12",
+        "name": "KIPP",
+        "official_name": "Knowledge Is Power Program",
+        "operator:type": "private_non_profit",
+        "religion": "none",
+        "website": "https://navigate.kippnorcal.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8080939,
+          37.3466922
+        ]
+      },
+      "id": "node/9163740656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9421315857",
+        "addr:city": "San Jose",
+        "addr:housenumber": "14327",
+        "addr:postcode": "95127",
+        "addr:street": "Story Road",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8155268,
+          37.3593728
+        ]
+      },
+      "id": "node/9421315857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9836819376",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3534",
+        "addr:postcode": "95134",
+        "addr:street": "Zanker Road",
+        "amenity": "school",
+        "name": "Abram Agnew Elementary School",
+        "operator": "Santa Clara Unified School District",
+        "operator:short": "SCUSD",
+        "operator:type": "public",
+        "operator:wikidata": "Q7419336",
+        "start_date": "2021-08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9310206,
+          37.407051
+        ]
+      },
+      "id": "node/9836819376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9836819377",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3556",
+        "addr:postcode": "95134",
+        "addr:street": "Zanker Road",
+        "amenity": "school",
+        "name": "Dolores Huerta Middle School",
+        "operator": "Santa Clara Unified School District",
+        "operator:short": "SCUSD",
+        "operator:type": "public",
+        "operator:wikidata": "Q7419336",
+        "start_date": "2021-08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9332736,
+          37.4064544
+        ]
+      },
+      "id": "node/9836819377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11079104369",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1591",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "amenity": "school",
+        "fixme": "The satellite imagery is not the most recent to map the buildings. The San Jose Fire Department Training Center has moved to this location. See the following for details: https://cpms.sanjoseca.gov/pub/PrjDetail.cfm?prj_id=9084&homepg=cpms",
+        "name": "San Jose Fire Department Training Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8608264,
+          37.3197972
+        ]
+      },
+      "id": "node/11079104369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11085831415",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2315",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Canoas Garden Avenue",
+        "amenity": "school",
+        "name": "University Preparatory Academy",
+        "phone": "+1-408-723-1839",
+        "site": "school",
+        "website": "https://www.upasv.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8741141,
+          37.2911498
+        ]
+      },
+      "id": "node/11085831415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11455084187",
+        "addr:city": "San Jose",
+        "addr:housenumber": "380",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 1st Street",
+        "addr:unit": "A",
+        "amenity": "school",
+        "name": "California Institute of Career Development",
+        "operator:type": "private_non_profit",
+        "school": "vocational",
+        "short_name": "CICD",
+        "website": "https://ci-cd.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8945433,
+          37.3419215
+        ]
+      },
+      "id": "node/11455084187"
+    }
+  ]
+}

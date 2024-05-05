@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-05-05T18:26:32Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3933251842",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1628",
+        "addr:postcode": "95131",
+        "addr:street": "Hostetter Road",
+        "addr:unit": "F",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "Gen Korean BBQ",
+        "opening_hours": "Mo-Sa 10:30-23:30; Su 10:30-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8855833,
+          37.3872774
+        ]
+      },
+      "id": "node/3933251842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9339348373",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1698",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "addr:unit": "E",
+        "amenity": "restaurant",
+        "cuisine": "chinese;hotpot;taiwanese;dessert",
+        "delivery": "yes",
+        "dinner": "yes",
+        "internet_access": "yes",
+        "lunch": "yes",
+        "name": "Boiling Point",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+14086003672",
+        "takeaway": "yes",
+        "website": "https://www.bpgroupusa.com/",
+        "wheelchair": "yes",
+        "wifi": "free"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.883738,
+          37.3869016
+        ]
+      },
+      "id": "node/9339348373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10218884065",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1698",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "amenity": "restaurant",
+        "breakfast": "yes",
+        "cuisine": "chinese;breakfast",
+        "delivery": "yes",
+        "dinner": "yes",
+        "lunch": "yes",
+        "name": "ASJ Restaurant",
+        "opening_hours": "Mo-Fr 11:00-21:30; Sa,Su 09:00-21:30",
+        "payment:cash": "only",
+        "phone": "+14084418168",
+        "takeaway": "yes",
+        "website": "https://www.asjsanjose.com",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.883795,
+          37.3868493
+        ]
+      },
+      "id": "node/10218884065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10218960371",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1698",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "addr:unit": "L",
+        "amenity": "fast_food",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "dinner": "yes",
+        "indoor_seating": "yes",
+        "lunch": "yes",
+        "name": "Von's Chicken",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 12:00-19:00",
+        "outdoor_seating": "yes",
+        "phone": "+14088168922",
+        "takeaway": "yes",
+        "website": "https://www.vonschickensj.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.883452,
+          37.3872417
+        ]
+      },
+      "id": "node/10218960371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10220568370",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1698",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "amenity": "restaurant",
+        "cuisine": "chinese;meat",
+        "delivery": "yes",
+        "dinner": "yes",
+        "indoor_seating": "yes",
+        "lunch": "yes",
+        "name": "Kim Tar B.B.Q.",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "payment:cash": "only",
+        "phone": "+14084532006",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8835804,
+          37.387088
+        ]
+      },
+      "id": "node/10220568370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10220981383",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1688",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "addr:unit": "C",
+        "amenity": "restaurant",
+        "cuisine": "bubble_tea;ice_cream;smoothie;pasta;noodle;tea;coffee;juice;dessert",
+        "delivery": "yes",
+        "diet:vegan": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Happiness Cafe",
+        "opening_hours": "Mo,Tu 11:00-18:00; Th-Su 11:00-19:00",
+        "outdoor_seating": "yes",
+        "phone": "+14085738699",
+        "takeaway": "yes",
+        "website": "https://www.happiness-cafe.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8846549,
+          37.3864867
+        ]
+      },
+      "id": "node/10220981383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10220981384",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1698",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "amenity": "restaurant",
+        "cuisine": "hawaiian",
+        "delivery": "yes",
+        "dinner": "yes",
+        "drink:beer": "yes",
+        "indoor_seating": "yes",
+        "lunch": "yes",
+        "name": "Poke House",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:nfc_mobile_payments": "yes",
+        "phone": "+14087539361",
+        "takeaway": "yes",
+        "website": "https://www.poke.house/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8835945,
+          37.3869837
+        ]
+      },
+      "id": "node/10220981384"
+    }
+  ]
+}

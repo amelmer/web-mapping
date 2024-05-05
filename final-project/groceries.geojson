@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-05-05T18:25:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2235254641",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1688",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "addr:unit": "E",
+        "brand": "99 Ranch Market",
+        "brand:wikidata": "Q4646307",
+        "cuisine": "asian",
+        "delivery": "yes",
+        "name": "99 Ranch Market",
+        "name:en": "99 Ranch Market",
+        "name:zh-Hans": "大华超级市场",
+        "name:zh-Hant": "大華超級市場",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "payment:ebt": "yes",
+        "payment:nfc_mobile_payments": "yes",
+        "payment:snap": "yes",
+        "payment:snapscan": "yes",
+        "phone": "+14084368899",
+        "shop": "supermarket",
+        "website": "https://99ranch.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8844054,
+          37.3863372
+        ]
+      },
+      "id": "node/2235254641"
+    }
+  ]
+}
