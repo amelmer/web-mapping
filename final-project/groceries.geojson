@@ -2,8 +2,484 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2024-05-05T18:25:30Z",
+  "timestamp": "2024-05-08T01:50:14Z",
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/357524353",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1690",
+        "addr:postcode": "95008",
+        "addr:state": "CA",
+        "addr:street": "South Bascom Avenue",
+        "branch": "Campbell",
+        "brand": "Whole Foods Market",
+        "brand:wikidata": "Q1809448",
+        "name": "Whole Foods Market",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "Eric F. Anderson, Inc.",
+        "phone": "+1 408-371-5000",
+        "ref": "campbell",
+        "shop": "supermarket",
+        "website": "https://www.wholefoodsmarket.com/stores/campbell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.930408,
+          37.2929607
+        ]
+      },
+      "id": "node/357524353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/373374203",
+        "addr:city": "San Jose",
+        "addr:housenumber": "635",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Coleman Avenue",
+        "branch": "San Jose Coleman Avenue",
+        "brand": "Trader Joe's",
+        "brand:wikidata": "Q688825",
+        "name": "Trader Joe's",
+        "official_name": "Trader Joe’s San Jose Coleman Avenue",
+        "opening_hours": "08:00-21:00",
+        "phone": "+1 408-298-9731",
+        "ref": "212",
+        "shop": "supermarket",
+        "website": "https://locations.traderjoes.com/ca/san-jose/212/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.909507,
+          37.3410206
+        ]
+      },
+      "id": "node/373374203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/429187144",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5269",
+        "addr:postcode": "95129",
+        "addr:state": "CA",
+        "addr:street": "Prospect Road",
+        "branch": "San Jose - Westgate West",
+        "brand": "Trader Joe's",
+        "brand:wikidata": "Q688825",
+        "check_date": "2023-06-11",
+        "name": "Trader Joe's",
+        "opening_hours": "08:00-21:00",
+        "operator": "Trader Joe's",
+        "payment:apple_pay": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:jcb": "yes",
+        "payment:mastercard": "yes",
+        "payment:unionpay": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 408-446-5055",
+        "ref": "62",
+        "shop": "supermarket",
+        "website": "https://locations.traderjoes.com/ca/san-jose/62/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9942009,
+          37.2930603
+        ]
+      },
+      "id": "node/429187144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/431891127",
+        "addr:city": "San Jose",
+        "addr:housenumber": "430",
+        "addr:postcode": "95123",
+        "addr:state": "CA",
+        "addr:street": "Blossom Hill Road",
+        "brand": "Lucky",
+        "brand:wikidata": "Q6698032",
+        "name": "Lucky",
+        "official_name": "Lucky #765",
+        "ref": "765",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.829265,
+          37.2501724
+        ]
+      },
+      "id": "node/431891127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445291449",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1070",
+        "addr:postcode": "95122",
+        "addr:street": "Story Road",
+        "name": "Lion Market",
+        "old_name": "Save Mart",
+        "shop": "supermarket",
+        "website": "https://lionsupermarket.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8538537,
+          37.3315271
+        ]
+      },
+      "id": "node/445291449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461671351",
+        "addr:city": "San Jose",
+        "addr:housenumber": "4650",
+        "addr:postcode": "95124",
+        "addr:state": "CA",
+        "addr:street": "Meridian Avenue",
+        "name": "Lunardi's",
+        "opening_hours": "Mo-Su 07:30-20:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-408-265-9101",
+        "shop": "supermarket",
+        "website": "https://www.lunardis.com/san-jose-meridian.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8975834,
+          37.2564583
+        ]
+      },
+      "id": "node/461671351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461674848",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1405",
+        "addr:postcode": "95118",
+        "addr:state": "CA",
+        "addr:street": "Branham Lane",
+        "brand": "Arco",
+        "brand:wikidata": "Q304769",
+        "disused:brand": "ampm",
+        "disused:brand:wikidata": "Q306960",
+        "name": "Arco",
+        "old_name": "ampm",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8907937,
+          37.2595709
+        ]
+      },
+      "id": "node/461674848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/563312834",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1408",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 1st Street",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/1408-n-1st-st-18965",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9095179,
+          37.362043
+        ]
+      },
+      "id": "node/563312834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/922296124",
+        "addr:city": "San Jose",
+        "addr:housenumber": "565",
+        "addr:postcode": "95136",
+        "addr:state": "CA",
+        "addr:street": "West Capitol Expressway",
+        "brand": "Lucky",
+        "brand:wikidata": "Q6698032",
+        "name": "Lucky",
+        "ref": "758",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8537896,
+          37.2759836
+        ]
+      },
+      "id": "node/922296124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1406268248",
+        "addr:city": "San Jose",
+        "addr:housenumber": "4148",
+        "addr:postcode": "95111",
+        "addr:street": "Monterey Road",
+        "cuisine": "asian",
+        "name": "Marina Grocery",
+        "name:en": "Marina Grocery",
+        "name:vi": "Siêu thị Bến Thành",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8330073,
+          37.2787609
+        ]
+      },
+      "id": "node/1406268248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1406279924",
+        "addr:city": "San Jose",
+        "addr:housenumber": "4270",
+        "addr:postcode": "95111",
+        "addr:street": "Senter Road",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/4270-senter-rd-14292",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.823185,
+          37.2805187
+        ]
+      },
+      "id": "node/1406279924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1530689833",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1412",
+        "addr:postcode": "95130",
+        "addr:state": "CA",
+        "addr:street": "Saratoga Avenue",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9836048,
+          37.2980566
+        ]
+      },
+      "id": "node/1530689833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1744636503",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5302",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Monterey Road",
+        "cuisine": "latin_american",
+        "name": "Mercado California",
+        "name:es": "Mercado California",
+        "operator": "Ramon Luna Co",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8077654,
+          37.2592886
+        ]
+      },
+      "id": "node/1744636503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1925610616",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1665",
+        "addr:postcode": "95124",
+        "addr:street": "Foxworthy Avenue",
+        "name": "Grocery Outlet",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9072464,
+          37.2707721
+        ]
+      },
+      "id": "node/1925610616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1925626241",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2027",
+        "addr:postcode": "95124",
+        "addr:street": "Camden Avenue",
+        "brand": "Lucky",
+        "brand:wikidata": "Q6698032",
+        "name": "Lucky",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.932567,
+          37.2628961
+        ]
+      },
+      "id": "node/1925626241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1931723146",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1783",
+        "addr:postcode": "95124",
+        "addr:state": "CA",
+        "addr:street": "Hillsdale Avenue",
+        "brand": "Smart & Final",
+        "brand:wikidata": "Q7543916",
+        "name": "Smart & Final",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.916305,
+          37.2648198
+        ]
+      },
+      "id": "node/1931723146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1931736081",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2052",
+        "addr:postcode": "95124",
+        "addr:state": "CA",
+        "addr:street": "Curtner Avenue",
+        "name": "International Food Bazaar",
+        "operator": "International Gourmet Food",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1-408-559-3397",
+        "shop": "supermarket",
+        "website": "https://www.intlfoodbazaar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.93308,
+          37.2720452
+        ]
+      },
+      "id": "node/1931736081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2120292072",
+        "addr:city": "San Jose",
+        "addr:housenumber": "471",
+        "addr:postcode": "95129",
+        "addr:street": "Saratoga Avenue",
+        "name": "Lion",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9746084,
+          37.3191154
+        ]
+      },
+      "id": "node/2120292072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2162251896",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5205",
+        "addr:postcode": "95129",
+        "addr:state": "CA",
+        "addr:street": "Prospect Road",
+        "brand": "Sprouts Farmers Market",
+        "brand:wikidata": "Q7581369",
+        "name": "Sprouts Farmers Market",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+1 408-725-3970",
+        "shop": "supermarket",
+        "short_name": "Sprouts",
+        "website": "https://www.sprouts.com/store/ca/san-jose/san-jose-prospect-rd/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.992366,
+          37.2927181
+        ]
+      },
+      "id": "node/2162251896"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -39,6 +515,4110 @@
         ]
       },
       "id": "node/2235254641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2388067817",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1539",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "Parkmoor Avenue",
+        "brand": "FoodMaxx",
+        "brand:wikidata": "Q61894844",
+        "name": "FoodMaxx",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.916399,
+          37.3175641
+        ]
+      },
+      "id": "node/2388067817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2510589067",
+        "addr:city": "San Jose",
+        "addr:housenumber": "398",
+        "addr:postcode": "95116",
+        "addr:street": "South King Road",
+        "name": "Luck 7 Supermercado",
+        "operator": "Luck 7",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8481844,
+          37.3456591
+        ]
+      },
+      "id": "node/2510589067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2572195811",
+        "addr:city": "San Jose",
+        "addr:housenumber": "844",
+        "addr:postcode": "95123",
+        "addr:state": "CA",
+        "addr:street": "Blossom Hill Road",
+        "brand": "Lucky",
+        "brand:wikidata": "Q6698032",
+        "name": "Lucky",
+        "ref": "763",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.857317,
+          37.2492618
+        ]
+      },
+      "id": "node/2572195811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607378267",
+        "addr:city": "San Jose",
+        "addr:housenumber": "6061",
+        "addr:postcode": "95123",
+        "addr:street": "Snell Avenue",
+        "name": "Nob Hill",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.832311,
+          37.2376501
+        ]
+      },
+      "id": "node/2607378267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2620441931",
+        "addr:city": "San Jose",
+        "addr:housenumber": "272",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "East Santa Clara Street",
+        "branch": "Downtown",
+        "brand": "Grocery Outlet",
+        "brand:wikidata": "Q5609934",
+        "name": "Grocery Outlet",
+        "official_name": "Downtown Grocery Outlet",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1-408-477-8350",
+        "ref": "231",
+        "shop": "supermarket",
+        "website": "https://groceryoutlet.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.883998,
+          37.3383046
+        ]
+      },
+      "id": "node/2620441931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2623010379",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1354",
+        "addr:postcode": "95126",
+        "addr:street": "The Alameda",
+        "addr:unit": "9",
+        "name": "City MiniMart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.913229,
+          37.3328361
+        ]
+      },
+      "id": "node/2623010379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2655212508",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3775",
+        "addr:postcode": "95117",
+        "addr:street": "Williams Road",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/3775-williams-rd-15532",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9667835,
+          37.3088801
+        ]
+      },
+      "id": "node/2655212508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2655263941",
+        "addr:city": "San Jose",
+        "addr:housenumber": "675",
+        "addr:postcode": "95129",
+        "addr:state": "CA",
+        "addr:street": "Saratoga Avenue",
+        "brand": "Mitsuwa Marketplace",
+        "brand:wikidata": "Q6883386",
+        "cuisine": "japanese",
+        "name": "Mitsuwa Marketplace",
+        "name:en": "Mitsuwa Marketplace",
+        "name:ja": "ミツワマーケットプレイス",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "shop": "supermarket",
+        "website": "https://mitsuwa.com/sj/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9782,
+          37.3149469
+        ]
+      },
+      "id": "node/2655263941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3478495341",
+        "addr:city": "San Jose",
+        "addr:housenumber": "148",
+        "addr:postcode": "95110",
+        "addr:street": "George Street",
+        "alt_name": "Guru’s Market",
+        "name": "Civic Center Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9013254,
+          37.3466765
+        ]
+      },
+      "id": "node/3478495341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3539619986",
+        "addr:city": "San Jose",
+        "addr:housenumber": "360",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "East Taylor Street",
+        "check_date": "2023-11-22",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Taylor Street Market",
+        "opening_hours": "10:00-21:00",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:samsung_pay": "yes",
+        "payment:visa": "yes",
+        "payment:visa_contactless": "yes",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8924039,
+          37.3525761
+        ]
+      },
+      "id": "node/3539619986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3560256373",
+        "addr:city": "San Jose",
+        "addr:housenumber": "955",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "McLaughlin Avenue",
+        "cuisine": "vietnamese",
+        "name": "Maxim Market",
+        "operator": "Lucky Best Incorporated",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.856191,
+          37.334235
+        ]
+      },
+      "id": "node/3560256373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3560256861",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1200",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "cuisine": "vietnamese",
+        "fixme": "Add Khmer name based on sign",
+        "name": "Story Supermarket",
+        "name:en": "Story Supermarket",
+        "name:vi": "Siêu Thị Story",
+        "name:zh": "士多利超級市場",
+        "name:zh-Hant": "士多利超級市場",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.85246,
+          37.3329372
+        ]
+      },
+      "id": "node/3560256861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3562800871",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2867",
+        "addr:postcode": "95111",
+        "addr:street": "Senter Road",
+        "cuisine": "vietnamese",
+        "name": "Kim Nguyễn Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8395081,
+          37.2987654
+        ]
+      },
+      "id": "node/3562800871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3579138983",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1031",
+        "addr:postcode": "95121",
+        "addr:state": "CA",
+        "addr:street": "East Capitol Expressway",
+        "name": "Lion Market",
+        "name:en": "Lion Market",
+        "name:zh": "獅子城",
+        "phone": "+1-408-225-9888",
+        "shop": "supermarket",
+        "source": "observation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8238643,
+          37.3006195
+        ]
+      },
+      "id": "node/3579138983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3609815461",
+        "addr:city": "San Jose",
+        "addr:housenumber": "300",
+        "addr:postcode": "95112",
+        "addr:street": "North 13th Street",
+        "name": "Guru’s Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8812752,
+          37.3466767
+        ]
+      },
+      "id": "node/3609815461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3624624017",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2374",
+        "addr:postcode": "95111",
+        "addr:street": "Senter Road",
+        "alt_name": "Tan Lap Supermarket",
+        "alt_name:vi": "Tan Lap Supermarket",
+        "name": "Tân Lập Supermarket",
+        "name:en": "Tân Lập Supermarket",
+        "name:vi": "Siêu thị Tân Lập",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8474255,
+          37.309198
+        ]
+      },
+      "id": "node/3624624017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3624973528",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1245",
+        "addr:postcode": "95116",
+        "addr:street": "East Julian Street",
+        "name": "V-Mart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.870454,
+          37.351962
+        ]
+      },
+      "id": "node/3624973528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3624973545",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1201",
+        "addr:postcode": "95116",
+        "addr:street": "East Julian Street",
+        "addr:unit": "4",
+        "cuisine": "indian",
+        "name": "Veer Indian Cash & Carry",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8709663,
+          37.3519193
+        ]
+      },
+      "id": "node/3624973545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3624973558",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1175",
+        "addr:postcode": "95116",
+        "addr:street": "East Julian Street",
+        "addr:unit": "1",
+        "name": "Bonfare",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8715993,
+          37.3510814
+        ]
+      },
+      "id": "node/3624973558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3624973561",
+        "addr:city": "San Jose",
+        "addr:housenumber": "309",
+        "addr:postcode": "95112",
+        "addr:street": "North 17th Street",
+        "name": "LD-Lucky Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8779508,
+          37.3483244
+        ]
+      },
+      "id": "node/3624973561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630269586",
+        "addr:city": "San Jose",
+        "addr:housenumber": "365",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "Barack Obama Boulevard",
+        "name": "Shop and Save Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.900095,
+          37.3237325
+        ]
+      },
+      "id": "node/3630269586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3632356228",
+        "addr:city": "San Jose",
+        "addr:housenumber": "350",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "Barack Obama Boulevard",
+        "addr:unit": "10",
+        "name": "For You Mini Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.899838,
+          37.3248049
+        ]
+      },
+      "id": "node/3632356228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3634866120",
+        "addr:city": "San Jose",
+        "addr:housenumber": "17",
+        "addr:postcode": "95113",
+        "addr:street": "South 2nd Street",
+        "level": "0",
+        "name": "AK’s In & Out Mini Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8894906,
+          37.3363486
+        ]
+      },
+      "id": "node/3634866120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3634866127",
+        "addr:city": "San Jose",
+        "addr:housenumber": "31",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "East Santa Clara Street",
+        "lottery": "yes",
+        "name": "AK’s Square",
+        "old_name": "AK’s In & Out Mini Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8901449,
+          37.3365928
+        ]
+      },
+      "id": "node/3634866127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3634866133",
+        "addr:city": "San Jose",
+        "addr:housenumber": "147",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "East Santa Clara Street",
+        "brand": "ExtraMile",
+        "brand:wikidata": "Q64224605",
+        "name": "ExtraMile",
+        "operator": "George F. Saunders Incorporated",
+        "shop": "convenience",
+        "short_name": "EM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.888145,
+          37.3378068
+        ]
+      },
+      "id": "node/3634866133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3643577900",
+        "addr:city": "San Jose",
+        "addr:housenumber": "418",
+        "addr:postcode": "95113",
+        "addr:street": "South 2nd Street",
+        "cuisine": "vietnamese",
+        "name": "Đại Thành Supermarket",
+        "name:en": "Đại Thành Supermarket",
+        "name:vi": "Siêu thị Đại Thành",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.88439,
+          37.3303684
+        ]
+      },
+      "id": "node/3643577900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3643661929",
+        "addr:city": "San Jose",
+        "addr:housenumber": "192",
+        "addr:postcode": "95126",
+        "addr:street": "Race Street",
+        "name": "Mary’s Market & Water",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9111982,
+          37.3265062
+        ]
+      },
+      "id": "node/3643661929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3676933244",
+        "addr:city": "San Jose",
+        "addr:housenumber": "615",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Coleman Avenue",
+        "brand": "Sprouts Farmers Market",
+        "brand:wikidata": "Q7581369",
+        "check_date": "2023-05-30",
+        "disused:brand": "Office Depot",
+        "disused:brand:wikidata": "Q1337797",
+        "disused:brand:wikipedia": "en:Office Depot",
+        "disused:shop": "stationery",
+        "name": "Sprouts Farmers Market",
+        "old_name": "Office Depot",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1 669-444-3186",
+        "shop": "supermarket",
+        "short_name": "Sprouts",
+        "website": "https://www.sprouts.com/store/ca/san-jose/coleman-ave/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.908258,
+          37.3401952
+        ]
+      },
+      "id": "node/3676933244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3678527433",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2857",
+        "addr:postcode": "95111",
+        "addr:street": "Senter Road",
+        "addr:unit": "H",
+        "name": "Mỹ Thiên Fruitshop",
+        "shop": "greengrocer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8403357,
+          37.2995482
+        ]
+      },
+      "id": "node/3678527433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3700417832",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1675",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "branch": "7",
+        "brand": "Lucky",
+        "brand:wikidata": "Q6698032",
+        "name": "Lucky",
+        "official_name": "Lucky 7 Supermarket",
+        "operator": "JTV Investments Incorporated",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.827985,
+          37.3230314
+        ]
+      },
+      "id": "node/3700417832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3700418046",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1710",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "cuisine": "vietnamese",
+        "name": "Lion Supermarket",
+        "name:en": "Lion Supermarket",
+        "name:zh": "獅子城超級市場",
+        "shop": "supermarket",
+        "website": "https://www.lionsupermarket.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.823828,
+          37.3211458
+        ]
+      },
+      "id": "node/3700418046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3700431859",
+        "addr:city": "San Jose",
+        "addr:housenumber": "992",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "30",
+        "cuisine": "vietnamese",
+        "disused:shop": "dry_food",
+        "name": "Cô 6 Trái Cây",
+        "old_name": "Queen Khô Bò",
+        "operator": "Pham’s Fresh Fruit Corporation",
+        "shop": "greengrocer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.855122,
+          37.33075
+        ]
+      },
+      "id": "node/3700431859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3711317169",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1771",
+        "addr:postcode": "95121",
+        "addr:state": "CA",
+        "addr:street": "East Capitol Expressway",
+        "brand": "Sprouts Farmers Market",
+        "brand:wikidata": "Q7581369",
+        "construction": "supermarket",
+        "name": "Sprouts Farmers Market",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+1 669-234-5260",
+        "shop": "supermarket",
+        "short_name": "Sprouts",
+        "website": "https://www.sprouts.com/store/ca/san-jose/san-jose-capitol-expwy/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.810676,
+          37.3094073
+        ]
+      },
+      "id": "node/3711317169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3711324855",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1930",
+        "addr:postcode": "95121",
+        "addr:street": "Aborn Road",
+        "cuisine": "vietnamese",
+        "name": "Maxim Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8111454,
+          37.3099684
+        ]
+      },
+      "id": "node/3711324855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3901666687",
+        "addr:city": "San Jose",
+        "addr:housenumber": "4156",
+        "addr:postcode": "95111",
+        "addr:street": "Monterey Road",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/4156-monterey-hwy-34363",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8345885,
+          37.2778217
+        ]
+      },
+      "id": "node/3901666687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4173373544",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1335",
+        "addr:postcode": "95128",
+        "addr:street": "South Bascom Avenue",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/1335-s-bascom-ave-14299",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9322201,
+          37.3009208
+        ]
+      },
+      "id": "node/4173373544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4289326624",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1130",
+        "addr:postcode": "95118",
+        "addr:state": "CA",
+        "addr:street": "Branham Lane",
+        "brand": "Sprouts Farmers Market",
+        "brand:wikidata": "Q7581369",
+        "name": "Sprouts Farmers Market",
+        "opening_hours": "07:00-23:00",
+        "phone": "+1 408-833-1152",
+        "shop": "supermarket",
+        "short_name": "Sprouts",
+        "website": "https://www.sprouts.com/store/ca/san-jose/san-jose-branham-ln/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.878148,
+          37.2618898
+        ]
+      },
+      "id": "node/4289326624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4295465790",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5899",
+        "addr:postcode": "95123",
+        "addr:state": "CA",
+        "addr:street": "Santa Teresa Boulevard",
+        "addr:unit": "105",
+        "name": "International Express Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.831253,
+          37.2359537
+        ]
+      },
+      "id": "node/4295465790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4360926921",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3005",
+        "addr:postcode": "95121",
+        "addr:state": "CA",
+        "addr:street": "Silver Creek Road",
+        "addr:unit": "126",
+        "disused:shop": "greengrocer",
+        "name": "Ăn Vặt Nhà DiemDiem",
+        "name:en": "An Vat Nha DiemDiem",
+        "name:vi": "Ăn Vặt Nhà DiemDiem",
+        "old_name": "Queen Fresh Fruits & Khô Bò",
+        "opening_hours": "09:00-20:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-408-833-0476",
+        "shop": "convenience",
+        "strapline": "World Fresh Fruits",
+        "website": "https://anvatnhadiemdiemsj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.813386,
+          37.308719
+        ]
+      },
+      "id": "node/4360926921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424116803",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1003",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Lincoln Avenue",
+        "cuisine": "mexican",
+        "name": "Arteagas Food Center",
+        "opening_hours": "07:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9040832,
+          37.3123007
+        ]
+      },
+      "id": "node/4424116803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4709221189",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1792",
+        "addr:postcode": "95126",
+        "addr:street": "Southwest Expressway",
+        "name": "dd's Discounts",
+        "shop": "supermarket",
+        "website": "https://ddsdiscounts.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9231145,
+          37.3049149
+        ]
+      },
+      "id": "node/4709221189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4714747788",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1489",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Bird Avenue",
+        "brand": "Safeway",
+        "brand:wikidata": "Q1508234",
+        "name": "Safeway",
+        "official_name": "Safeway #2150",
+        "opening_hours": "Mo-Su 05:00-24:00",
+        "phone": "+1 408-878-0691",
+        "ref": "2150",
+        "shop": "supermarket",
+        "website": "https://local.safeway.com/safeway/ca/san-jose/1489-bird-ave.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8906989,
+          37.3059439
+        ]
+      },
+      "id": "node/4714747788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4770055625",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1080",
+        "addr:postcode": "95129",
+        "addr:state": "CA",
+        "addr:street": "Saratoga Avenue",
+        "addr:unit": "15",
+        "name": "Las Palmas",
+        "name:es": "Las Palmas",
+        "official_name": "Las Palmas Mercado y Carnicería",
+        "official_name:es": "Las Palmas Mercado y Carnicería",
+        "operator": "Mercado Las Palmas Incorporated",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9779781,
+          37.3055747
+        ]
+      },
+      "id": "node/4770055625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4770074021",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1080",
+        "addr:postcode": "95129",
+        "addr:state": "CA",
+        "addr:street": "Saratoga Avenue",
+        "addr:unit": "1",
+        "name": "Slavic Shop",
+        "name:en": "Slavic Shop",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-18:00",
+        "operator": "Slavic Stores, Incorporated",
+        "phone": "+14086158533",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977355,
+          37.306057
+        ]
+      },
+      "id": "node/4770074021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4894447571",
+        "addr:city": "San Jose",
+        "addr:housenumber": "499",
+        "addr:postcode": "95112",
+        "addr:street": "North 4th Street",
+        "alt_name": "Smile Market",
+        "check_date": "2023-09-18",
+        "name": "“Smile” Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8939203,
+          37.3460803
+        ]
+      },
+      "id": "node/4894447571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4936654298",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2101",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "North 1st Street",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9188794,
+          37.3733692
+        ]
+      },
+      "id": "node/4936654298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4951933672",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5422",
+        "addr:postcode": "95124",
+        "addr:state": "CA",
+        "addr:street": "Camden Avenue",
+        "brand": "Shell",
+        "brand:wikidata": "Q154950",
+        "name": "Shell",
+        "operator": "San Jose Petroleum Services Incorporated",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.903439,
+          37.2406745
+        ]
+      },
+      "id": "node/4951933672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4971355326",
+        "access": "permit",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2077",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Airport Boulevard",
+        "addr:unit": "A2101",
+        "brand": "Hudson",
+        "brand:wikidata": "Q111534515",
+        "name": "Hudson",
+        "permit": "boarding_pass",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.931758,
+          37.3710873
+        ]
+      },
+      "id": "node/4971355326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4988977695",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1451",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "Park Avenue",
+        "name": "Park & Hester Food & Liquor",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9193,
+          37.3298177
+        ]
+      },
+      "id": "node/4988977695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5125211237",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1641",
+        "addr:postcode": "95132",
+        "addr:street": "North Capitol Avenue",
+        "name": "Dai Thanh Supermarket",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.873594,
+          37.3967363
+        ]
+      },
+      "id": "node/5125211237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5125230030",
+        "addr:city": "San Jose",
+        "addr:housenumber": "298",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "North Capitol Avenue",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/298-n-capitol-ave-36090",
+        "name": "7-Eleven",
+        "phone": "1-408-937-1852",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8423786,
+          37.3700843
+        ]
+      },
+      "id": "node/5125230030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5125317311",
+        "addr:city": "San Jose",
+        "addr:housenumber": "350",
+        "addr:postcode": "95127",
+        "addr:street": "North White Road",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/350-north-white-rd-14269",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8358412,
+          37.37587
+        ]
+      },
+      "id": "node/5125317311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5125341638",
+        "addr:city": "San Jose",
+        "addr:housenumber": "320",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "North Capitol Avenue",
+        "brand": "Cardenas",
+        "brand:wikidata": "Q64149543",
+        "cuisine": "latin_american",
+        "name": "Cardenas",
+        "official_name": "Cardenas 212",
+        "old_name": "Mi Pueblo",
+        "operator": "Mi Pueblo Newco, LLC",
+        "ref": "212",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8422079,
+          37.3716587
+        ]
+      },
+      "id": "node/5125341638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5315598110",
+        "addr:city": "San Jose",
+        "addr:country": "US",
+        "addr:full": "1450 Monterey Rd",
+        "addr:housenumber": "1450",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Monterey Road",
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "name": "Walmart Neighborhood Market",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "operator": "Walmart",
+        "phone": "+1-408-454-4508",
+        "ref:walmart": "4174",
+        "shop": "supermarket",
+        "website": "https://www.walmart.com/store/4174/san-jose-ca/whats-new"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8713473,
+          37.3161402
+        ]
+      },
+      "id": "node/5315598110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5497899327",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1601",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "Alum Rock Avenue",
+        "addr:unit": "A",
+        "atm": "yes",
+        "name": "Lezly 99 Store & More Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.859071,
+          37.3513912
+        ]
+      },
+      "id": "node/5497899327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5662122597",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1698",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "brand": "Loop Neighborhood Market",
+        "name": "Loop Neighborhood Market",
+        "operator": "AU Energy",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.825876,
+          37.3217759
+        ]
+      },
+      "id": "node/5662122597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5760688121",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3730",
+        "addr:postcode": "95134",
+        "addr:street": "North 1st Street",
+        "addr:unit": "100",
+        "name": "First Mart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9461478,
+          37.410997
+        ]
+      },
+      "id": "node/5760688121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5780848800",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1710",
+        "addr:postcode": "95131",
+        "addr:street": "Oakland Road",
+        "alt_name:ko": "H 마트",
+        "brand": "H Mart",
+        "brand:wikidata": "Q5636306",
+        "cuisine": "asian",
+        "name": "H Mart",
+        "name:en": "H Mart",
+        "name:ko": "한아름",
+        "name:zh": "韓亞龍",
+        "name:zh-Hans": "韩亚龙",
+        "name:zh-Hant": "韓亞龍",
+        "old_name": "PW Market;SF Supermarket",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.894523,
+          37.3838318
+        ]
+      },
+      "id": "node/5780848800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6277597582",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2590",
+        "addr:postcode": "95124",
+        "addr:street": "South Bascom Avenue",
+        "addr:unit": "Ea",
+        "name": "Armentas Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.933382,
+          37.2744895
+        ]
+      },
+      "id": "node/6277597582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6277607354",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1880",
+        "addr:postcode": "95124",
+        "addr:state": "CA",
+        "addr:street": "Curtner Avenue",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/1880-curtner-ave-14265",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.923104,
+          37.2753379
+        ]
+      },
+      "id": "node/6277607354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6286794127",
+        "addr:city": "San Jose",
+        "addr:housenumber": "14700",
+        "addr:postcode": "95124",
+        "addr:street": "Camden Avenue",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/14700-camden-ave-14278",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9256409,
+          37.2612664
+        ]
+      },
+      "id": "node/6286794127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6383660414",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2247",
+        "addr:postcode": "95116",
+        "addr:street": "Alum Rock Avenue",
+        "name": "Paul’s Kuik Stop",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8450386,
+          37.3581464
+        ]
+      },
+      "id": "node/6383660414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6383699035",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2327",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "cuisine": "mexican",
+        "name": "Chavez Supermarket",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8496169,
+          37.3672353
+        ]
+      },
+      "id": "node/6383699035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6383763874",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1604",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "name": "Moe’s Stop",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8633772,
+          37.355946
+        ]
+      },
+      "id": "node/6383763874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6399819660",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1",
+        "addr:postcode": "95192",
+        "addr:state": "CA",
+        "addr:street": "Washington Square",
+        "addr:unit": "Maquarrie Hall",
+        "internet_access": "yes",
+        "name": "Ginger Market",
+        "outdoor_seating": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.881786,
+          37.3337352
+        ]
+      },
+      "id": "node/6399819660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6515611005",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1460",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Oakland Road",
+        "addr:unit": "A",
+        "name": "Easy Mart",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.893994,
+          37.3745364
+        ]
+      },
+      "id": "node/6515611005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6520441834",
+        "addr:city": "San Jose",
+        "addr:housenumber": "96",
+        "addr:postcode": "95112",
+        "addr:street": "South 3rd Street",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/96-s-3rd-st-38411",
+        "level": "0",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8870188,
+          37.335537
+        ]
+      },
+      "id": "node/6520441834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6965787511",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2926",
+        "addr:postcode": "95121",
+        "addr:state": "CA",
+        "addr:street": "Aborn Square",
+        "brand": "Chavez Supermarket",
+        "cuisine": "mexican",
+        "disused:brand": "Office Depot",
+        "disused:brand:wikidata": "Q1337797",
+        "disused:brand:wikipedia": "en:Office Depot",
+        "disused:shop": "stationery",
+        "name": "Chavez Supermarket",
+        "old_name": "Office Depot",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.809789,
+          37.3128686
+        ]
+      },
+      "id": "node/6965787511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7055918421",
+        "addr:city": "San Jose",
+        "addr:housenumber": "198",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 14th Street",
+        "name": "Neighborhood’s Market",
+        "old_name": "James Market",
+        "operator": "DeLaLuz Brothers",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.879202,
+          37.3454173
+        ]
+      },
+      "id": "node/7055918421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7076603480",
+        "addr:city": "San Jose",
+        "addr:housenumber": "998",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "Lundy Avenue",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/998-lundy-ave-21735",
+        "level": "0",
+        "name": "7-Eleven",
+        "operator": "Rittu Gupta Retail Inc.",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8722695,
+          37.3739161
+        ]
+      },
+      "id": "node/7076603480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7111430533",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1729",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "Berryessa Road",
+        "diet:halal": "only",
+        "name": "Indo-Pak Halal Market",
+        "official_name": "Indo-Pak Halal Market Incorporated",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8734317,
+          37.375307
+        ]
+      },
+      "id": "node/7111430533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7121789357",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1",
+        "addr:postcode": "95192",
+        "addr:state": "CA",
+        "addr:street": "Washington Square",
+        "addr:unit": "Maquarrie Hall - CS Clubroom",
+        "name": "CS Club Market 2nd Floor",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "operator": "SJSU Computer Science Club",
+        "payment:cash": "yes",
+        "payment:venmo": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.881773,
+          37.3336454
+        ]
+      },
+      "id": "node/7121789357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7214476233",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1484",
+        "addr:postcode": "95127",
+        "addr:street": "South White Road",
+        "name": "La Vista Mini Market",
+        "operator": "La Vista Mini Market LLC",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.812759,
+          37.3499012
+        ]
+      },
+      "id": "node/7214476233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7214476239",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1434",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "South White Road",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/1434-south-white-rd-14267",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.813441,
+          37.3504823
+        ]
+      },
+      "id": "node/7214476239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7215727798",
+        "addr:city": "San Jose",
+        "addr:housenumber": "701",
+        "addr:postcode": "95112",
+        "addr:street": "North 13th Street",
+        "level": "0",
+        "name": "J&F Liquors & Groceries",
+        "owner": "Fernandez Family",
+        "shop": "convenience",
+        "strapline": "Te invita la familia Fernandez",
+        "strapline:es": "Te invita la familia Fernandez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8880108,
+          37.3550599
+        ]
+      },
+      "id": "node/7215727798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7278371280",
+        "addr:city": "San Jose",
+        "addr:housenumber": "502",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "South 10th Street",
+        "lottery": "yes",
+        "money_transfer": "western_union",
+        "name": "S&S Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8751285,
+          37.3330583
+        ]
+      },
+      "id": "node/7278371280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7302910275",
+        "addr:city": "San Jose",
+        "addr:housenumber": "195",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "South 28th Street",
+        "name": "Cal Foods",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.862106,
+          37.345726
+        ]
+      },
+      "id": "node/7302910275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7307703480",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1028",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "East Brokaw Road",
+        "brand": "Sprouts Farmers Market",
+        "brand:wikidata": "Q7581369",
+        "name": "Sprouts Farmers Market",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1 408-490-3041",
+        "shop": "supermarket",
+        "short_name": "Sprouts",
+        "website": "https://www.sprouts.com/store/ca/san-jose/san-jose-brokaw-rd/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8981526,
+          37.3812401
+        ]
+      },
+      "id": "node/7307703480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7344883021",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2290",
+        "addr:postcode": "95116",
+        "addr:street": "Alum Rock Avenue",
+        "brand": "Chevron",
+        "brand:wikidata": "Q319642",
+        "name": "Chevron",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8435491,
+          37.357987
+        ]
+      },
+      "id": "node/7344883021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7344957643",
+        "addr:city": "San Jose",
+        "addr:housenumber": "28",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "South Jackson Avenue",
+        "description": "convenience store selling food, beer,wine, groceries,lotto",
+        "level": "0",
+        "name": "Shop 'n' Go",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8434404,
+          37.3578166
+        ]
+      },
+      "id": "node/7344957643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7393940137",
+        "addr:city": "San Jose",
+        "addr:housenumber": "204",
+        "addr:postcode": "95116",
+        "addr:street": "Oakland Avenue",
+        "name": "Bill's Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8477949,
+          37.3519431
+        ]
+      },
+      "id": "node/7393940137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7399808758",
+        "addr:city": "San Jose",
+        "addr:housenumber": "860",
+        "addr:postcode": "95127",
+        "addr:street": "South White Road",
+        "name": "Santa Fe",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8215458,
+          37.3592519
+        ]
+      },
+      "id": "node/7399808758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7439879249",
+        "addr:city": "San Jose",
+        "addr:housenumber": "515",
+        "addr:postcode": "95116",
+        "addr:street": "McLaughlin Avenue",
+        "name": "La Plaza Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8622465,
+          37.3406056
+        ]
+      },
+      "id": "node/7439879249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7447560873",
+        "addr:city": "San Jose",
+        "addr:housenumber": "202",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "South 22nd Street",
+        "name": "San Antonio Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8663503,
+          37.3429681
+        ]
+      },
+      "id": "node/7447560873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7571543302",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1070",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "South White Road",
+        "brand": "Cardenas",
+        "brand:wikidata": "Q64149543",
+        "cuisine": "latin_american",
+        "name": "Cardenas",
+        "official_name": "Cardenas Store 222",
+        "operator": "Mi Pueblo Newco, LLC",
+        "ref": "222",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8182961,
+          37.357971
+        ]
+      },
+      "id": "node/7571543302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7637243929",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2051",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "Scott Street",
+        "name": "6 to Late",
+        "ref": "5",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927701,
+          37.3199842
+        ]
+      },
+      "id": "node/7637243929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7693324784",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1045",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 7th Street",
+        "name": "Evergreen Group Co. Ltd.",
+        "shop": "wholesale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8994066,
+          37.3587926
+        ]
+      },
+      "id": "node/7693324784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7696322377",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5330",
+        "addr:postcode": "95136",
+        "addr:state": "CA",
+        "addr:street": "Terner Way",
+        "addr:unit": "10",
+        "name": "Ohlone Chynoweth Mini Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.861008,
+          37.2574192
+        ]
+      },
+      "id": "node/7696322377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7732175988",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2062",
+        "addr:postcode": "95132",
+        "addr:street": "North Capitol Avenue",
+        "name": "The Spirit Box",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8864699,
+          37.4067375
+        ]
+      },
+      "id": "node/7732175988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7757334646",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1138",
+        "addr:postcode": "95129",
+        "addr:street": "South De Anza Boulevard",
+        "cuisine": "indian",
+        "name": "India Cash & Carry",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0316708,
+          37.3049819
+        ]
+      },
+      "id": "node/7757334646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7757396988",
+        "addr:city": "San Jose",
+        "addr:housenumber": "7260",
+        "addr:postcode": "95129",
+        "addr:street": "Bark Lane",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0313184,
+          37.3027035
+        ]
+      },
+      "id": "node/7757396988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7790212551",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1085",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "South 12th Street",
+        "name": "Twelve Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.867065,
+          37.3254711
+        ]
+      },
+      "id": "node/7790212551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7795656281",
+        "addr:city": "San Jose",
+        "addr:housenumber": "951",
+        "addr:postcode": "95128",
+        "addr:street": "South Winchester Boulevard",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/951-s-winchester-blvd-18219",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9506618,
+          37.3092624
+        ]
+      },
+      "id": "node/7795656281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7851520171",
+        "addr:city": "San Jose",
+        "addr:housenumber": "215",
+        "addr:postcode": "95110",
+        "addr:street": "Willow Street",
+        "name": "Willow Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8827244,
+          37.3188049
+        ]
+      },
+      "id": "node/7851520171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8051957905",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5138",
+        "addr:postcode": "95111",
+        "addr:street": "Monterey Road",
+        "addr:unit": "D",
+        "name": "6 To Late Market",
+        "operator": "Smrp Family Inc",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8133893,
+          37.2628398
+        ]
+      },
+      "id": "node/8051957905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8052658030",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3975",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "addr:unit": "100",
+        "level": "0",
+        "name": "Senter Foods",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.824838,
+          37.2832264
+        ]
+      },
+      "id": "node/8052658030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8057328573",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1625",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "name": "Lucky 7 Supermarket",
+        "not:brand:wikidata": "Q6698032",
+        "old_name": "Food Bowl 99",
+        "operator": "Golden Leaf Investment, Incorporated",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.863601,
+          37.3568775
+        ]
+      },
+      "id": "node/8057328573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8057379874",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2044",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "name": "Kwikee Mart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.855236,
+          37.3611782
+        ]
+      },
+      "id": "node/8057379874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8057409713",
+        "addr:city": "San Jose",
+        "addr:housenumber": "999",
+        "addr:postcode": "95110",
+        "addr:street": "South 1st Street",
+        "name": "Discoteca Mini",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8788496,
+          37.3210207
+        ]
+      },
+      "id": "node/8057409713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8057432999",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1709",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "addr:unit": "D",
+        "name": "Tully Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.825013,
+          37.3233493
+        ]
+      },
+      "id": "node/8057432999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8057441392",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1492",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Almaden Expressway",
+        "addr:unit": "C",
+        "name": "Emit Mini Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.878013,
+          37.3124926
+        ]
+      },
+      "id": "node/8057441392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8059993192",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1800",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "South 10th Street",
+        "name": "Ariel Wholesale",
+        "old_name": "STi Screen-Tech Incorporated",
+        "shop": "wholesale",
+        "website": "https://ariel-wholesale.business.site/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.859409,
+          37.3138336
+        ]
+      },
+      "id": "node/8059993192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8060126724",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1711",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "addr:unit": "A",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/1711-mckee-rd-14276",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.861066,
+          37.3588298
+        ]
+      },
+      "id": "node/8060126724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8060461667",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3861",
+        "addr:postcode": "95111",
+        "addr:street": "Seven Trees Boulevard",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/3861-seven-trees-blvd-20418",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8333514,
+          37.2834925
+        ]
+      },
+      "id": "node/8060461667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8060461668",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3851",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Seven Trees Boulevard",
+        "name": "Familia Foods",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8338,
+          37.2834936
+        ]
+      },
+      "id": "node/8060461668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8060472407",
+        "addr:city": "San Jose",
+        "addr:housenumber": "690",
+        "addr:postcode": "95110",
+        "addr:street": "Almaden Avenue",
+        "name": "Almaden Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8856854,
+          37.3241231
+        ]
+      },
+      "id": "node/8060472407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8175644005",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3939",
+        "addr:postcode": "95136",
+        "addr:state": "CA",
+        "addr:street": "Snell Avenue",
+        "brand": "Valero",
+        "brand:wikidata": "Q1283291",
+        "name": "Capitol Valero",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8428476,
+          37.276986
+        ]
+      },
+      "id": "node/8175644005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8175731924",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2701",
+        "addr:postcode": "95133",
+        "addr:street": "McKee Road",
+        "brand": "Chevron",
+        "brand:wikidata": "Q319642",
+        "name": "Chevron",
+        "official_name": "Chevron #1778",
+        "operator": "Chevron Stations Incorporated",
+        "ref": "1778",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.843046,
+          37.3709591
+        ]
+      },
+      "id": "node/8175731924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8175746226",
+        "addr:city": "San Jose",
+        "addr:housenumber": "910",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "North Bascom Avenue",
+        "brand": "ExtraMile",
+        "brand:wikidata": "Q64224605",
+        "name": "Rose Garden ExtraMile",
+        "official_name": "Rose Garden Chevron ExtraMile",
+        "operator": "JRMB, LLC",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.93396,
+          37.3319465
+        ]
+      },
+      "id": "node/8175746226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8175784394",
+        "addr:city": "San Jose",
+        "addr:housenumber": "6096",
+        "addr:postcode": "95123",
+        "addr:state": "CA",
+        "addr:street": "Cottle Road",
+        "brand": "Chevron",
+        "brand:wikidata": "Q319642",
+        "name": "Chevron",
+        "operator": "Santa Teresa Chevron",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.803095,
+          37.2374932
+        ]
+      },
+      "id": "node/8175784394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8175789588",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2695",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "brand": "76",
+        "brand:wikidata": "Q1658320",
+        "name": "76",
+        "official_name": "United Pacific #5441",
+        "operator": "Apro, LLC",
+        "ref": "5441",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.843913,
+          37.3700647
+        ]
+      },
+      "id": "node/8175789588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8175801139",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1002",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 1st Street",
+        "brand": "ExtraMile",
+        "brand:wikidata": "Q64224605",
+        "disused:brand": "76",
+        "disused:brand:wikidata": "Q1658320",
+        "disused:brand:wikipedia": "en:76 (gas station)",
+        "name": "ExtraMile",
+        "official_name": "Civic Plaza Station",
+        "old_name": "76",
+        "operator": "Civic Plaza Station, Incorporated",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9046002,
+          37.3556759
+        ]
+      },
+      "id": "node/8175801139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8175822577",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1304",
+        "addr:postcode": "95132",
+        "addr:state": "CA",
+        "addr:street": "Piedmont Road",
+        "brand": "Rotten Robbie",
+        "brand:wikidata": "Q87378070",
+        "name": "Rotten Robbie",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.846714,
+          37.4003675
+        ]
+      },
+      "id": "node/8175822577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8175823006",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2321",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "Stevens Creek Boulevard",
+        "addr:unit": "D",
+        "atm": "yes",
+        "brand": "Shell",
+        "brand:wikidata": "Q154950",
+        "name": "Bellerose Shell",
+        "old_name": "Silicon Valley Market & Gas",
+        "operator": "Next Petroleum",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9356821,
+          37.3237921
+        ]
+      },
+      "id": "node/8175823006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8175866091",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5696",
+        "addr:postcode": "95014-3662",
+        "addr:state": "CA",
+        "addr:street": "Stevens Creek Boulevard",
+        "brand": "Shell",
+        "brand:wikidata": "Q110716465",
+        "name": "Shell",
+        "operator": "Assets Gas",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00305,
+          37.3226541
+        ]
+      },
+      "id": "node/8175866091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8177828784",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1755",
+        "addr:postcode": "95128",
+        "addr:street": "West San Carlos Street",
+        "name": "San Carlos Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9241868,
+          37.3239778
+        ]
+      },
+      "id": "node/8177828784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8178596854",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2440",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Almaden Road",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/2440-almaden-expwy-14270",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8808993,
+          37.2885819
+        ]
+      },
+      "id": "node/8178596854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8180061617",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5251",
+        "addr:postcode": "95124",
+        "addr:state": "CA",
+        "addr:street": "Camden Avenue",
+        "addr:unit": "A",
+        "name": "Bonfare Market #39",
+        "operator": "IIT Gate International Inc",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9059395,
+          37.242376
+        ]
+      },
+      "id": "node/8180061617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8180652989",
+        "addr:city": "San Jose",
+        "addr:housenumber": "646",
+        "addr:postcode": "95123",
+        "addr:state": "CA",
+        "addr:street": "Blossom Hill Road",
+        "name": "Chavez Supermarket",
+        "operator": "David & Esperanza Chavez Family Limited Partnership",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.84509,
+          37.24927
+        ]
+      },
+      "id": "node/8180652989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8189458153",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3160",
+        "addr:postcode": "95124",
+        "addr:state": "CA",
+        "addr:street": "South Bascom Avenue",
+        "brand": "Chevron",
+        "brand:wikidata": "Q319642",
+        "name": "Bascom Camden Chevron",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9409642,
+          37.26541
+        ]
+      },
+      "id": "node/8189458153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8201300351",
+        "addr:city": "San Jose",
+        "addr:housenumber": "6211",
+        "addr:postcode": "95119",
+        "addr:state": "CA",
+        "addr:street": "Santa Teresa Boulevard",
+        "brand": "76",
+        "brand:wikidata": "Q1658320",
+        "name": "76",
+        "official_name": "Santa Teresa Unocal",
+        "operator": "Zadco Enterprises Incorporated",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8034715,
+          37.2364919
+        ]
+      },
+      "id": "node/8201300351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8201359969",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1301",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "South Winchester Boulevard",
+        "brand": "Chevron",
+        "brand:wikidata": "Q319642",
+        "name": "Chevron",
+        "official_name": "Chevron #1572",
+        "operator": "Chevron Stations Incorporated",
+        "ref": "1572",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9506272,
+          37.3012167
+        ]
+      },
+      "id": "node/8201359969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8202948870",
+        "addr:city": "San Jose",
+        "addr:housenumber": "697",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 4th Street",
+        "brand": "Arco",
+        "brand:wikidata": "Q304769",
+        "name": "Taylor Arco",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa-Su 07:00-20:30",
+        "operator": "Taylor Gas Company",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8972697,
+          37.3501248
+        ]
+      },
+      "id": "node/8202948870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8220687542",
+        "addr:city": "San Jose",
+        "addr:housenumber": "6173",
+        "addr:postcode": "95123",
+        "addr:state": "CA",
+        "addr:street": "Santa Teresa Boulevard",
+        "name": "Gene’s Liquors",
+        "operator": "B&Q Corporation",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8050469,
+          37.2365774
+        ]
+      },
+      "id": "node/8220687542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8229471803",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1645",
+        "addr:postcode": "95118",
+        "addr:state": "CA",
+        "addr:street": "Foxworthy Avenue",
+        "disused:brand": "Valero",
+        "disused:brand:wikidata": "Q1283291",
+        "disused:brand:wikipedia": "en:Valero Energy",
+        "name": "Foxworthy Gas",
+        "old_name": "Valero",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9054857,
+          37.2712131
+        ]
+      },
+      "id": "node/8229471803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8229478432",
+        "addr:city": "San Jose",
+        "addr:housenumber": "875",
+        "addr:postcode": "95123",
+        "addr:state": "CA",
+        "addr:street": "Blossom Hill Road",
+        "brand": "Chevron",
+        "brand:wikidata": "Q319642",
+        "name": "Chevron",
+        "official_name": "Chevron #1793",
+        "operator": "Chevron Stations Incorporated",
+        "ref": "1793",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8583604,
+          37.2507753
+        ]
+      },
+      "id": "node/8229478432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8231325898",
+        "addr:city": "San Jose",
+        "addr:country": "US",
+        "addr:housenumber": "1197",
+        "addr:state": "CA",
+        "addr:street": "Locust Street",
+        "name": "Salomes Quick Stop",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8822344,
+          37.3150289
+        ]
+      },
+      "id": "node/8231325898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8253185953",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2626",
+        "addr:postcode": "95124",
+        "addr:state": "CA",
+        "addr:street": "Union Avenue",
+        "name": "Anwar Bazaar and Bakery",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9326976,
+          37.2742122
+        ]
+      },
+      "id": "node/8253185953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8332391759",
+        "addr:city": "San Jose",
+        "addr:housenumber": "890",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Service Street",
+        "addr:unit": "C",
+        "name": "Sac-Val Janitorial Supply",
+        "shop": "wholesale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8897372,
+          37.3689956
+        ]
+      },
+      "id": "node/8332391759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8369829859",
+        "addr:city": "San Jose",
+        "addr:housenumber": "4108",
+        "addr:postcode": "95111",
+        "addr:street": "Monterey Road",
+        "name": "V-Mart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.834148,
+          37.2793766
+        ]
+      },
+      "id": "node/8369829859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8380277493",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1948",
+        "addr:postcode": "95124",
+        "addr:state": "CA",
+        "addr:street": "Camden Avenue",
+        "alt_name": "Food Shop",
+        "name": "Moe’s Stop",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9270741,
+          37.2614071
+        ]
+      },
+      "id": "node/8380277493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8380311150",
+        "addr:city": "San Jose",
+        "addr:housenumber": "621",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "East Capitol Expressway",
+        "addr:unit": "10",
+        "name": "World Express",
+        "operator": "Hari Mini Mart LLC",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8334578,
+          37.2942319
+        ]
+      },
+      "id": "node/8380311150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8380330806",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2252",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Lincoln Avenue",
+        "alt_name": "Chevron Station San Jose",
+        "brand": "Chevron",
+        "brand:wikidata": "Q319642",
+        "name": "Chevron",
+        "official_name": "Chevron #1771",
+        "operator": "Chevron Stations Incorporated",
+        "ref": "1771",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8870175,
+          37.2896861
+        ]
+      },
+      "id": "node/8380330806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8380340202",
+        "addr:city": "San Jose",
+        "addr:housenumber": "621",
+        "addr:postcode": "95123",
+        "addr:state": "CA",
+        "addr:street": "Blossom Hill Road",
+        "alt_name": "Food Shop",
+        "name": "Gas N Go",
+        "operator": "Janix Incorporated",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8430165,
+          37.2510316
+        ]
+      },
+      "id": "node/8380340202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8380426266",
+        "addr:city": "San Jose",
+        "addr:housenumber": "150",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Willow Street",
+        "alt_name": "T&T Mini Mart",
+        "name": "Central Gas San Jose",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8810452,
+          37.319328
+        ]
+      },
+      "id": "node/8380426266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8380442258",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5155",
+        "addr:postcode": "95129",
+        "addr:state": "CA",
+        "addr:street": "Moorpark Avenue",
+        "brand": "Exxon",
+        "brand:wikidata": "Q4781944",
+        "name": "Moorpark Exxon",
+        "operator": "Petromart Retail Group",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.993876,
+          37.3098847
+        ]
+      },
+      "id": "node/8380442258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8380481938",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1100",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "South White Road",
+        "brand": "76",
+        "brand:wikidata": "Q1658320",
+        "name": "76",
+        "operator": "Kpan Gasoline Incorporated",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8190555,
+          37.3566402
+        ]
+      },
+      "id": "node/8380481938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8400920137",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1630",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "name": "Tropicana Foods",
+        "operator": "La Tropicana Food L.P.",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.844235,
+          37.338048
+        ]
+      },
+      "id": "node/8400920137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8410254899",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1626",
+        "addr:postcode": "95121",
+        "addr:state": "CA",
+        "addr:street": "East Capitol Expressway",
+        "name": "Stop 'N' Save",
+        "operator": "Namita Devi Inc",
+        "ref": "111",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8111856,
+          37.3052717
+        ]
+      },
+      "id": "node/8410254899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8415974019",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2980",
+        "addr:postcode": "95148",
+        "addr:state": "CA",
+        "addr:street": "East Capitol Expressway",
+        "brand": "Safeway",
+        "brand:wikidata": "Q1508234",
+        "name": "Safeway",
+        "phone": "+1 408-274-5957",
+        "shop": "supermarket",
+        "website": "https://local.safeway.com/safeway/ca/san-jose/2980-e-capitol-expy.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8109238,
+          37.3314612
+        ]
+      },
+      "id": "node/8415974019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8416590604",
+        "addr:city": "San Jose",
+        "addr:housenumber": "98",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "Sunol Street",
+        "name": "Diridon Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9062764,
+          37.3290818
+        ]
+      },
+      "id": "node/8416590604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8416623915",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1584",
+        "addr:postcode": "95118",
+        "addr:state": "CA",
+        "addr:street": "Branham Lane",
+        "name": "Desi India Bazar",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9017066,
+          37.2533647
+        ]
+      },
+      "id": "node/8416623915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8416759505",
+        "addr:city": "San Jose",
+        "addr:housenumber": "351",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "East William Street",
+        "name": "Spartan Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8774102,
+          37.3323188
+        ]
+      },
+      "id": "node/8416759505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8442072815",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1152",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "brand": "76",
+        "brand:wikidata": "Q1658320",
+        "name": "76",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8358772,
+          37.315091
+        ]
+      },
+      "id": "node/8442072815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8442172801",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2507",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "South King Road",
+        "name": "Stop N Save",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8247904,
+          37.3202756
+        ]
+      },
+      "id": "node/8442172801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8450239099",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1758",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Junction Avenue",
+        "addr:unit": "A",
+        "fixme": "location within building",
+        "name": "Zuka Foods",
+        "old_name": "MacLaughlin & Company",
+        "operator": "Zuka Trading and Distribution Company",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.905653,
+          37.3771951
+        ]
+      },
+      "id": "node/8450239099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8455746562",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1591",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Flickinger Avenue",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/1591-flickinger-ave-16889",
+        "name": "7-Eleven",
+        "ref": "2234-16889G",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8786569,
+          37.39013
+        ]
+      },
+      "id": "node/8455746562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8455764104",
+        "addr:city": "San Jose",
+        "addr:housenumber": "5807",
+        "addr:postcode": "95020",
+        "addr:state": "CA",
+        "addr:street": "Cottle Road",
+        "name": "Lil Grocer",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8049771,
+          37.2456922
+        ]
+      },
+      "id": "node/8455764104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8455814360",
+        "addr:city": "San Jose",
+        "addr:housenumber": "233",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "South White Road",
+        "addr:unit": "A",
+        "name": "Y Market & Liquor",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8254238,
+          37.3626426
+        ]
+      },
+      "id": "node/8455814360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8458916256",
+        "addr:city": "San Jose",
+        "addr:housenumber": "750",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Almaden Avenue",
+        "name": "Union Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8850921,
+          37.3230876
+        ]
+      },
+      "id": "node/8458916256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8459372449",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1383",
+        "addr:postcode": "95118",
+        "addr:state": "CA",
+        "addr:street": "Kooser Road",
+        "name": "Mi Rancho Carniceria",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8893598,
+          37.2466835
+        ]
+      },
+      "id": "node/8459372449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8459513484",
+        "addr:city": "San Jose",
+        "addr:housenumber": "617",
+        "addr:postcode": "95123",
+        "addr:state": "CA",
+        "addr:street": "Blossom Hill Road",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/617-blossom-hill-rd-25561",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8424458,
+          37.2511002
+        ]
+      },
+      "id": "node/8459513484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8505350807",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1972",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "brand": "FoodMaxx",
+        "brand:wikidata": "Q61894844",
+        "name": "FoodMaxx",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8205002,
+          37.3238848
+        ]
+      },
+      "id": "node/8505350807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8555364666",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2951",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Monterey Road",
+        "name": "Monterey Mini Mart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.848417,
+          37.2896314
+        ]
+      },
+      "id": "node/8555364666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8643081198",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3750",
+        "addr:postcode": "95124",
+        "addr:state": "CA",
+        "addr:street": "South Bascom Avenue",
+        "alcohol": "yes",
+        "alt_name": "Bascom Liquor and Food",
+        "name": "Bascom Liquor & Food",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9464037,
+          37.2595705
+        ]
+      },
+      "id": "node/8643081198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8715367042",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2558",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "Berryessa Road",
+        "brand": "Safeway",
+        "brand:wikidata": "Q1508234",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Safeway",
+        "opening_hours": "Mo-Su 05:00-23:00",
+        "payment:american_express": "yes",
+        "payment:debit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 408-346-6130",
+        "shop": "supermarket",
+        "website": "https://local.safeway.com/safeway/ca/san-jose/1455-berryessa-rd.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8815992,
+          37.3704508
+        ]
+      },
+      "id": "node/8715367042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8908220648",
+        "addr:city": "San Jose",
+        "addr:housenumber": "500",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 17th Street",
+        "cuisine": "mexican",
+        "language:en": "yes",
+        "language:es": "yes",
+        "name": "Mendez Market",
+        "old_name": "Rancho Market",
+        "phone": "+1-408-564-2465",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8807661,
+          37.3527154
+        ]
+      },
+      "id": "node/8908220648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8944478206",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1373",
+        "addr:postcode": "95118",
+        "addr:street": "Kooser Road",
+        "addr:unit": "A",
+        "name": "Etminan Market",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+14086226778",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.888854,
+          37.2465661
+        ]
+      },
+      "id": "node/8944478206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8961847662",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3140",
+        "addr:postcode": "95117",
+        "addr:street": "Williams Road",
+        "brand": "Grocery Outlet",
+        "brand:wikidata": "Q5609934",
+        "name": "Grocery Outlet",
+        "official_name": "Grocery Outlet Bargain Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951509,
+          37.3080992
+        ]
+      },
+      "id": "node/8961847662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9005922309",
+        "addr:city": "San Jose",
+        "addr:housenumber": "284",
+        "addr:postcode": "95112",
+        "addr:street": "South 11th Street",
+        "addr:unit": "A",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/284-s-eleventh-st-14300",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8764691,
+          37.3369237
+        ]
+      },
+      "id": "node/9005922309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9053836189",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1190",
+        "addr:postcode": "95132",
+        "addr:street": "North Capitol Avenue",
+        "brand": "Convenient Food Mart",
+        "cuisine": "filipino",
+        "name": "Gabrielle's Food To Go",
+        "opening_hours": "Mo-Sa 08:00-19:30; Su 08:00-19:00",
+        "phone": "+1 408-926-4412",
+        "shop": "convenience",
+        "takeaway": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8612914,
+          37.3885548
+        ]
+      },
+      "id": "node/9053836189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9102658980",
+        "addr:city": "San Jose",
+        "addr:housenumber": "967",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Stockton Avenue",
+        "fixme": "This appears to be a distributor (not factory) for batteries (East Penn Manufacturing).  Is the feature type correct?",
+        "name": "Deka Batteries",
+        "operator": "East Penn Manufacturing",
+        "shop": "wholesale",
+        "website": "https://www.eastpennmanufacturing.com/",
+        "wholesale": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9196133,
+          37.3457444
+        ]
+      },
+      "id": "node/9102658980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9165299631",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1711",
+        "addr:postcode": "95118",
+        "addr:street": "Branham Lane",
+        "addr:unit": "A1",
+        "cuisine": "arab",
+        "name": "Madina Market & Grill",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9101841,
+          37.2518528
+        ]
+      },
+      "id": "node/9165299631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9225267315",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1444",
+        "addr:postcode": "95128",
+        "addr:street": "South Winchester Boulevard",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/1444-s-winchester-blvd-14220",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9495406,
+          37.2977782
+        ]
+      },
+      "id": "node/9225267315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9301983307",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1421",
+        "addr:postcode": "95118",
+        "addr:street": "Branham Lane",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/1421-branham-ln-14290",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8913994,
+          37.2593127
+        ]
+      },
+      "id": "node/9301983307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9503994847",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1421",
+        "addr:postcode": "95118",
+        "addr:street": "Foxworthy Avenue",
+        "name": "Zanotto's",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "phone": "+1-408-264-0103",
+        "shop": "supermarket",
+        "website": "https://www.zanottos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.89231,
+          37.2754825
+        ]
+      },
+      "id": "node/9503994847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9556856341",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1704",
+        "addr:postcode": "95112",
+        "addr:street": "Senter Road",
+        "name": "Happy Hollow Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.858068,
+          37.3183643
+        ]
+      },
+      "id": "node/9556856341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9575908339",
+        "addr:city": "San Jose",
+        "addr:housenumber": "501",
+        "addr:postcode": "95112",
+        "addr:street": "North 17th Street",
+        "alt_name": "Empire Market",
+        "name": "Guru’s Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8812171,
+          37.3526068
+        ]
+      },
+      "id": "node/9575908339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9609742856",
+        "addr:city": "San Jose",
+        "addr:housenumber": "698",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 3rd Street",
+        "alcohol": "yes",
+        "check_date": "2023-09-07",
+        "name": "TAK Market & Liquor",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8978083,
+          37.3500101
+        ]
+      },
+      "id": "node/9609742856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9609939408",
+        "addr:city": "San Jose",
+        "addr:housenumber": "925",
+        "addr:postcode": "95123",
+        "addr:state": "CA",
+        "addr:street": "Blossom Hill Road",
+        "brand": "99 Ranch Market",
+        "brand:wikidata": "Q4646307",
+        "cuisine": "asian",
+        "name": "99 Ranch Market",
+        "name:en": "99 Ranch Market",
+        "name:zh-Hans": "大华超级市场",
+        "name:zh-Hant": "大華超級市場",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8646412,
+          37.2528526
+        ]
+      },
+      "id": "node/9609939408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9863235073",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1040",
+        "addr:postcode": "95132",
+        "addr:street": "Piedmont Road",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "contact:website": "https://www.7-eleven.com/locations/ca/san-jose/1040-piedmont-road-29507",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8428016,
+          37.3924524
+        ]
+      },
+      "id": "node/9863235073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10693969339",
+        "addr:city": "San Jose",
+        "addr:housenumber": "602",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "South Winchester Boulevard",
+        "level": "0",
+        "name": "Food Shop",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9496428,
+          37.3156612
+        ]
+      },
+      "id": "node/10693969339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10996455315",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3065",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "cuisine": "mexican",
+        "description": "supermarket specializing in Latin groceries",
+        "level": "0",
+        "name": "La Plaza",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "shop": "supermarket",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8370917,
+          37.3751725
+        ]
+      },
+      "id": "node/10996455315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11595494905",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1305",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "South Winchester Boulevard",
+        "brand": "Safeway",
+        "brand:wikidata": "Q1508234",
+        "name": "Safeway",
+        "opening_hours": "Mo-Su 05:00-24:00",
+        "phone": "+1 408-340-9258",
+        "shop": "supermarket",
+        "website": "https://local.safeway.com/safeway/ca/san-jose/1305-s-winchester-blvd.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9518383,
+          37.3009318
+        ]
+      },
+      "id": "node/11595494905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11851236702",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1305",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "North Bascom Avenue",
+        "addr:unit": "G",
+        "name": "Gateway Food and Liquor",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9382769,
+          37.3375207
+        ]
+      },
+      "id": "node/11851236702"
     }
   ]
 }
