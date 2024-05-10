@@ -4,7 +4,10 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
         <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
-        <script src="groceries_snap.geojson"></script>
+        <script src="groceries_snap.js"></script>
+        <script src="restaurants_snap.js"></script>
+        <script src="drinks_sweets_snap.js"></script>
+        <script src="specialty_snap.js"></script>
         <style>
             #map {
                 width: 100vw;
@@ -28,7 +31,7 @@
 
             var neighborhoods = new L.GeoJSON.AJAX(
                 'https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/549/query?outFields=*&where=1%3D1&f=geojson'
-            );
+            ).addTo(map);
 
             var zip = new L.GeoJSON.AJAX(
                 'https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/181/query?outFields=*&where=1%3D1&f=geojson'
@@ -42,11 +45,20 @@
                 'https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/457/query?outFields=*&where=1%3D1&f=geojson'
             );
 
+            var groceries = L.geoJSON(groceries);
+            var restaurants = L.geoJSON(restaurants);
+            var sweets = L.geoJSON(drinks_sweets);
+            var specialty = L.geoJSON(specialty);
+
             var overlayMaps = {
                 "Neighborhood Boundaries": neighborhoods,
                 "Zip Code Boundaries": zip,
                 "Bike Racks": bikes,
-                "Affordable Housing": housing
+                "Affordable Housing": housing,
+                "Grocery Stores": groceries,
+                "Restaurants": restaurants,
+                "Drinks and Sweets": sweets,
+                "Specialty Grocery Stores": specialty
             };
 
             var layerControl = L.control.layers(null, overlayMaps, {collapsed:false}).addTo(map);
