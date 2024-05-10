@@ -17,11 +17,76 @@
                 height: 100vh;
             }
 
+            #input-box {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                background-color: white;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                z-index: 1000;
+            }
+
+            #input-box label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            #input-box input {
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+
+            #calculate-button {
+                width: 100%;
+                padding: 5px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            #calculate-button:hover {
+                background-color: #0056b3;
+            }
+
         </style>
     </head>
     <body>
         <div id="map"></div>
+        <div id="input-box">
+            <label for="start-location">Start Location:</label>
+            <input type="text" id="start-location" placeholder="Click on the map to select a location">
+            <label for="profile">Mode of Transportation:</label>
+                <select id="profile">
+                    <option value="driving-car">Driving</option>
+                    <option value="cycling-regular">Biking</option>
+                    <option value="foot-walking">Walking</option>
+                </select>
+            <label for="range-type">Measurement:</label>
+                <select id="range-type">
+                    <option value="distance">Distance</option>
+                    <option value="time">Time</option>
+                </select>
+            <label for="range">Range:</label>
+                <input type="text" id="range" placeholder="Enter distance in miles">
+            <button id="calculate-button">Calculate Access</button>
+        </div>
         <script type="text/javascript">
+            document.getElementById('range-type').addEventListener('change', function() {
+                let rangeType = document.getElementById('range-type').value;
+                let rangeInput = document.getElementById('range');
+
+                if (rangeType === 'distance') {
+                    rangeInput.setAttribute('placeholder', 'Enter distance in miles');
+                } else if (rangeType === 'time') {
+                    rangeInput.setAttribute('placeholder', 'Enter time in seconds');
+                }
+            });
+
             var map = L.map('map', {
                 center: [37.3382, -121.8863],
                 zoom: 12
@@ -60,6 +125,22 @@
             };
 
             var layerControl = L.control.layers(null, overlayMaps, {collapsed:false}).addTo(map);
+
+            var marker;
+
+            function addMarker(latlng) {
+                if (marker) {
+                    map.removeLayer(marker);
+                }
+                marker = L.marker(latlng).addTo(map);
+            }
+
+            function onMapClick(e) {
+                document.getElementById('start-location').value = e.latlng.lat + ', ' + e.latlng.lng;
+                addMarker(e.latlng);
+            }
+
+            map.on('click', onMapClick);
         </script>
     </body>
 </html>
