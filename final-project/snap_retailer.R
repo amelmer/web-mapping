@@ -15,6 +15,7 @@ match_retailers <- function(street_number, street_name, address) {
   street_name <- gsub("South", "S", street_name)
   street_name <- gsub("West", "W", street_name)
   street_name <- gsub("East", "E", street_name)
+  print(street_name)
   
   address <- gsub("Road", "Rd", address)
   address <- gsub("Avenue", "Ave", address)
@@ -25,8 +26,9 @@ match_retailers <- function(street_number, street_name, address) {
   address <- gsub("Highway", "Hwy", address)
   address <- gsub("North", "N", address)
   address <- gsub("South", "S", address)
-  address <- gsub("West", "W", street_name)
-  address <- gsub("East", "E", street_name)
+  address <- gsub("West", "W", address)
+  address <- gsub("East", "E", address)
+  print(address)
   
   if (c(paste0(street_number, " ", str_to_lower(street_name))) == str_to_lower(address)) {
     return(1)
@@ -65,12 +67,10 @@ st_write(grocery_data, "groceries_snap.geojson")
 drinks_sweets <- st_read("drinks_sweets.geojson")
 
 for (i in 1:length(drinks_sweets$id)) {
-  for (j in 1:length(snap_data$features)) {
-    snap_store <- snap_data$features[[j]]
-    
+  for (j in 1:length(snap_data$Record_ID)) {
     distance <- match_retailers(drinks_sweets$addr.housenumber[[i]], 
                                 drinks_sweets$addr.street[[i]], 
-                                snap_store$attributes$Store_Street_Address)
+                                snap_data$Store_Street_Address[[j]])
     if (distance == 1) {
       drinks_sweets$accepts_snap <- 1
       break
@@ -88,12 +88,10 @@ farm <- st_read("farm.geojson")
 farm$accepts_snap <- NA
 
 for (i in 1:length(farm$id)) {
-  for (j in 1:length(snap_data$features)) {
-    snap_store <- snap_data$features[[j]]
-    
+  for (j in 1:length(snap_data$Record_ID)) {
     distance <- match_retailers(farm$addr.housenumber[[i]], 
                                 farm$addr.street[[i]], 
-                                snap_store$attributes$Store_Street_Address)
+                                snap_data$Store_Street_Address[[j]])
     if (distance == 1) {
       farm$accepts_snap[[i]] <- 1
       break
@@ -111,12 +109,11 @@ restaurants <- st_read("restaurants.geojson")
 restaurants$accepts_snap <- NA
 
 for (i in 1:length(restaurants$id)) {
-  for (j in 1:length(snap_data$features)) {
-    snap_store <- snap_data$features[[j]]
+  for (j in 1:length(snap_data$Record_ID)) {
     
     distance <- match_retailers(restaurants$addr.housenumber[[i]], 
                                 restaurants$addr.street[[i]], 
-                                snap_store$attributes$Store_Street_Address)
+                                snap_data$Store_Street_Address[[j]])
     if (distance == 1) {
       restaurants$accepts_snap[[i]] <- 1
       break
@@ -134,12 +131,11 @@ specialty <- st_read("specialty.geojson")
 specialty$accepts_snap <- NA
 
 for (i in 1:length(specialty$id)) {
-  for (j in 1:length(snap_data$features)) {
-    snap_store <- snap_data$features[[j]]
-    
+  for (j in 1:length(snap_data$Record_ID)) {
+
     distance <- match_retailers(specialty$addr.housenumber[[i]], 
                                 specialty$addr.street[[i]], 
-                                snap_store$attributes$Store_Street_Address)
+                                snap_data$Store_Street_Address[[j]])
     if (distance == 1) {
       specialty$accepts_snap[[i]] <- 1
       break
@@ -149,7 +145,7 @@ for (i in 1:length(specialty$id)) {
   }
 }
 
-st_write(misc, "specialty_snap.geojson")
+st_write(specialty, "specialty_snap.geojson")
 
 # iterate over miscellaneous
 misc <- st_read("miscellaneous.geojson")
@@ -157,12 +153,11 @@ misc <- st_read("miscellaneous.geojson")
 misc$accepts_snap <- NA
 
 for (i in 1:length(misc$id)) {
-  for (j in 1:length(snap_data$features)) {
-    snap_store <- snap_data$features[[j]]
+  for (j in 1:length(snap_data$Record_ID)) {
     
     distance <- match_retailers(misc$addr.housenumber[[i]], 
-                                misc$addr.housenumber[[i]], 
-                                snap_store$attributes$Store_Street_Address)
+                                misc$addr.street[[i]], 
+                                snap_data$Store_Street_Address[[j]])
     if (distance == 1) {
       misc$accepts_snap[[i]] <- 1
       break
