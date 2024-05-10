@@ -1,0 +1,5024 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-05-05T18:30:36Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281136405",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1",
+        "addr:postcode": "95192",
+        "addr:state": "CA",
+        "addr:street": "Washington Square",
+        "alt_name": "Starbucks Coffee – Maquarrie Hall",
+        "amenity": "cafe",
+        "branch": "Maquarrie Hall",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.881816,
+          37.3337802
+        ]
+      },
+      "id": "node/281136405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/347433822",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1432",
+        "addr:postcode": "95126",
+        "addr:street": "West San Carlos Street",
+        "addr:unit": "70",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/1010285/meridian-san-carlos-1432-west-san-carlos-70-san-jose-ca-951265409-us",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 06:00-18:00",
+        "operator": "Starbucks",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9139782,
+          37.3233149
+        ]
+      },
+      "id": "node/347433822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459380662",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1712",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "Berryessa Road",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/7048/berryessa-king-st-1712-berryessa-avenue-san-jose-ca-951331067-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.873013,
+          37.3732006
+        ]
+      },
+      "id": "node/459380662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/506819349",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1702",
+        "addr:postcode": "95125",
+        "addr:street": "Meridian Avenue",
+        "addr:unit": "A",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/8640/meridian-lenn-1702-meridian-avenue-suite-a-san-jose-ca-951255586",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.913213,
+          37.2928602
+        ]
+      },
+      "id": "node/506819349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/563335614",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1751",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "North 1st Street",
+        "addr:unit": "80",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/17196/n-1st-st-matrix-blvd-1751-north-first-street-san-jose-ca-951124590-us",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "operator": "Starbucks Coffee Company",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.917214,
+          37.3709053
+        ]
+      },
+      "id": "node/563335614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/577406730",
+        "addr:city": "San Jose",
+        "addr:housenumber": "101",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "East Santa Clara Street",
+        "amenity": "cafe",
+        "cuisine": "mexican;sandwich",
+        "disused:brand": "Starbucks",
+        "disused:brand:wikidata": "Q37158",
+        "disused:brand:wikipedia": "en:Starbucks",
+        "disused:cuisine": "coffee_shop",
+        "disused:internet_access": "wlan",
+        "disused:official_name": "Starbucks Coffee",
+        "disused:operator": "Starbucks",
+        "level": "0",
+        "name": "Con Azucar Café",
+        "name:en": "Con Azucar Café",
+        "name:es": "Café Con Azúcar",
+        "old_name": "Starbucks",
+        "takeaway": "yes",
+        "website": "https://www.conazucarcafe.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.888412,
+          37.3373902
+        ]
+      },
+      "id": "node/577406730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/961807258",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1411",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Bird Avenue",
+        "amenity": "cafe",
+        "name": "Toast Cafe & Grill",
+        "old_name": "Master Bar & Grill",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8918411,
+          37.3066483
+        ]
+      },
+      "id": "node/961807258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1187479322",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1574",
+        "addr:postcode": "95125",
+        "addr:street": "South Bascom Avenue",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/18475/bascom-square-1574-south-bascom-ave-san-jose-ca-951256108-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9309164,
+          37.2946701
+        ]
+      },
+      "id": "node/1187479322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1345335449",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3477",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "amenity": "cafe",
+        "name": "The Coffee Cup"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.828101,
+          37.3817042
+        ]
+      },
+      "id": "node/1345335449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1561616311",
+        "addr:city": "San Jose",
+        "addr:housenumber": "377",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "Santana Row",
+        "addr:unit": "1130",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Peet's Coffee",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr-Sa 05:00-23:00; Su 06:00-21:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948438,
+          37.3193479
+        ]
+      },
+      "id": "node/1561616311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1984735128",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1080",
+        "addr:postcode": "95125",
+        "addr:street": "Lincoln Avenue",
+        "name": "Manley's Donuts",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.901576,
+          37.3095351
+        ]
+      },
+      "id": "node/1984735128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2109337126",
+        "addr:city": "San Jose",
+        "addr:housenumber": "377",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "Santana Row",
+        "addr:unit": "1100",
+        "amenity": "cafe",
+        "cuisine": "brasserie;french",
+        "level": "0",
+        "name": "Left Bank Brasserie",
+        "operator": "La Rive Gauche LLC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9481624,
+          37.319778
+        ]
+      },
+      "id": "node/2109337126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2109406228",
+        "addr:city": "San Jose",
+        "addr:housenumber": "377",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "Santana Row",
+        "addr:unit": "1015",
+        "disused:shop": "shoes",
+        "level": "0",
+        "name": "Sugarfina",
+        "old_name": "Footworks;The Walking Company",
+        "operator": "Sugarfina USA LLC",
+        "shop": "confectionery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9481554,
+          37.3202558
+        ]
+      },
+      "id": "node/2109406228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2157545925",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2579",
+        "addr:postcode": "95131",
+        "addr:street": "North 1st Street",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/12056/1st-street-trimble-2579-north-first-street-san-jose-ca-951311003-us",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Fr 04:30-17:30",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927949,
+          37.3853595
+        ]
+      },
+      "id": "node/2157545925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2235256988",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1698",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "addr:unit": "M",
+        "brand": "Paris Baguette",
+        "brand:wikidata": "Q62605260",
+        "delivery": "yes",
+        "indoor_seating": "yes",
+        "name": "Paris Baguette",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "payment:credit_cards": "yes",
+        "payment:nfc_mobile_payments": "yes",
+        "phone": "+14085738888",
+        "shop": "bakery",
+        "takeaway": "yes",
+        "website": "https://www.parisbaguette.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.883384,
+          37.3873154
+        ]
+      },
+      "id": "node/2235256988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2302042015",
+        "addr:city": "San Jose",
+        "addr:housenumber": "116",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Paseo de San Antonio",
+        "amenity": "cafe",
+        "cuisine": "french",
+        "internet_access": "yes",
+        "name": "La Lune Sucree",
+        "phone": "+1-408-292-2070",
+        "safety:mask:covid19": "yes",
+        "website": "https://lalunesucree.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8850898,
+          37.3336296
+        ]
+      },
+      "id": "node/2302042015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2398941211",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1295",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "The Alameda",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "internet_access:fee": "yes",
+        "name": "Peet's Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.913003,
+          37.332026
+        ]
+      },
+      "id": "node/2398941211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2476241047",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2471",
+        "addr:postcode": "95132",
+        "addr:state": "CA",
+        "addr:street": "Berryessa Road",
+        "addr:unit": "3",
+        "amenity": "fast_food",
+        "branch": "Berryessa",
+        "brand": "Lee's Sandwiches",
+        "brand:wikidata": "Q6512823",
+        "cuisine": "vietnamese;sandwich",
+        "delivery": "no",
+        "drive_through": "no",
+        "name": "Lee's Sandwiches",
+        "opening_hours": "07:00-20:00",
+        "outdoor_seating": "no",
+        "shop": "bakery",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "http://www.leesandwichesberryessa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.861925,
+          37.3862551
+        ]
+      },
+      "id": "node/2476241047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2654920989",
+        "addr:city": "San Jose",
+        "addr:housenumber": "87",
+        "addr:postcode": "95110",
+        "addr:street": "North San Pedro Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Voyager Craft Coffee",
+        "old_name": "Bellano Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8942797,
+          37.3367369
+        ]
+      },
+      "id": "node/2654920989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2669556285",
+        "addr:city": "San Jose",
+        "addr:country": "US",
+        "addr:housenumber": "1140",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Lincoln Avenue",
+        "addr:unit": "3",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "opening_hours": "Mo-Sa 05:00-21:00; Su 06:00-21:00",
+        "phone": "408-975-9281",
+        "survey:date": "2014-02-05",
+        "takeaway": "yes",
+        "website": "https://www.peets.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9003554,
+          37.3077622
+        ]
+      },
+      "id": "node/2669556285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2882792381",
+        "addr:city": "San Jose",
+        "addr:housenumber": "49",
+        "addr:postcode": "95113",
+        "addr:street": "South 1st Street",
+        "amenity": "ice_cream",
+        "check_date": "2024-01-12",
+        "cuisine": "ice_cream",
+        "name": "CREAM",
+        "opening_hours": "Tu-We 18:00-22:00; Th 18:00-24:00; Fr-Sa 14:00-26:00; Su 14:00-22:00",
+        "website": "https://creamnation.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8901741,
+          37.335319
+        ]
+      },
+      "id": "node/2882792381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2898411541",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1060",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Willow Street",
+        "addr:unit": "1",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "website": "https://locations.baskinrobbins.com/ca/san-jose/1060-willow-st-362153-br"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9000928,
+          37.3086766
+        ]
+      },
+      "id": "node/2898411541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2904987063",
+        "addr:city": "San Jose",
+        "addr:housenumber": "300",
+        "addr:postcode": "95128",
+        "addr:street": "Santana Row",
+        "addr:unit": "110",
+        "amenity": "cafe",
+        "name": "Lavazza Espression"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9475813,
+          37.3227261
+        ]
+      },
+      "id": "node/2904987063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2912323903",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1757",
+        "addr:postcode": "95110",
+        "addr:street": "Technology Drive",
+        "addr:unit": "20",
+        "amenity": "cafe",
+        "cuisine": "sandwich",
+        "name": "Bagel Street Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9204148,
+          37.3690646
+        ]
+      },
+      "id": "node/2912323903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3075986785",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1688",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "addr:unit": "D",
+        "amenity": "cafe",
+        "brand": "Bambu",
+        "brand:wikidata": "Q83437245",
+        "cuisine": "vietnamese;bubble_tea",
+        "delivery": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Bambu",
+        "official_name": "Bambu Coffee & Snacks",
+        "opening_hours": "Tu-Su 09:00-20:00",
+        "outdoor_seating": "no",
+        "payment:nfc_mobile_payments": "yes",
+        "phone": "+14083928238",
+        "takeaway": "yes",
+        "website": "https://www.drinkbambu.com/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8846316,
+          37.3864568
+        ]
+      },
+      "id": "node/3075986785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3151883654",
+        "addr:city": "San Jose",
+        "addr:housenumber": "118",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Paseo De San Antonio",
+        "amenity": "cafe",
+        "brand": "Philz Coffee",
+        "brand:wikidata": "Q18156812",
+        "cuisine": "coffee_shop",
+        "name": "Philz Coffee",
+        "safety:mask:covid19": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.88499,
+          37.3336349
+        ]
+      },
+      "id": "node/3151883654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3217635376",
+        "addr:city": "San Jose",
+        "addr:housenumber": "170",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "South Market Street",
+        "check_date": "2024-01-12",
+        "cuisine": "european",
+        "level": "0",
+        "name": "Bijan Bakery and Café",
+        "outdoor_seating": "yes",
+        "phone": "+1-408-971-8000",
+        "shop": "pastry",
+        "website": "https://bijanbakery.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8887718,
+          37.3324735
+        ]
+      },
+      "id": "node/3217635376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3478495324",
+        "addr:city": "San Jose",
+        "addr:housenumber": "894",
+        "addr:postcode": "95126",
+        "addr:street": "Emory Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "disused:amenity": "fast_food",
+        "disused:cuisine": "mexican",
+        "name": "The Coffee House",
+        "old_name": "El Grullo;Felipa’s Cenaduria 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.917748,
+          37.3407182
+        ]
+      },
+      "id": "node/3478495324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3478495326",
+        "addr:city": "San Jose",
+        "addr:housenumber": "670",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "Stockton Avenue",
+        "cuisine": "mediterranean;middle_eastern;levantine;pita",
+        "name": "Sultan Bakery",
+        "shop": "bakery",
+        "website": "https://www.sultanbakery.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.912758,
+          37.3403508
+        ]
+      },
+      "id": "node/3478495326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3478495356",
+        "addr:city": "San Jose",
+        "addr:housenumber": "196",
+        "addr:postcode": "95126",
+        "addr:street": "Race Street",
+        "cuisine": "donut",
+        "name": "Queen’s Donuts",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9110931,
+          37.326342
+        ]
+      },
+      "id": "node/3478495356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3537287697",
+        "addr:city": "San Jose",
+        "addr:housenumber": "145",
+        "addr:postcode": "95113",
+        "addr:street": "West Santa Clara Street",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/11580/w-santa-clara-at-san-pedro-sq-145-west-santa-clara-street-san-jose-ca-951131705-",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8928303,
+          37.3352893
+        ]
+      },
+      "id": "node/3537287697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3537287708",
+        "addr:city": "San Jose",
+        "addr:housenumber": "217",
+        "addr:postcode": "95112",
+        "addr:street": "Jackson Street",
+        "check_date": "2024-01-31",
+        "contact:facebook": "https://www.facebook.com/shueidomanju",
+        "cuisine": "japanese",
+        "currency:USD": "yes",
+        "email": "Shueidomanju@gmail.com",
+        "indoor_seating": "no",
+        "level": "0",
+        "name": "Shuei-do Manju",
+        "opening_hours": "Mo-We off; Th-Su 10:00-16:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "payment:visa_contactless": "yes",
+        "phone": "+1 408-294-4148",
+        "second_hand": "no",
+        "shop": "bakery",
+        "stroller": "yes",
+        "takeaway": "only",
+        "toilets": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8940059,
+          37.3493272
+        ]
+      },
+      "id": "node/3537287708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3539030768",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2206",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Lincoln Avenue",
+        "amenity": "cafe",
+        "cuisine": "coffee",
+        "internet_access": "yes",
+        "name": "Elva's Coffee Stop",
+        "opening_hours": "06:30-14:00",
+        "phone": "408-269-2245",
+        "smoking": "no",
+        "website": "http://elva.willowglenextra.com",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8879493,
+          37.2906281
+        ]
+      },
+      "id": "node/3539030768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3540148721",
+        "addr:city": "San Jose",
+        "addr:housenumber": "540",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Newhall Drive",
+        "addr:unit": "20",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/113667/coleman-newhall-540-newhall-drive-20-san-jose-ca-951101145-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Fr 04:30-21:30; Sa,Su 05:00-21:30",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.922091,
+          37.3504896
+        ]
+      },
+      "id": "node/3540148721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3555373048",
+        "addr:city": "San Jose",
+        "addr:housenumber": "52",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "West Santa Clara Street",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "no",
+        "check_date": "2023-12-17",
+        "cuisine": "sandwich;donut;bubble_tea;coffee_shop",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "level": "0",
+        "name": "City Bagels",
+        "name:en": "City Bagels",
+        "opening_hours": "Mo-Fr 06:00-14:00; Sa-Su 06:00-13:30",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_contactless": "yes",
+        "phone": "+1 408-275-0151",
+        "reservation": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "no",
+        "website": "http://citybagels.biz/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8911368,
+          37.3356689
+        ]
+      },
+      "id": "node/3555373048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3559807117",
+        "addr:city": "San Jose",
+        "addr:housenumber": "111",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "North Market Street",
+        "addr:unit": "120",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Towers Cafe",
+        "opening_hours": "Mo-Fr 06:30-16:30; Sa 07:00-12:30",
+        "operator": "QD Cafe Incorporated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.894318,
+          37.3378235
+        ]
+      },
+      "id": "node/3559807117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3560256377",
+        "addr:city": "San Jose",
+        "addr:housenumber": "999",
+        "addr:postcode": "95122",
+        "addr:street": "Story Road",
+        "addr:unit": "9048",
+        "amenity": "cafe",
+        "cuisine": "vietnamese;hotpot",
+        "name": "Lẩu Dê Bình Minh",
+        "name:vi": "Lẩu Dê Bình Minh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8568923,
+          37.332097
+        ]
+      },
+      "id": "node/3560256377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3560256822",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1111",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "1076",
+        "brand": "Paris Baguette",
+        "brand:wikidata": "Q62605260",
+        "disused:cuisine": "vietnamese",
+        "disused:shop": "bakery",
+        "name": "Paris Baguette",
+        "old_name": "Century Bakery",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8563419,
+          37.3330076
+        ]
+      },
+      "id": "node/3560256822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3562800860",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2649",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "amenity": "ice_cream",
+        "name": "Ice Deli",
+        "official_name": "Ice Deli, Incorporated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.842456,
+          37.3019411
+        ]
+      },
+      "id": "node/3562800860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3562800861",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2623",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "amenity": "fast_food",
+        "cuisine": "vietnamese",
+        "name": "Viễn Đông Bakery",
+        "name:en": "Viễn Đông Bakery",
+        "name:vi": "Viễn Đông",
+        "official_name": "Vien Dong Bakery and Fastfood",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.843023,
+          37.3026089
+        ]
+      },
+      "id": "node/3562800861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3563994303",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2707",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/15980/capitol-square-mall-san-jose-2707-mc-kee-road-san-jose-ca-951271827-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "operator": "Starbucks Coffee Company",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.84232,
+          37.3713616
+        ]
+      },
+      "id": "node/3563994303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3573968552",
+        "addr:city": "San Jose",
+        "addr:housenumber": "248",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Jackson Street",
+        "amenity": "ice_cream",
+        "cuisine": "shave_ice",
+        "disused:amenity": "fast_food",
+        "disused:cuisine": "crepe",
+        "indoor_seating": "no",
+        "name": "Pau Hana Shave Ice",
+        "old_name": "Banana Crêpe",
+        "outdoor_seating": "sidewalk",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.89343,
+          37.3492425
+        ]
+      },
+      "id": "node/3573968552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3595854503",
+        "addr:city": "San Jose",
+        "addr:housenumber": "146",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "George Street",
+        "amenity": "restaurant",
+        "craft": "confectionery",
+        "cuisine": "indian",
+        "level": "0",
+        "name": "Sagar Sweets",
+        "phone": "+1-408-291-8832",
+        "shop": "confectionery",
+        "website": "https://www.sagarsweetsrestaurant.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.901255,
+          37.3467191
+        ]
+      },
+      "id": "node/3595854503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3602707769",
+        "addr:city": "San Jose",
+        "addr:housenumber": "695",
+        "addr:postcode": "95110",
+        "addr:street": "Coleman Avenue",
+        "addr:unit": "40",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/7091/coleman-taylor-695-coleman-ave-san-jose-ca-951102091-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.911634,
+          37.3414329
+        ]
+      },
+      "id": "node/3602707769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3608158859",
+        "addr:city": "San Jose",
+        "addr:housenumber": "754",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "The Alameda",
+        "addr:unit": "80",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "HannaH",
+        "official_name": "Hannah Coffee, Tea, & Sweets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.905487,
+          37.3315607
+        ]
+      },
+      "id": "node/3608158859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3622610707",
+        "addr:city": "San Jose",
+        "addr:housenumber": "449",
+        "addr:postcode": "95112",
+        "addr:street": "East Santa Clara Street",
+        "amenity": "cafe",
+        "contact:website": "https://www.veganbistrodonuts.com",
+        "cuisine": "donut",
+        "diet:vegan": "only",
+        "name": "Vegan Donut & Cafe",
+        "old_name": "Pisciotta Reality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.881317,
+          37.340766
+        ]
+      },
+      "id": "node/3622610707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3624657294",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1202",
+        "addr:postcode": "95126",
+        "addr:street": "The Alameda",
+        "amenity": "cafe",
+        "construction": "cafe",
+        "cuisine": "coffee_shop",
+        "disused:shop": "art_supplies",
+        "disused:website": "http://www.thearsenalsj.com/",
+        "name": "Crema Coffee Roasting Company",
+        "old_name": "The Arsenal",
+        "smoking": "no",
+        "website": "http://www.cremacoffeeco.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9117721,
+          37.3317672
+        ]
+      },
+      "id": "node/3624657294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3624973529",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1239",
+        "addr:postcode": "95116",
+        "addr:street": "East Julian Street",
+        "name": "Panadería La Mejor",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8705398,
+          37.3519065
+        ]
+      },
+      "id": "node/3624973529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630274647",
+        "addr:city": "San Jose",
+        "addr:housenumber": "150",
+        "addr:postcode": "95113",
+        "addr:street": "South 2nd Street",
+        "amenity": "cafe",
+        "cuisine": "breakfast",
+        "name": "Whispers",
+        "website": "https://whisperscafe.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8867646,
+          37.3338349
+        ]
+      },
+      "id": "node/3630274647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3634565760",
+        "addr:city": "San Jose",
+        "addr:housenumber": "80",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "South 1st Street",
+        "amenity": "cafe",
+        "check_date": "2024-01-12",
+        "name": "EggHead Sando Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.889263,
+          37.3347232
+        ]
+      },
+      "id": "node/3634565760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3634866137",
+        "addr:city": "San Jose",
+        "addr:housenumber": "231",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "East Santa Clara Street",
+        "alt_name": "Tea Village",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "disused:amenity": "fast_food",
+        "disused:cuisine": "ice_cream;tea",
+        "level": "0",
+        "name": "Tea Village",
+        "old_name": "Snozen Shaved Snow;One Tea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.885649,
+          37.3387296
+        ]
+      },
+      "id": "node/3634866137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3646555434",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1700",
+        "addr:postcode": "95126",
+        "addr:street": "Park Avenue",
+        "addr:unit": "10",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/16363/park-naglee-1700-park-avenue-10-san-jose-ca-951262034-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9240923,
+          37.3342001
+        ]
+      },
+      "id": "node/3646555434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3678527432",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2857",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "addr:unit": "G",
+        "alt_name": "Meow Tea",
+        "amenity": "cafe",
+        "cuisine": "tea",
+        "drink": "tea",
+        "name": "Meow!",
+        "website": "http://www.meowtea.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.840385,
+          37.2995964
+        ]
+      },
+      "id": "node/3678527432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3678527444",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2897",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "addr:unit": "140",
+        "amenity": "cafe",
+        "cuisine": "vietnamese",
+        "name": "Bo Gia",
+        "old_name": "Mai Phương Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.838645,
+          37.2974427
+        ]
+      },
+      "id": "node/3678527444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3678527459",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2955",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "addr:unit": "55",
+        "alt_name": "Bánh Bèo Tolan",
+        "cuisine": "vietnamese",
+        "name": "Bánh Bèo Tố Lan",
+        "name:vi": "Bánh Bèo Tố Lan",
+        "official_name:en": "Banh Beo Tolan",
+        "product": "bánh_bèo",
+        "product:wikidata": "Q5004794",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.837259,
+          37.2964335
+        ]
+      },
+      "id": "node/3678527459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3679715100",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2398",
+        "addr:postcode": "95111",
+        "addr:street": "Senter Road",
+        "amenity": "cafe",
+        "name": "Heo May Cafe",
+        "name:vi": "Heo May"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8476388,
+          37.3084327
+        ]
+      },
+      "id": "node/3679715100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3679715105",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2326",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "amenity": "cafe",
+        "brand": "Dolce Espresso",
+        "cuisine": "coffee_shop",
+        "name": "Dolce Espresso",
+        "name:it": "Dolce Espresso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8480164,
+          37.3090703
+        ]
+      },
+      "id": "node/3679715105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3679715120",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2266",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "addr:unit": "128",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Passion-T Snacks & Desserts",
+        "old_name": "Long Xuyên",
+        "old_name:vi": "Long Xuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8497134,
+          37.3107327
+        ]
+      },
+      "id": "node/3679715120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3700288381",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1675",
+        "addr:postcode": "95128",
+        "addr:street": "West San Carlos Street",
+        "brand": "See's Candies",
+        "brand:wikidata": "Q2103510",
+        "name": "See's Candies",
+        "shop": "confectionery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9212358,
+          37.3239003
+        ]
+      },
+      "id": "node/3700288381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3700418033",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1824",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "cuisine": "vietnamese",
+        "name": "Vân’s Bakery",
+        "operator": "AA & A Bakery Corporation",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8240961,
+          37.3229343
+        ]
+      },
+      "id": "node/3700418033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3700418307",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1655",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "cuisine": "vietnamese",
+        "name": "Hương Lan Sandwiches",
+        "name:en": "Huong Lan Sandwiches",
+        "name:vi": "Bánh Mì Hương Lan",
+        "official_name": "Huong Lan Sandwiches Tully, Incorporated",
+        "opening_hours": "Mo-Su 05:00-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "phone": "+1 (408) 258-8868",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.827401,
+          37.3218241
+        ]
+      },
+      "id": "node/3700418307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3700431843",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1181",
+        "addr:postcode": "95122",
+        "addr:street": "Story Road",
+        "alt_name:vi": "Bánh Mỳ Thiên Hương",
+        "cuisine": "vietnamese",
+        "name": "Bánh Mì Thiên Hương",
+        "name:vi": "Bánh Mì Thiên Hương",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8532775,
+          37.3335041
+        ]
+      },
+      "id": "node/3700431843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3700431844",
+        "addr:city": "San Jose",
+        "addr:housenumber": "779",
+        "addr:postcode": "95122",
+        "addr:street": "Story Road",
+        "addr:unit": "80",
+        "amenity": "cafe",
+        "amenity:historic": "cafe",
+        "cuisine": "vietnamese",
+        "name": "Bobo Drinks",
+        "old_name": "Powderface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8590873,
+          37.3296859
+        ]
+      },
+      "id": "node/3700431844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3700772621",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2467",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "Forest Avenue",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "website": "https://locations.baskinrobbins.com/ca/san-jose/2467-forest-ave-360129-br"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9492097,
+          37.3272398
+        ]
+      },
+      "id": "node/3700772621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4093398681",
+        "addr:city": "San Jose",
+        "addr:housenumber": "360",
+        "addr:postcode": "95113",
+        "addr:street": "South Market Street",
+        "addr:unit": "80",
+        "amenity": "cafe",
+        "name": "Voltaire Coffee House",
+        "opening_hours": "Mo-Fr 06:00-18:00; Sa-Su 08:00-18:00",
+        "website": "http://www.voltairecoffeehouse.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8868698,
+          37.3299248
+        ]
+      },
+      "id": "node/4093398681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4103619352",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3103",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "Alum Rock Avenue",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/10477/alum-rock-white-3103-3107-alum-rock-san-jose-ca-951272902-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.82805,
+          37.3661044
+        ]
+      },
+      "id": "node/4103619352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4392901231",
+        "addr:city": "San Jose",
+        "addr:housenumber": "315",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "South 1st Street",
+        "amenity": "cafe",
+        "check_date": "2024-03-24",
+        "disused:website": "http://www.caffefrascati.com/",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Nirvana Soul",
+        "old_name": "Caffe Frascati",
+        "opening_hours": "Mo-Sa 07:00-16:00, Su 07:00-12:00",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "website": "https://www.nirvanasoulcoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.887058,
+          37.3311477
+        ]
+      },
+      "id": "node/4392901231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4591757038",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1155",
+        "addr:postcode": "95132",
+        "addr:state": "CA",
+        "addr:street": "North Capitol Avenue",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/1010026/capitol-berryessa-1155-capitol-avenue-san-jose-ca-951322570-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Th 05:00-19:00; Fr-Su 05:00-20:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8619003,
+          37.3872748
+        ]
+      },
+      "id": "node/4591757038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4591774141",
+        "addr:city": "San Jose",
+        "addr:housenumber": "311",
+        "addr:postcode": "95133",
+        "addr:street": "North Capitol Avenue",
+        "addr:unit": "C",
+        "amenity": "cafe",
+        "branch": "San Jose",
+        "brand": "Chatime",
+        "brand:wikidata": "Q16829306",
+        "cuisine": "bubble_tea",
+        "name": "Chatime",
+        "official_name": "Chatime San Jose",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.84528,
+          37.3697184
+        ]
+      },
+      "id": "node/4591774141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4591774146",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2285",
+        "addr:postcode": "95133",
+        "addr:street": "McKee Road",
+        "amenity": "cafe",
+        "brand": "Tapioca Express",
+        "brand:wikidata": "Q23462008",
+        "cuisine": "bubble_tea",
+        "name": "Tapioca Express",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8506566,
+          37.3653675
+        ]
+      },
+      "id": "node/4591774146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4642809828",
+        "addr:city": "San Jose",
+        "addr:housenumber": "999",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "9072",
+        "amenity": "ice_cream",
+        "cuisine": "italian",
+        "name": "Marco Polo Italian Ice Cream",
+        "official_name": "Marco Polo Italian Ice Cream Incorporated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.856579,
+          37.3317701
+        ]
+      },
+      "id": "node/4642809828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4765780803",
+        "addr:city": "San Jose",
+        "addr:housenumber": "150",
+        "addr:postcode": "95113",
+        "addr:street": "South 1st Street",
+        "addr:unit": "199",
+        "amenity": "ice_cream",
+        "check_date": "2024-01-12",
+        "name": "My Milkshake",
+        "opening_hours": "Mo-Th,Su 12:00-23:00; Fr-Sa 12:00-25:00",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8878257,
+          37.3340953
+        ]
+      },
+      "id": "node/4765780803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4765780813",
+        "addr:city": "San Jose",
+        "addr:housenumber": "150",
+        "addr:postcode": "95113",
+        "addr:street": "South 1st Street",
+        "addr:unit": "103",
+        "amenity": "cafe",
+        "check_date": "2024-01-12",
+        "cuisine": "bubble_tea",
+        "name": "Tea Villa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8884642,
+          37.3336347
+        ]
+      },
+      "id": "node/4765780813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4765780814",
+        "addr:city": "San Jose",
+        "addr:housenumber": "138",
+        "addr:postcode": "95113",
+        "addr:street": "East Santa Clara Street",
+        "alt_name": "Second Story Bake Shop",
+        "level": "1",
+        "name": "2nd Story Bake Shop",
+        "old_name": "Laurels",
+        "shop": "pastry",
+        "website": "http://2ndstorybakeshop.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8876273,
+          37.3373443
+        ]
+      },
+      "id": "node/4765780814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4766343040",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1704",
+        "addr:postcode": "95131",
+        "addr:street": "Oakland Road",
+        "addr:unit": "400",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/14705/north-park-plaza-san-jose-1704-oakland-road-ste-400-san-jose-ca-951313826-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.894453,
+          37.3832658
+        ]
+      },
+      "id": "node/4766343040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4797429122",
+        "addr:city": "San Jose",
+        "addr:housenumber": "150",
+        "addr:postcode": "95113",
+        "addr:street": "South 1st Street",
+        "addr:unit": "135A",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "check_date": "2024-01-12",
+        "contact:website": "https://www.starbucks.com/store-locator/store/11579/pavilion-downtown-150-s-first-street-suite-135-san-jose-ca-951132605",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Starbucks",
+        "name:en": "Starbucks Coffee",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8873601,
+          37.3334308
+        ]
+      },
+      "id": "node/4797429122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4833597321",
+        "addr:city": "San Jose",
+        "addr:housenumber": "110",
+        "addr:postcode": "95112",
+        "addr:street": "East San Fernando Street",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Amor Cafe & Tea",
+        "name:en": "Amor Cafe & Tea",
+        "opening_hours": "Mo-Fr 11:00-22:00; Su 15:00-22:00",
+        "website": "http://www.amorcafeandtea.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8866695,
+          37.3353391
+        ]
+      },
+      "id": "node/4833597321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4882119479",
+        "addr:city": "San Jose",
+        "addr:housenumber": "40",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "South 1st Street",
+        "amenity": "cafe",
+        "check_date": "2024-01-12",
+        "cuisine": "bubble_tea",
+        "disused:shop": "jewelry",
+        "level": "0",
+        "name": "Tea Alley",
+        "official_name": "Tea Alley Incorporated",
+        "old_name": "Star Jewelers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8898576,
+          37.3354792
+        ]
+      },
+      "id": "node/4882119479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4885305729",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1401",
+        "addr:postcode": "95126",
+        "addr:street": "West San Carlos Street",
+        "amenity": "ice_cream",
+        "description": "bakery, lemonade,soft serve",
+        "level": "0",
+        "name": "Wow Wow Hawaiian Lemonade",
+        "phone": "+1 408-320-2673",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "www.wowwowlemonade.com",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.913945,
+          37.3236852
+        ]
+      },
+      "id": "node/4885305729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4885837994",
+        "addr:city": "San Jose",
+        "addr:housenumber": "392",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "East Taylor Street",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "check_date": "2024-01-14",
+        "contact:facebook": "https://www.facebook.com/Sinceretea",
+        "cuisine": "bubble_tea",
+        "diet:lactose_free": "yes",
+        "diet:pescetarian": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "disused:tourism": "gallery",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "SincereTea-2. 4",
+        "level": "0",
+        "name": "Sinceretea",
+        "name:en": "Sinceretea",
+        "name:zh": "茶室悠茗",
+        "old_name": "Curate Good",
+        "opening_hours": "12:00-19:00",
+        "outdoor_seating": "patio",
+        "payment:american_express": "yes",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:mastercard_contactless": "yes",
+        "payment:visa": "yes",
+        "payment:visa_contactless": "yes",
+        "phone": "+1 408-908-9469",
+        "reservation": "no",
+        "service:electricity": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "no",
+        "website": "https://sinceretea.net/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.892066,
+          37.3527362
+        ]
+      },
+      "id": "node/4885837994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4908440100",
+        "addr:city": "San Jose",
+        "addr:housenumber": "170",
+        "addr:postcode": "95112",
+        "addr:street": "East Younger Avenue",
+        "cuisine": "vietnamese",
+        "name": "Vân Lợi",
+        "name:vi": "Vân Lợi",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9010634,
+          37.3566938
+        ]
+      },
+      "id": "node/4908440100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4911611922",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3055",
+        "addr:postcode": "95128",
+        "addr:street": "Olin Avenue",
+        "addr:unit": "1055",
+        "amenity": "ice_cream",
+        "name": "Smitten",
+        "opening_hours": "Su-Th 12:00-22:00, Fr,Sa 11:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.949094,
+          37.3206754
+        ]
+      },
+      "id": "node/4911611922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4974538114",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1702",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Meridian Avenue",
+        "addr:unit": "B",
+        "brand": "Nothing Bundt Cakes",
+        "brand:wikidata": "Q62082526",
+        "name": "Nothing Bundt Cakes",
+        "phone": "+1-408-448-1000",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.913181,
+          37.2927806
+        ]
+      },
+      "id": "node/4974538114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5078370921",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1728",
+        "addr:postcode": "95131",
+        "addr:street": "Hostetter Road",
+        "addr:unit": "30",
+        "amenity": "cafe",
+        "brand": "Sharetea",
+        "brand:wikidata": "Q64827032",
+        "cuisine": "bubble_tea",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sharetea",
+        "name:en": "Sharetea",
+        "name:zh": "歇腳亭",
+        "opening_hours": "Mo-Su 11:30-21:00",
+        "phone": "+14088371920",
+        "takeaway": "yes",
+        "website": "https://www.1992sharetea.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.882871,
+          37.3875641
+        ]
+      },
+      "id": "node/5078370921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5078374412",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1628",
+        "addr:postcode": "95131",
+        "addr:street": "Hostetter Road",
+        "addr:unit": "H",
+        "amenity": "ice_cream",
+        "name": "Popbar",
+        "opening_hours": "Mo-Th 12:00-20:30; Fr,Sa 12:00-22:00; Su 12:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8854316,
+          37.3871811
+        ]
+      },
+      "id": "node/5078374412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5285058439",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1743",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Berryessa Road",
+        "amenity": "cafe",
+        "name": "7Leaves Cafe",
+        "old_name": "Tylan Cafe",
+        "operator": "7Leaves Santa Clara LLC",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.872494,
+          37.3750431
+        ]
+      },
+      "id": "node/5285058439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5348535014",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1087",
+        "addr:postcode": "95125",
+        "addr:street": "Meridian Avenue",
+        "addr:unit": "10",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/15965/meridian-willow-san-jose-1087-meridian-avenue-a-san-jose-ca-951254358-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9142219,
+          37.3040955
+        ]
+      },
+      "id": "node/5348535014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5402514207",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1396",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Lincoln Avenue",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/9022/lincoln-minnesota-willow-gle-1396-lincoln-avenue-san-jose-ca-951253010-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8972207,
+          37.3038598
+        ]
+      },
+      "id": "node/5402514207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5443339829",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1110",
+        "addr:postcode": "95122",
+        "addr:street": "South King Road",
+        "addr:unit": "20",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "description": "Story & King",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 05:00-22:00",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/8463/story-king-1110-king-road-san-jose-ca-951222118-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8422393,
+          37.3394212
+        ]
+      },
+      "id": "node/5443339829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5660971992",
+        "addr:city": "San Jose",
+        "addr:housenumber": "979",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "7048",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea;smoothie",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.857727,
+          37.3315725
+        ]
+      },
+      "id": "node/5660971992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5681153702",
+        "addr:city": "San Jose",
+        "addr:housenumber": "200",
+        "addr:postcode": "95113",
+        "addr:street": "South 1st Street",
+        "addr:unit": "60",
+        "craft": "confectionery",
+        "level": "0",
+        "name": "San Jose Candy Kitchen",
+        "shop": "confectionery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8877103,
+          37.3329847
+        ]
+      },
+      "id": "node/5681153702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5773786205",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1701",
+        "addr:postcode": "95131",
+        "addr:street": "Lundy Avenue",
+        "addr:unit": "170",
+        "amenity": "cafe",
+        "brand": "Gong Cha",
+        "brand:wikidata": "Q5581670",
+        "brand:zh": "貢茶",
+        "cuisine": "bubble_tea",
+        "int_name": "Gong Cha",
+        "name": "Gong Cha",
+        "name:zh": "貢茶",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.88768,
+          37.3872997
+        ]
+      },
+      "id": "node/5773786205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5792980432",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3108",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "Alum Rock Avenue",
+        "name": "Peter’s Bakery",
+        "opening_hours": "Mo-Sa 06:30-18:00",
+        "shop": "pastry",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8275614,
+          37.3658228
+        ]
+      },
+      "id": "node/5792980432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6040742862",
+        "addr:city": "San Jose",
+        "addr:state": "CA",
+        "addr:street": "Alum Rock Avenue",
+        "amenity": "cafe",
+        "cuisine": "american",
+        "name": "A Bite of Wyoming",
+        "short_name": "BoW",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8453633,
+          37.3579301
+        ]
+      },
+      "id": "node/6040742862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6040815122",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2303",
+        "addr:postcode": "95116",
+        "addr:street": "McKee Road",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "website": "https://locations.baskinrobbins.com/ca/san-jose/2303-mckee-rd-361158-br"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8501624,
+          37.3658731
+        ]
+      },
+      "id": "node/6040815122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6040817269",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2309",
+        "addr:postcode": "95116",
+        "addr:street": "McKee Road",
+        "amenity": "fast_food",
+        "brand": "Yum Yum Donuts",
+        "brand:wikidata": "Q8061011",
+        "cuisine": "donut",
+        "name": "Yum Yum Donuts",
+        "shop": "bakery",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.850001,
+          37.3659839
+        ]
+      },
+      "id": "node/6040817269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6300726343",
+        "addr:city": "San Jose",
+        "addr:housenumber": "567",
+        "addr:postcode": "95110",
+        "addr:street": "Coleman Avenue",
+        "addr:unit": "10",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Happy Lemon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9063772,
+          37.3405117
+        ]
+      },
+      "id": "node/6300726343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6307716296",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1597",
+        "addr:postcode": "95125",
+        "addr:street": "Meridian Avenue",
+        "addr:unit": "E",
+        "amenity": "ice_cream",
+        "name": "Shaved Ice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9140416,
+          37.2946675
+        ]
+      },
+      "id": "node/6307716296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6435975120",
+        "addr:city": "San Jose",
+        "addr:housenumber": "979",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "7084",
+        "amenity": "ice_cream",
+        "cuisine": "italian",
+        "lottery": "yes",
+        "name": "Sweet Gelato Tea Lounge",
+        "name:en": "Sweet Gelato Tea Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.857172,
+          37.3312834
+        ]
+      },
+      "id": "node/6435975120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6435975125",
+        "addr:city": "San Jose",
+        "addr:housenumber": "979",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "7066",
+        "alt_name": "California Bakehouse",
+        "alt_name:en": "California Bakehouse",
+        "name": "CA Bakehouse",
+        "name:en": "CA Bakehouse",
+        "name:zh": "環球餅家",
+        "operator": "Hangry Bakes Incorporated",
+        "shop": "bakery",
+        "website": "http://www.cabakehouse.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8574263,
+          37.3315329
+        ]
+      },
+      "id": "node/6435975125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6435975128",
+        "addr:city": "San Jose",
+        "addr:housenumber": "969",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "6081",
+        "alt_name": "T4 Story Road",
+        "amenity": "cafe",
+        "brand": "T4",
+        "cuisine": "tea;bubble_tea",
+        "name": "T4 San Jose",
+        "name:en": "T4 San Jose",
+        "operator": "Aquat LLC",
+        "strapline": "Tea For U",
+        "website": "https://thet4.com/stores/san-jose/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8579228,
+          37.3320154
+        ]
+      },
+      "id": "node/6435975128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6499035246",
+        "addr:city": "San Jose",
+        "addr:country": "US",
+        "addr:housenumber": "499",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "South 2nd Street",
+        "amenity": "cafe",
+        "check_date": "2023-12-23",
+        "contact:facebook": "https://www.facebook.com/academiccoffee",
+        "cuisine": "coffee_shop",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Academic Coffee",
+        "outdoor_seating": "patio",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "reservation": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://www.academiccoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8840891,
+          37.3291205
+        ]
+      },
+      "id": "node/6499035246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6536460671",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1055",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "East Brokaw Road",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.897471,
+          37.3844443
+        ]
+      },
+      "id": "node/6536460671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6859187405",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1110",
+        "addr:postcode": "95122",
+        "addr:street": "South King Road",
+        "addr:unit": "36",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8423423,
+          37.3395161
+        ]
+      },
+      "id": "node/6859187405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6868507878",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1041",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "East Capitol Expressway",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/9222/capitol-mc-laughlin-1041-east-capitol-expressway-san-jose-ca-951212424",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.821901,
+          37.3002227
+        ]
+      },
+      "id": "node/6868507878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6928042156",
+        "addr:city": "San Jose",
+        "addr:housenumber": "779",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "55",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "website": "https://locations.baskinrobbins.com/ca/san-jose/779-story-rd-354925-br"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.859246,
+          37.3295755
+        ]
+      },
+      "id": "node/6928042156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7076603487",
+        "addr:city": "San Jose",
+        "addr:housenumber": "996",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "Lundy Avenue",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Pekoe",
+        "operator": "Ms. A Holdings LLC",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8721919,
+          37.37383
+        ]
+      },
+      "id": "node/7076603487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7120584720",
+        "addr:city": "San Jose",
+        "addr:housenumber": "387",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "Delmas Avenue",
+        "amenity": "cafe",
+        "bar": "no",
+        "check_date": "2024-01-22",
+        "contact:facebook": "https://facebook.com/ijavacafe1",
+        "cuisine": "coffee_shop;breakfast",
+        "delivery": "no",
+        "diet:halal": "yes",
+        "diet:pescetarian": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "email": "info@ijavacafe.com",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "mapillary": "1078225683315447",
+        "name": "iJAVA Cafe",
+        "opening_hours": "08:00-14:00",
+        "outdoor_seating": "sidewalk",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 408-753-9732",
+        "reservation": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://ijavacafe.com/delmas",
+        "website:menu": "https://ijavacafe.com/delmas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.894739,
+          37.3260423
+        ]
+      },
+      "id": "node/7120584720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7235884504",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2268",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "addr:unit": "156",
+        "amenity": "cafe",
+        "brand": "Dolce Espresso",
+        "cuisine": "coffee_shop",
+        "name": "Dolce Espresso III",
+        "name:it": "Dolce Espresso III"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.849178,
+          37.3110558
+        ]
+      },
+      "id": "node/7235884504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7293891485",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1716",
+        "addr:postcode": "95122",
+        "addr:street": "Ocala Avenue",
+        "amenity": "ice_cream",
+        "name": "Tropical Ice Cream",
+        "phone": "+1-408-937-8067"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8338044,
+          37.331017
+        ]
+      },
+      "id": "node/7293891485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7307534764",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1088",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "East Brokaw Road",
+        "addr:unit": "25",
+        "amenity": "cafe",
+        "cuisine": "health_food",
+        "description": "acai bowls, smoothies, juices, soups, salads",
+        "level": "0",
+        "name": "Vitality Bowls superfood cafe",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "outdoor_seating": "yes",
+        "ref": "056",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.896047,
+          37.3820968
+        ]
+      },
+      "id": "node/7307534764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7307534774",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1088",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "East Brokaw Road",
+        "addr:unit": "60",
+        "amenity": "ice_cream",
+        "name": "Cauldron",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr 15:00-21:00; Sa-Su 12:00-21:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8959733,
+          37.3819384
+        ]
+      },
+      "id": "node/7307534774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7307534779",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1088",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Oakland Road",
+        "addr:unit": "80",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Peet's Coffee",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8958642,
+          37.3818315
+        ]
+      },
+      "id": "node/7307534779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7307623985",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1088",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "East Brokaw Road",
+        "addr:unit": "50",
+        "brand": "See's Candies",
+        "brand:wikidata": "Q2103510",
+        "level": "0",
+        "name": "See's Candies",
+        "opening_hours": "Mo-Sa 10:00-19:00; Su 11:00-18:00",
+        "shop": "confectionery",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8959943,
+          37.3819743
+        ]
+      },
+      "id": "node/7307623985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7399701066",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2269",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "name": "Fernandez Bakery/Panaderia",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.833513,
+          37.3468869
+        ]
+      },
+      "id": "node/7399701066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402794647",
+        "addr:city": "San Jose",
+        "addr:housenumber": "415",
+        "addr:postcode": "95116",
+        "addr:street": "South King Road",
+        "name": "Pink Elephant Bakery",
+        "phone": "+1-408-923-3436",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8485242,
+          37.3450205
+        ]
+      },
+      "id": "node/7402794647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7556790790",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1109",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Lincoln Avenue",
+        "addr:unit": "20",
+        "air_conditioning": "yes",
+        "check_date": "2024-01-13",
+        "craft": "bakery",
+        "diet:gluten_free": "limited",
+        "diet:lactose_free": "no",
+        "diet:sugar_free": "no",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "mapillary": "3794825944079254",
+        "name": "Susie Cakes",
+        "opening_hours": "11:00-20:00",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-408-446-2253",
+        "second_hand": "no",
+        "shop": "bakery",
+        "smoking": "no",
+        "stroller": "yes",
+        "toilets": "no",
+        "website": "http://susiecakes.com/stores/willow-glen/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.90105,
+          37.308117
+        ]
+      },
+      "id": "node/7556790790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7841092579",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1075",
+        "addr:postcode": "95122",
+        "addr:street": "Tully Road",
+        "addr:unit": "20",
+        "amenity": "cafe",
+        "name": "Xinh Xinh Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8381014,
+          37.3149728
+        ]
+      },
+      "id": "node/7841092579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7847854386",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1430",
+        "addr:postcode": "95112",
+        "addr:street": "Monterey Road",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/1009153/monterey-alma-san-jose-1430-monterey-road-20-san-jose-ca-951103617-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8724134,
+          37.3153629
+        ]
+      },
+      "id": "node/7847854386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7851520172",
+        "addr:city": "San Jose",
+        "addr:housenumber": "163",
+        "addr:postcode": "95110",
+        "addr:street": "Willow Street",
+        "name": "La Sonorense",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8817264,
+          37.3193762
+        ]
+      },
+      "id": "node/7851520172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7871426645",
+        "addr:city": "San Jose",
+        "addr:housenumber": "460",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "Lincoln Avenue",
+        "addr:unit": "10",
+        "amenity": "cafe",
+        "name": "Chromatic Coffee Co.",
+        "opening_hours": "Mo-Th 08:00-15:00; Fr-Su 08:00-17:00",
+        "outdoor_seating": "no",
+        "phone": "+1 (408) 217-8583",
+        "website": "https://www.chromaticcoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9081155,
+          37.3207479
+        ]
+      },
+      "id": "node/7871426645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8057328578",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1657",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "addr:unit": "10",
+        "alt_name": "El Pan Dulce Bakery",
+        "name": "El Pan Dulce Panadería",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.862508,
+          37.3577512
+        ]
+      },
+      "id": "node/8057328578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8057409710",
+        "addr:city": "San Jose",
+        "addr:housenumber": "970",
+        "addr:postcode": "95110",
+        "addr:street": "South 1st Street",
+        "name": "Vinh Hing Bakery",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8792102,
+          37.3218652
+        ]
+      },
+      "id": "node/8057409710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8057409712",
+        "addr:city": "San Jose",
+        "addr:housenumber": "995",
+        "addr:postcode": "95110",
+        "addr:street": "South 1st Street",
+        "amenity": "cafe",
+        "name": "Trine's Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8789035,
+          37.3210816
+        ]
+      },
+      "id": "node/8057409712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8060126722",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1711",
+        "addr:postcode": "95116",
+        "addr:street": "McKee Road",
+        "addr:unit": "D",
+        "amenity": "cafe",
+        "name": "Co Hong Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8608345,
+          37.3588767
+        ]
+      },
+      "id": "node/8060126722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8355533283",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1310",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "addr:unit": "108",
+        "alt_name": "Urban Tea Bakery",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "disused": "yes",
+        "disused:shop": "yes",
+        "name": "Urban Tea Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.833612,
+          37.3161027
+        ]
+      },
+      "id": "node/8355533283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8355559075",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1735",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "Berryessa Road",
+        "cuisine": "vietnamese",
+        "level": "0",
+        "name": "Bánh hỏi Van An",
+        "name:en": "Van An Bakery",
+        "name:vi": "Bánh hỏi Van An",
+        "opening_hours": "We-Su 08:45-18:00",
+        "product": "bánh_hỏi",
+        "product:wikidata": "Q5004799",
+        "shop": "pastry",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8730541,
+          37.3753876
+        ]
+      },
+      "id": "node/8355559075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8355882715",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1741",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "Berryessa Road",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "L and M Bakery & Deli",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8726447,
+          37.3751198
+        ]
+      },
+      "id": "node/8355882715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8356897635",
+        "addr:city": "San Jose",
+        "addr:housenumber": "979",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "7012",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Teahee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8572595,
+          37.331155
+        ]
+      },
+      "id": "node/8356897635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8356930858",
+        "addr:city": "San Jose",
+        "addr:housenumber": "989",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "8018",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "diet:organic": "only",
+        "level": "0",
+        "name": "Tea Lyfe Drinks",
+        "website": "http://tealyfe.us/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8576082,
+          37.3325115
+        ]
+      },
+      "id": "node/8356930858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8356930859",
+        "addr:city": "San Jose",
+        "addr:housenumber": "989",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "8039",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "level": "0",
+        "name": "The Sweet Corner Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8579002,
+          37.3327652
+        ]
+      },
+      "id": "node/8356930859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8363056266",
+        "addr:city": "San Jose",
+        "addr:housenumber": "81",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Curtner Avenue",
+        "addr:unit": "40",
+        "amenity": "cafe",
+        "brand": "Tapioca Express",
+        "brand:wikidata": "Q23462008",
+        "cuisine": "bubble_tea",
+        "name": "Tapioca Express",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8646449,
+          37.303034
+        ]
+      },
+      "id": "node/8363056266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8363056280",
+        "addr:city": "San Jose",
+        "addr:housenumber": "101",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Curtner Avenue",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/10961/curtner-monterey-175-curtner-avenue-san-jose-ca-951251014-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8642518,
+          37.3020471
+        ]
+      },
+      "id": "node/8363056280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8373644380",
+        "addr:city": "San Jose",
+        "addr:housenumber": "410",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "South King Road",
+        "amenity": "ice_cream",
+        "name": "United Paleteria y Neveria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8478435,
+          37.3454056
+        ]
+      },
+      "id": "node/8373644380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8391841811",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1737",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "Alum Rock Avenue",
+        "amenity": "cafe",
+        "delivery": "yes",
+        "name": "Oddi's Cafe",
+        "opening_hours": "Mo-Su 7:00-14:00",
+        "phone": "4084757510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8554788,
+          37.3534025
+        ]
+      },
+      "id": "node/8391841811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8424083721",
+        "addr:city": "San Jose",
+        "addr:housenumber": "956",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Lucky Tea",
+        "official_name": "Lucky Tea 1 LLC",
+        "ref": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.855855,
+          37.3302777
+        ]
+      },
+      "id": "node/8424083721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8442146820",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1816",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "addr:unit": "198",
+        "amenity": "fast_food",
+        "cuisine": "vietnamese",
+        "level": "0",
+        "name": "CD Bakery & Deli",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8237255,
+          37.3222302
+        ]
+      },
+      "id": "node/8442146820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8442146835",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1834",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "amenity": "cafe",
+        "brand": "Jazen Tea",
+        "brand:wikidata": "Q114989479",
+        "cuisine": "bubble_tea",
+        "name": "Jazen Tea",
+        "operator": "Aureflam Corporation",
+        "operator:wikidata": "Q114990420",
+        "short_name": "Jazen",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.824252,
+          37.323128
+        ]
+      },
+      "id": "node/8442146835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8444073349",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1668",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "amenity": "ice_cream",
+        "name": "La Michoacana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.843308,
+          37.3390288
+        ]
+      },
+      "id": "node/8444073349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8498972322",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3481",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "alt_name:en": "Anhson Bakery",
+        "name": "Anh Sơn Bakery",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8279889,
+          37.3817497
+        ]
+      },
+      "id": "node/8498972322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8499022927",
+        "addr:city": "San Jose",
+        "addr:housenumber": "233",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "South White Road",
+        "addr:unit": "B",
+        "name": "Panadería La Rica",
+        "name:en": "La Rica Panaderia",
+        "name:es": "Panadería La Rica",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8254992,
+          37.3626099
+        ]
+      },
+      "id": "node/8499022927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8499123488",
+        "addr:city": "San Jose",
+        "addr:housenumber": "301",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "North Jackson Avenue",
+        "addr:unit": "2B",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Milq Tea Lounge",
+        "official_name": "Milq Tea Lounge Incorporated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8517667,
+          37.365542
+        ]
+      },
+      "id": "node/8499123488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8508712988",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1507",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "South Winchester Boulevard",
+        "name": "Maris Delights",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9504314,
+          37.2966406
+        ]
+      },
+      "id": "node/8508712988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8522556644",
+        "addr:city": "San Jose",
+        "addr:housenumber": "872",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "East Santa Clara Street",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8729743,
+          37.3443579
+        ]
+      },
+      "id": "node/8522556644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8525703678",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2569",
+        "addr:postcode": "95121",
+        "addr:state": "CA",
+        "addr:street": "South King Road",
+        "addr:unit": "8",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Cool Tea Bar",
+        "operator": "Imix Inc."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8236374,
+          37.3194664
+        ]
+      },
+      "id": "node/8525703678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8533354313",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2451",
+        "addr:postcode": "95121",
+        "addr:state": "CA",
+        "addr:street": "Alvin Avenue",
+        "cuisine": "vietnamese",
+        "name": "Dzui’s Cakes and Desserts",
+        "operator": "Tanhung U.S., Incorporated",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8280448,
+          37.3185609
+        ]
+      },
+      "id": "node/8533354313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8533356525",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2485",
+        "addr:postcode": "95121",
+        "addr:state": "CA",
+        "addr:street": "Alvin Avenue",
+        "alt_name:en": "Tuong Vi Cafe",
+        "amenity": "ice_cream",
+        "cuisine": "vietnamese",
+        "name": "Tường Vi Cafe",
+        "name:vi": "Tường Vi",
+        "official_name": "TuongVi Ice Cream & Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.827012,
+          37.319092
+        ]
+      },
+      "id": "node/8533356525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8533356526",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2487",
+        "addr:postcode": "95121",
+        "addr:state": "CA",
+        "addr:street": "Alvin Avenue",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Shincha Tea",
+        "website": "http://shinchatea.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8269545,
+          37.3191219
+        ]
+      },
+      "id": "node/8533356526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8555364664",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2961",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Monterey Road",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/17317/monterey-lewis-2961-monterey-road-san-jose-ca-951113156-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.84795,
+          37.2897532
+        ]
+      },
+      "id": "node/8555364664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8566022137",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2715",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "McKee Road",
+        "amenity": "ice_cream",
+        "name": "Sweet Fix Creamery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8422002,
+          37.3714086
+        ]
+      },
+      "id": "node/8566022137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8657965734",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2025",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Gateway Place",
+        "addr:unit": "126",
+        "amenity": "cafe",
+        "fixme": "Somewhere on this floor",
+        "level": "0",
+        "name": "San Jose Gateway Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9240665,
+          37.3707807
+        ]
+      },
+      "id": "node/8657965734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8675336494",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2078",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Dolce Espresso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8189214,
+          37.3263701
+        ]
+      },
+      "id": "node/8675336494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8714449543",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2390",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Almaden Road",
+        "addr:unit": "30",
+        "amenity": "ice_cream",
+        "name": "Milk+Ice",
+        "operator": "RorX LLC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8806731,
+          37.2906203
+        ]
+      },
+      "id": "node/8714449543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8730002084",
+        "addr:city": "San Jose",
+        "addr:housenumber": "77",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "North Almaden Avenue",
+        "addr:unit": "70",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "level": "0",
+        "name": "DR.INK",
+        "website": "https://www.dr-ink.space/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.895427,
+          37.3363128
+        ]
+      },
+      "id": "node/8730002084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8740733655",
+        "addr:city": "San Jose",
+        "addr:housenumber": "949",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Ruff Drive",
+        "amenity": "cafe",
+        "delivery": "yes",
+        "name": "Egghead",
+        "takeaway": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9122363,
+          37.3493822
+        ]
+      },
+      "id": "node/8740733655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8784037261",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1816",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "addr:unit": "190",
+        "level": "0",
+        "name": "Euro Delights Bakery",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.823898,
+          37.3219963
+        ]
+      },
+      "id": "node/8784037261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8794617610",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1101",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "South Winchester Boulevard",
+        "addr:unit": "P300",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Winchester Coffee House",
+        "opening_hours": "Mo-Fr 09:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9513113,
+          37.3054252
+        ]
+      },
+      "id": "node/8794617610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8867631958",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2857",
+        "addr:postcode": "95111",
+        "addr:state": "CA",
+        "addr:street": "Senter Road",
+        "addr:unit": "C",
+        "amenity": "cafe",
+        "cuisine": "vietnamese;chè",
+        "name": "Chè Hiền Khánh",
+        "name:vi": "Chè Hiền Khánh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8404952,
+          37.2998146
+        ]
+      },
+      "id": "node/8867631958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8867631960",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2869",
+        "addr:postcode": "95111",
+        "addr:street": "Senter Road",
+        "name": "Queen Bakery",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.839445,
+          37.2987057
+        ]
+      },
+      "id": "node/8867631960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9027346171",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1268",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Lincoln Avenue",
+        "name": "Mariette Chocolates",
+        "opening_hours": "Tu-Sa 11:00-17:00; Su 12:00-16:00",
+        "phone": "+1-408-295-9050",
+        "shop": "chocolate",
+        "website": "https://www.mariettechocolates.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8987407,
+          37.3055222
+        ]
+      },
+      "id": "node/9027346171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9053836184",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1160",
+        "addr:postcode": "95132",
+        "addr:state": "CA",
+        "addr:street": "North Capitol Avenue",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Tastea San Jose",
+        "opening_hours": "Mo-Th 12:00-21:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8601946,
+          37.3876332
+        ]
+      },
+      "id": "node/9053836184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9053836187",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1196",
+        "addr:postcode": "95132",
+        "addr:street": "North Capitol Avenue",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "level": "0",
+        "name": "Macu Tea",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8613754,
+          37.3886223
+        ]
+      },
+      "id": "node/9053836187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9184345933",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1344",
+        "addr:postcode": "95131",
+        "addr:street": "Ridder Park Drive",
+        "name": "Heartland Society",
+        "organic": "yes",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9003334,
+          37.3875633
+        ]
+      },
+      "id": "node/9184345933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9225267350",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1302",
+        "addr:postcode": "95128",
+        "addr:street": "South Winchester Boulevard",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "website": "https://locations.baskinrobbins.com/ca/san-jose/1302-s-winchester-blvd-361021-br"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9494294,
+          37.3013673
+        ]
+      },
+      "id": "node/9225267350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9234035853",
+        "addr:city": "San Jose",
+        "addr:housenumber": "569",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "West Alma Avenue",
+        "name": "The Giving Pies Café",
+        "operator": "The Giving Pies, Inc.",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.886958,
+          37.3094426
+        ]
+      },
+      "id": "node/9234035853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9234239195",
+        "addr:city": "San Jose",
+        "addr:housenumber": "969",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Story Road",
+        "addr:unit": "6033",
+        "amenity": "cafe",
+        "cuisine": "vietnamese;bubble_tea;sandwich",
+        "name": "Teazu",
+        "operator": "Teazu Lounge Incorporated",
+        "website": "https://teazusj.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8584375,
+          37.3323007
+        ]
+      },
+      "id": "node/9234239195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9339318290",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3275",
+        "addr:postcode": "95117",
+        "addr:state": "CA",
+        "addr:street": "Stevens Creek Boulevard",
+        "addr:unit": "115",
+        "name": "Yeganeh Bakery",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9548006,
+          37.3235175
+        ]
+      },
+      "id": "node/9339318290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9339318291",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3275",
+        "addr:postcode": "95117",
+        "addr:state": "CA",
+        "addr:street": "Stevens Creek Boulevard",
+        "addr:unit": "115",
+        "amenity": "cafe",
+        "name": "Kafe Unik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9547297,
+          37.3235156
+        ]
+      },
+      "id": "node/9339318291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9421722306",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "North White Road",
+        "amenity": "ice_cream",
+        "name": "Mary's Paleteria",
+        "operator": "Tasty Traditional Family Flavor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.828143,
+          37.3662182
+        ]
+      },
+      "id": "node/9421722306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9421754560",
+        "addr:city": "San Jose",
+        "addr:housenumber": "22",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "North White Road",
+        "addr:unit": "30",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "TeaZer",
+        "operator": "Ellis Thyme Inc."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.828347,
+          37.3664811
+        ]
+      },
+      "id": "node/9421754560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9465023927",
+        "addr:city": "San Jose",
+        "addr:housenumber": "602",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 13th Street",
+        "check_date": "2023-11-27",
+        "cuisine": "donut",
+        "currency:USD": "yes",
+        "internet_access": "no",
+        "name": "Rollo’s Donuts and Sandwiches",
+        "opening_hours": "04:00-12:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_contactless": "yes",
+        "phone": "+1-408-294-7757",
+        "second_hand": "no",
+        "shop": "bakery",
+        "source": "survey",
+        "stroller": "yes",
+        "toilets": "no",
+        "website": "https://rollosdonuts.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8860789,
+          37.353076
+        ]
+      },
+      "id": "node/9465023927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9538333457",
+        "addr:city": "San Jose",
+        "addr:housenumber": "181",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "East Santa Clara Street",
+        "addr:unit": "45",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/1031578/e-santa-clara-5th-181-e-santa-clara-street-san-jose-ca-95112-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.886714,
+          37.3382252
+        ]
+      },
+      "id": "node/9538333457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9606301670",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2518",
+        "addr:postcode": "95132",
+        "addr:street": "Berryessa Road",
+        "check_date:opening_hours": "2023-02-04",
+        "description": "A bakery offering Filipino baked goods",
+        "level": "0",
+        "name": "Vallerrios City Bakery",
+        "opening_hours": "Tu - Su 08:00-17:00",
+        "opening_hours:signed": "no",
+        "phone": "+1 (408) 254-9490",
+        "shop": "bakery",
+        "website": "http://www.valeriosbakery.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.858319,
+          37.3872664
+        ]
+      },
+      "id": "node/9606301670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9620159260",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2905",
+        "addr:postcode": "95111",
+        "addr:street": "Senter Road",
+        "cuisine": "vietnamese",
+        "name": "Bánh mì Thiên Hương",
+        "name:vi": "Bánh mì Thiên Hương",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8376847,
+          37.2972121
+        ]
+      },
+      "id": "node/9620159260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9643612448",
+        "addr:city": "San Jose",
+        "addr:housenumber": "7",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "North 33rd Street",
+        "amenity": "cafe",
+        "name": "Café Docanto",
+        "phone": "+1-408-272-2929"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8594147,
+          37.3512556
+        ]
+      },
+      "id": "node/9643612448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9657278583",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1692",
+        "addr:postcode": "95121",
+        "addr:street": "Tully Road",
+        "addr:unit": "1",
+        "amenity": "cafe",
+        "cuisine": "vietnamese",
+        "name": "SJ Island",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.826702,
+          37.3206439
+        ]
+      },
+      "id": "node/9657278583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9814127633",
+        "addr:city": "San Jose",
+        "addr:housenumber": "30",
+        "addr:postcode": "95113",
+        "addr:state": "CA",
+        "addr:street": "East Santa Clara Street",
+        "addr:unit": "130",
+        "cuisine": "portuguese",
+        "disused:amenity": "restaurant",
+        "disused:cuisine": "indian",
+        "level": "0",
+        "name": "Pastelaria Adega",
+        "old_name": "Curry Pundits",
+        "operator": "Adega",
+        "operator:wikidata": "Q28222778",
+        "shop": "pastry",
+        "website": "https://pasteladega.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8897519,
+          37.3363286
+        ]
+      },
+      "id": "node/9814127633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9829565787",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1593",
+        "addr:postcode": "95125",
+        "addr:street": "Meridian Avenue",
+        "name": "Dick's Bakery",
+        "not:brand:wikidata": "Q5272601",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9146737,
+          37.2947885
+        ]
+      },
+      "id": "node/9829565787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9925366773",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1962",
+        "addr:postcode": "95122",
+        "addr:state": "CA",
+        "addr:street": "Tully Road",
+        "addr:unit": "1",
+        "amenity": "cafe",
+        "cuisine": "vietnamese",
+        "fixme": "location within shopping center",
+        "name": "SJ Island",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.821134,
+          37.3242508
+        ]
+      },
+      "id": "node/9925366773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10005512661",
+        "access": "permit",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2077",
+        "addr:postcode": "95110",
+        "addr:state": "CA",
+        "addr:street": "Airport Boulevard",
+        "addr:unit": "A2791",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "opening_hours": "04:30+",
+        "permit": "boarding_pass",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.929688,
+          37.3693341
+        ]
+      },
+      "id": "node/10005512661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10052610443",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1080",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "South White Road",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "contact:website": "https://www.starbucks.com/store-locator/store/9461/story-white-1080-south-white-rd-san-jose-ca-951273821-us",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8180113,
+          37.3574712
+        ]
+      },
+      "id": "node/10052610443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10218931793",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1698",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "addr:unit": "K",
+        "amenity": "cafe",
+        "cuisine": "asian",
+        "delivery": "yes",
+        "dinner": "yes",
+        "drink:coffee": "yes",
+        "drink:tea": "yes",
+        "indoor_seating": "yes",
+        "lunch": "yes",
+        "name": "Venus Cafe",
+        "opening_hours": "Sa-Th 11:00-22:00; Fr 11:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:nfc_mobile_payments": "yes",
+        "phone": "+14085731128",
+        "takeaway": "yes",
+        "website": "http://venuscafe-sj.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.883505,
+          37.3871821
+        ]
+      },
+      "id": "node/10218931793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10220554933",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1698",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Hostetter Road",
+        "cuisine": "tea;dessert",
+        "delivery": "yes",
+        "indoor_seating": "yes",
+        "name": "Teaspoon",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "payment:nfc_mobile_payments": "yes",
+        "phone": "+14084535566",
+        "shop": "tea",
+        "takeaway": "yes",
+        "website": "https://www.teaspoonlife.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.883559,
+          37.3870196
+        ]
+      },
+      "id": "node/10220554933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10274899509",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1098",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "Leigh Avenue",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "La Superior Panadería y Taquería",
+        "name:es": "La Superior Panadería y Taquería",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "operator": "La Superior Bakery LLC",
+        "phone": "(408) 320-1999",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.921948,
+          37.3039668
+        ]
+      },
+      "id": "node/10274899509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10720284535",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1477",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "Berryessa Road",
+        "addr:unit": "20",
+        "amenity": "ice_cream",
+        "brand": "SomiSomi",
+        "brand:wikidata": "Q104879354",
+        "cuisine": "soft_serve;taiyaki;bungeoppang",
+        "name": "SomiSomi",
+        "official_name": "SomiSomi Soft Serve & Taiyaki",
+        "opening_hours": "Su-Th 12:00-22:30;Fr-Sa 12:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.880197,
+          37.369678
+        ]
+      },
+      "id": "node/10720284535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10720284541",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1477",
+        "addr:postcode": "95133",
+        "addr:state": "CA",
+        "addr:street": "Berryessa Road",
+        "addr:unit": "40",
+        "amenity": "cafe",
+        "brand": "CoCo",
+        "brand:wikidata": "Q65084369",
+        "cuisine": "bubble_tea",
+        "name": "CoCo Fresh Tea & Juice",
+        "opening_hours": "Mo-Th 12:30-21:00;Fr-Su 11:30-21:00",
+        "payment:american_express": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:unionpay": "yes",
+        "payment:visa": "yes",
+        "short_name": "CoCo",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.880109,
+          37.3696005
+        ]
+      },
+      "id": "node/10720284541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10726604490",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3151",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "Alum Rock Avenue",
+        "name": "Dulceria Chispita",
+        "shop": "confectionery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8271714,
+          37.3667588
+        ]
+      },
+      "id": "node/10726604490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10981837726",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1520",
+        "addr:postcode": "95126",
+        "addr:state": "CA",
+        "addr:street": "The Alameda",
+        "addr:unit": "105",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Orbit Coffee Company",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9150809,
+          37.3352284
+        ]
+      },
+      "id": "node/10981837726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10996432553",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1030",
+        "addr:postcode": "95132",
+        "addr:state": "CA",
+        "addr:street": "Piedmont Road",
+        "addr:unit": "F",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Oh My Boba",
+        "opening_hours": "Mo-Tu,Th-Sa 12:00-20:00; Su 12:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8423368,
+          37.3919067
+        ]
+      },
+      "id": "node/10996432553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10996445011",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1030",
+        "addr:postcode": "95132",
+        "addr:state": "CA",
+        "addr:street": "Piedmont Road",
+        "addr:unit": "K",
+        "level": "0",
+        "name": "Nubia's Pasteleria",
+        "opening_hours": "Tu-Th,Su 11:00-14:00; Fr-Sa 11:00-16:00",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8424932,
+          37.3921877
+        ]
+      },
+      "id": "node/10996445011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11070552449",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1512",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "Alum Rock Avenue",
+        "name": "Sweet Passions Bakery",
+        "phone": "+1-408-251-1080",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8602976,
+          37.3502588
+        ]
+      },
+      "id": "node/11070552449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11070552462",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1630",
+        "addr:postcode": "95116",
+        "addr:state": "CA",
+        "addr:street": "Alum Rock Avenue",
+        "name": "Popular Bakery",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8582287,
+          37.351293
+        ]
+      },
+      "id": "node/11070552462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11079067178",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1706",
+        "addr:postcode": "95131",
+        "addr:state": "CA",
+        "addr:street": "Oakland Rd Ste",
+        "addr:unit": "25",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Tiger Tea & Juice",
+        "opening_hours": "Mo-Su 11:00-21:30",
+        "phone": "(650) 201-9822"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8930844,
+          37.383528
+        ]
+      },
+      "id": "node/11079067178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11595494901",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1335",
+        "addr:postcode": "95128",
+        "addr:state": "CA",
+        "addr:street": "South Winchester Boulevard",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9506237,
+          37.3001502
+        ]
+      },
+      "id": "node/11595494901"
+    }
+  ]
+}
