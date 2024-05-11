@@ -11,6 +11,7 @@
         <script src="Neighborhoods.js"></script>
         <script src="Zip_Code_Boundary.js"></script>
         <script src="City_Limits.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/openrouteservice-js@1.1.2/dist/ors-js-client.js"></script>
         <style>
             #map {
                 width: 100vw;
@@ -72,7 +73,7 @@
                     <option value="time">Time</option>
                 </select>
             <label for="range">Range:</label>
-                <input type="text" id="range" placeholder="Enter distance in miles">
+                <input type="text" id="range" placeholder="Enter distance in meters">
             <button id="calculate-button">Calculate Access</button>
         </div>
         <script type="text/javascript">
@@ -128,19 +129,51 @@
 
             var marker;
 
-            function addMarker(latlng) {
-                if (marker) {
-                    map.removeLayer(marker);
+                function addMarker(latlng) {
+                    if (marker) {
+                        map.removeLayer(marker);
+                    }
+                    marker = L.marker(latlng).addTo(map);
                 }
-                marker = L.marker(latlng).addTo(map);
+
+                function onMapClick(e) {
+                    document.getElementById('start-location').value = e.latlng.lat + ', ' + e.latlng.lng;
+                    addMarker(e.latlng);
+                }
+
+                map.on('click', onMapClick);
+
+            const Isochrones = new Openrouteservice.Isochrones({ api_key: "X5b3ce3597851110001cf6248975a872ddf4b41b095d206e5e5197267YZ"});
+
+            async function calculateIsochrones(startLocation, profile, rangeValue, units, rangeType) {
+                try {
+                    let response = await Isochrones.calculate({
+                        locations: [startLocation],
+                        profile: profile,
+                        range: [rangeValue],
+                        range_type: rangeType,
+                    });
+                    console.log("response: ", response);
+                    return response;
+                } catch (err) {
+                    console.log("An error occurred: " + err.status);
+                    console.error(await err.response.json());
+                    return null;
+                }
             }
 
-            function onMapClick(e) {
-                document.getElementById('start-location').value = e.latlng.lat + ', ' + e.latlng.lng;
-                addMarker(e.latlng);
-            }
+            document.getElementById('calculate-button').addEventListener('click', async function() {
+                    let startLocationInput = document.getElementById('start-location').value;
+                    let profileInput = document.getElementById('profile').value;
+                    let rangeInput = parseInt(document.getElementById('range').value);
+                    let rangeTypeInput = document.getElementById('range-type').value;
 
-            map.on('click', onMapClick);
+                    // Convert start location input to an array of numbers
+                    let startLocation = startLocationInput.split(',').map(Number);
+
+                    // Call the function to calculate isochrones
+                    await calculateIsochrones(startLocation, profileInput, rangeInput, unitsInput, rangeTypeInput);
+                });
         </script>
     </body>
 </html>
