@@ -11,7 +11,7 @@
         <script src="Neighborhoods.js"></script>
         <script src="Zip_Code_Boundary.js"></script>
         <script src="City_Limits.js"></script>
-        <script type="module" src="https://cdn.jsdelivr.net/npm/openrouteservice-js@1.1.2/dist/ors-js-client.js"></script>
+        <script type="module" src="node_modules/openrouteservice-js/dist/ors-js-client.js"></script>
         <style>
             #map {
                 width: 100vw;
@@ -76,7 +76,9 @@
                 <input type="text" id="range" placeholder="Enter distance in meters">
             <button id="calculate-button">Calculate Access</button>
         </div>
-        <script type="text/javascript">
+        <script type="module">
+            const Isochrones = new Openrouteservice.Isochrones({ api_key: "X5b3ce3597851110001cf6248975a872ddf4b41b095d206e5e5197267YZ"});
+            
             document.getElementById('range-type').addEventListener('change', function() {
                 let rangeType = document.getElementById('range-type').value;
                 let rangeInput = document.getElementById('range');
@@ -143,9 +145,7 @@
 
                 map.on('click', onMapClick);
 
-            const Isochrones = new Openrouteservice.Isochrones({ api_key: "X5b3ce3597851110001cf6248975a872ddf4b41b095d206e5e5197267YZ"});
-
-            async function calculateIsochrones(startLocation, profile, rangeValue, units, rangeType) {
+            async function calculateIsochrones(startLocation, profile, rangeValue, rangeType) {
                 try {
                     let response = await Isochrones.calculate({
                         locations: [startLocation],
@@ -157,7 +157,11 @@
                     return response;
                 } catch (err) {
                     console.log("An error occurred: " + err.status);
-                    console.error(await err.response.json());
+                    if (err.response) {
+                        console.error(await err.response.json());
+                    } else {
+                        console.error("No response available. Error:", err);
+                    }
                     return null;
                 }
             }
@@ -172,7 +176,7 @@
                     let startLocation = startLocationInput.split(',').map(Number);
 
                     // Call the function to calculate isochrones
-                    await calculateIsochrones(startLocation, profileInput, rangeInput, unitsInput, rangeTypeInput);
+                    await calculateIsochrones(startLocation, profileInput, rangeInput, rangeTypeInput);
                 });
         </script>
     </body>
