@@ -135,19 +135,19 @@
 
             var marker;
 
-                function addMarker(latlng) {
-                    if (marker) {
-                        map.removeLayer(marker);
-                    }
-                    marker = L.marker(latlng).addTo(map);
+            function addMarker(latlng) {
+                if (marker) {
+                    map.removeLayer(marker);
                 }
+                marker = L.marker(latlng).addTo(map);
+            };
 
-                function onMapClick(e) {
-                    document.getElementById('start-location').value = e.latlng.lat + ', ' + e.latlng.lng;
-                    addMarker(e.latlng);
-                }
+            function onMapClick(e) {
+                document.getElementById('start-location').value = e.latlng.lng + ', ' + e.latlng.lat;
+                addMarker(e.latlng);
+            };
 
-                map.on('click', onMapClick);
+            map.on('click', onMapClick);
 
             async function calculateIsochrones(startLocation, profile, rangeValue, rangeType) {
                 try {
@@ -159,7 +159,7 @@
                         interval: rangeValue
                     });
                     console.log("response: ", response);
-                    return response;
+                    let isochronesLayer = L.geoJSON(response.features).addTo(map);
                 } catch (err) {
                     console.log("An error occurred: " + err.status);
                     if (err.response) {
@@ -169,7 +169,7 @@
                     }
                     return null;
                 }
-            }
+            };
 
             document.getElementById('calculate-button').addEventListener('click', async function() {
                     let startLocationInput = document.getElementById('start-location').value;
