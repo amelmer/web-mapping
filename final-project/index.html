@@ -9,8 +9,9 @@
         <script src="drinks_sweets_snap.js"></script>
         <script src="specialty_snap.js"></script>
         <script src="Neighborhoods.js"></script>
-        <script src="Zip_Code_Boundary.js"></script>
         <script src="City_Limits.js"></script>
+        <script src="Streets.js"></script>
+        <script src="Bikeways.js"></script>
         <script type="module" src="node_modules/openrouteservice-js/dist/ors-js-client.js"></script>
         <style>
             #map {
@@ -20,7 +21,7 @@
 
             #input-box {
                 position: absolute;
-                top: 10px;
+                bottom: 10px;
                 left: 10px;
                 background-color: white;
                 padding: 10px;
@@ -108,6 +109,9 @@
                 'https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/417/query?outFields=*&where=1%3D1&f=geojson'
             );
 
+            var bike_lanes = L.geoJSON(bike_lanes).addTo(map);
+            var streets = L.geoJSON(streets).addTo(map);
+
             var housing = new L.GeoJSON.AJAX(
                 'https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/457/query?outFields=*&where=1%3D1&f=geojson'
             );
@@ -152,6 +156,7 @@
                         profile: profile,
                         range: [rangeValue],
                         range_type: rangeType,
+                        interval: rangeValue
                     });
                     console.log("response: ", response);
                     return response;
