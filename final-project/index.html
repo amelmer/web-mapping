@@ -12,6 +12,8 @@
         <script src="City_Limits.js"></script>
         <script src="Streets.js"></script>
         <script src="Bikeways.js"></script>
+        <script src="Bike_Racks.js"></script>
+        <script src="Affordable_Rental_Housing.js"></script>
         <script type="module" src="node_modules/openrouteservice-js/dist/ors-js-client.js"></script>
         <style>
             #map {
@@ -55,10 +57,26 @@
                 background-color: #0056b3;
             }
 
+            .legend {
+                border: 1px solid black;
+                line-height: 18px;
+                color: #000000;
+                background-color: white;
+                opacity: 1;
+                padding: 6px 10px 6px 6px;
+            }
+            
+            .legend i {
+                width: 18px;
+                height: 18px;
+                float: left;
+                margin-right: 8px;
+                opacity: 1;
+            }
+
         </style>
     </head>
     <body>
-        <div id="map"></div>
         <div id="input-box">
             <label for="start-location">Start Location:</label>
             <input type="text" id="start-location" placeholder="Click on the map to select a location">
@@ -77,8 +95,54 @@
                 <input type="text" id="range" placeholder="Enter distance in meters">
             <button id="calculate-button">Calculate Access</button>
         </div>
+        <div id="map"></div>
         <script type="module">
             const Isochrones = new Openrouteservice.Isochrones({ api_key: "5b3ce3597851110001cf6248975a872ddf4b41b095d206e5e5197267" });
+
+            function cityStyle(feature){ 
+                return {
+                    fillColor: '#d3d3d3',
+                    weight: 2,
+                    opacity: 1,
+                    color: 'gray',
+                    fillOpacity: 0.5
+                };
+            };
+
+            function neighborhoodStyle(feature){ 
+                return {
+                    fillColor: '#d3d3d3',
+                    weight: 2,
+                    opacity: 1,
+                    color: '#838383',
+                    fillOpacity: 0.5
+                };
+            };
+
+            var onEachFeature = function(feature, layer) { 
+                if (feature.properties) {
+                    var prop = feature.properties;
+                    var popup = '<h3>'+prop['name']+'</h3>'+'<b>Hours</b>: '+prop['opening_hours'];
+                    feature.layer = layer;
+                    layer.bindPopup(popup, {minWidth: 100});
+                }
+            };
+
+            function getColorOutline(value) {
+                return value == 1 ? '#003b00':
+                value == 0 ? '#96a496':
+                'red';
+            };
+
+            function getColorLegend(value) {
+                return value == "Accepts SNAP" ? '#003b00':
+                value == "Does Not Accept SNAP" ? '#96a496':
+                value == "Grocery Store" ? '#a0b59e':
+                value == "Restaurant" ? '#b39eb5':
+                value == "Drinks and Sweets" ? '#aec6cf':
+                value == "Specialty Grocery Store" ? '#ffd1dc':
+                'red';
+            };
 
             document.getElementById('range-type').addEventListener('change', function() {
                 let rangeType = document.getElementById('range-type').value;
@@ -101,37 +165,95 @@
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>'
             }).addTo(map);
 
-            var city = L.geoJSON(city).addTo(map);
+            var city_boundary = L.geoJSON(city, {style:cityStyle}).addTo(map);
 
-            var neighborhoods = L.geoJSON(neighborhoods);
+            var affordable_housing = L.geoJSON(housing, {
+                pointToLayer: function(feature, ll){
+                return L.circleMarker(ll, {
+                    color: '#483575',
+                    opacity: 1,
+                    fillColor: '#483575',
+                    fillOpacity: 0.5,
+                    radius: 3,
+                    weight: 0.5
+                });}
+            })
 
-            var bikes = new L.GeoJSON.AJAX(
-                'https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/417/query?outFields=*&where=1%3D1&f=geojson'
-            );
+            var grocery_stores = L.geoJSON(groceries, {
+                onEachFeature : onEachFeature,
+                pointToLayer: function(feature, ll){
+                return L.circleMarker(ll, {
+                    color: getColorOutline(feature.properties.accepts_snap),
+                    opacity: 1,
+                    fillColor: '#a0b59e',
+                    fillOpacity: 0.8,
+                    radius: 6,
+                    weight: 2
+                });}
+            });
 
-            var bike_lanes = L.geoJSON(bike_lanes).addTo(map);
-            var streets = L.geoJSON(streets).addTo(map);
+            var restaurant_locations = L.geoJSON(restaurants, {
+                onEachFeature : onEachFeature,
+                pointToLayer: function(feature, ll){
+                return L.circleMarker(ll, {
+                    color: getColorOutline(feature.properties.accepts_snap),
+                    opacity: 1,
+                    fillColor: '#b39eb5',
+                    fillOpacity: 0.8,
+                    radius: 6,
+                    weight: 2
+                });}
+            });
 
-            var housing = new L.GeoJSON.AJAX(
-                'https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/457/query?outFields=*&where=1%3D1&f=geojson'
-            );
+            var sweets = L.geoJSON(drinks_sweets, {
+                onEachFeature : onEachFeature,
+                pointToLayer: function(feature, ll){
+                return L.circleMarker(ll, {
+                    color: getColorOutline(feature.properties.accepts_snap),
+                    opacity: 1,
+                    fillColor: '#aec6cf',
+                    fillOpacity: 0.8,
+                    radius: 6,
+                    weight: 2
+                });}
+            });
 
-            var groceries = L.geoJSON(groceries);
-            var restaurants = L.geoJSON(restaurants);
-            var sweets = L.geoJSON(drinks_sweets);
-            var specialty = L.geoJSON(specialty);
+            var specialty_grocers = L.geoJSON(specialty, {
+                onEachFeature : onEachFeature,
+                pointToLayer: function(feature, ll){
+                return L.circleMarker(ll, {
+                    color: getColorOutline(feature.properties.accepts_snap),
+                    opacity: 1,
+                    fillColor: '#ffd1dc',
+                    fillOpacity: 0.8,
+                    radius: 6,
+                    weight: 2
+                });}
+            });
 
-            var overlayMaps = {
-                "Neighborhood Boundaries": neighborhoods,
-                "Bike Racks": bikes,
-                "Affordable Housing": housing,
-                "Grocery Stores": groceries,
-                "Restaurants": restaurants,
-                "Drinks and Sweets": sweets,
-                "Specialty Grocery Stores": specialty
-            };
+            var bike_racks = L.geoJSON(bikes, {
+                pointToLayer: function(feature, ll){
+                return L.circleMarker(ll, {
+                    color: '#832455',
+                    opacity: 0.5,
+                    fillColor: '#832455',
+                    fillOpacity: 0.5,
+                    radius: 3,
+                    weight: 0.5
+                });}
+            });
 
-            var layerControl = L.control.layers(null, overlayMaps, {collapsed:false}).addTo(map);
+            var neighborhood_boundaries = L.geoJSON(neighborhoods, {style:neighborhoodStyle});
+
+            var bike_lane = L.geoJSON(bike_lanes, {
+                style: function(feature) {
+                    return {
+                    fillColor: '#832455',
+                    color: '#832455',
+                    weight: 1
+                    }
+                }
+            });
 
             var marker;
 
@@ -183,6 +305,35 @@
                     // Call the function to calculate isochrones
                     await calculateIsochrones(startLocation, profileInput, rangeInput, rangeTypeInput);
                 });
+
+            var overlayMaps = {
+            "Neighborhood Boundaries": neighborhood_boundaries,
+            "Bike Racks": bike_racks,
+            "Bike Lanes": bike_lane,
+            "Affordable Housing": affordable_housing,
+            "Grocery Stores": grocery_stores,
+            "Restaurants": restaurant_locations,
+            "Drinks and Sweets": sweets,
+            "Specialty Grocery Stores": specialty_grocers
+            };
+
+            var layerControl = L.control.layers(null, overlayMaps, {collapsed:false}).addTo(map);
+
+            var legend = L.control({position: 'bottomright'})
+            legend.onAdd = function (map) {
+                var div = L.DomUtil.create('div', 'info legend'),
+                    types = ["Accepts SNAP", "Does Not Accept SNAP", "Grocery Store", "Restaurant", "Drinks and Sweets", "Specialty Grocery Store"],
+                    labels = [];
+                    div.innerHTML += '<b>Legend</b><br/>'
+                
+                for (var i = 0; i < types.length; i++) {
+                    div.innerHTML +=
+                    '<i style="background:' + getColorLegend(types[i]) + '"></i> ' + types[i]+'<br/>';
+                }
+                return div;
+            };
+
+            legend.addTo(map);
         </script>
     </body>
 </html>
