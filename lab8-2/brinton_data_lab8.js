@@ -1,6 +1,4 @@
-var brinton = {
-   "type": "FeatureCollection",
-   "features": [
+var brinton = [
   {
     "type": "Feature",
     "geometry": {
@@ -14125,5 +14123,4 @@ var brinton = {
     "time":"12/18/1908"
     }
   }
-]
-};
+];
