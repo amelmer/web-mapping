@@ -1,4 +1,4 @@
-var groceries = {
+{
 "type": "FeatureCollection",
 "name": "groceries_snap",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
@@ -197,4 +197,4 @@ var groceries = {
 { "type": "Feature", "properties": { "CompanyName": "Zanotto's Willow Glen", "Address": "1421 Foxworthy Ave", "City": "San Jose", "State": "CA", "ZIPCode": 95118, "MondayOpen": "0800", "MondayClose": "2100", "TuesdayOpen": "0800", "TuesdayClose": "2100", "WednesdayOpen": "0800", "WednesdayClose": "2100", "ThursdayOpen": "0800", "ThursdayClose": "2100", "FridayOpen": "0800", "FridayClose": "2100", "SaturdayOpen": "0800", "SaturdayClose": "2100", "SundayOpen": "0800", "SundayClose": "2100", "accepts_snap": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -121.892136, 37.275625 ] } },
 { "type": "Feature", "properties": { "CompanyName": "Zuka Foods", "Address": "1758 Junction Ave ", "City": "San Jose", "State": "CA", "ZIPCode": 95112, "MondayOpen": "1000", "MondayClose": "1900", "TuesdayOpen": "1000", "TuesdayClose": "1900", "WednesdayOpen": "1000", "WednesdayClose": "1900", "ThursdayOpen": "1000", "ThursdayClose": "1900", "FridayOpen": "1000", "FridayClose": "1900", "SaturdayOpen": "1000", "SaturdayClose": "1900", "SundayOpen": "1200", "SundayClose": "1700", "accepts_snap": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -121.90534, 37.377349 ] } }
 ]
-};
+}

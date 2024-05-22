@@ -8,6 +8,7 @@
         <script src="restaurants_snap.js"></script>
         <script src="drinks_sweets_snap.js"></script>
         <script src="specialty_snap.js"></script>
+        <script src="convenience_snap.js"></script>
         <script src="Neighborhoods.js"></script>
         <script src="City_Limits.js"></script>
         <script src="Streets.js"></script>
@@ -57,6 +58,28 @@
                 background-color: #0056b3;
             }
 
+            #time-filter {
+                position: absolute;
+                bottom: 300px;
+                left: 10px;
+                background-color: white;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                z-index: 1000;
+            }
+
+            #time-filter label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            #time-filter input {
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+
             .legend {
                 border: 1px solid black;
                 line-height: 18px;
@@ -95,6 +118,47 @@
                 <input type="text" id="range" placeholder="Enter distance in meters">
             <button id="calculate-button">Calculate Access</button>
         </div>
+        <div id="time-filter">
+            <label for="day-select">Day:</label>
+                <select id="day-select">
+                    <option value="any" selected>Any</option>
+                    <option value="Sunday">Sunday</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                </select>
+            <label for="time-select">Time:</label>
+                <select id="time-select">
+                    <option value=0 selected>Any</option>
+                    <option value=100>1:00AM</option>
+                    <option value=200>2:00AM</option>
+                    <option value=300>3:00AM</option>
+                    <option value=400>4:00AM</option>
+                    <option value=500>5:00AM</option>
+                    <option value=600>6:00AM</option>
+                    <option value=700>7:00AM</option>
+                    <option value=800>8:00AM</option>
+                    <option value=900>9:00AM</option>
+                    <option value=1000>10:00AM</option>
+                    <option value=1100>11:00AM</option>
+                    <option value=1200>12:00PM</option>
+                    <option value=1300>1:00PM</option>
+                    <option value=1400>2:00PM</option>
+                    <option value=1500>3:00PM</option>
+                    <option value=1600>4:00PM</option>
+                    <option value=1700>5:00PM</option>
+                    <option value=1800>6:00PM</option>
+                    <option value=1900>7:00PM</option>
+                    <option value=2000>8:00PM</option>
+                    <option value=2100>9:00PM</option>
+                    <option value=2200>10:00PM</option>
+                    <option value=2300>11:00PM</option>
+                    <option value=2400>12:00AM</option>
+                </select>
+        </div>
         <div id="map"></div>
         <script type="module">
             const Isochrones = new Openrouteservice.Isochrones({ api_key: "5b3ce3597851110001cf6248975a872ddf4b41b095d206e5e5197267" });
@@ -122,7 +186,7 @@
             var onEachFeature = function(feature, layer) { 
                 if (feature.properties) {
                     var prop = feature.properties;
-                    var popup = '<h3>'+prop['name']+'</h3>'+'<b>Hours</b>: '+prop['opening_hours'];
+                    var popup = '<h3>'+prop['Company.Name']+'</h3>';
                     feature.layer = layer;
                     layer.bindPopup(popup, {minWidth: 100});
                 }
@@ -137,11 +201,34 @@
             function getColorLegend(value) {
                 return value == "Accepts SNAP" ? '#003b00':
                 value == "Does Not Accept SNAP" ? '#96a496':
-                value == "Grocery Store" ? '#a0b59e':
+                value == "Grocery Store" ? '#90c78a':
                 value == "Restaurant" ? '#b39eb5':
-                value == "Drinks and Sweets" ? '#aec6cf':
+                value == "Drink or Sweet" ? '#aec6cf':
                 value == "Specialty Grocery Store" ? '#ffd1dc':
+                value == "Convenience Store" ? "#dc9074":
                 'red';
+            };
+
+            function filterByHours(feature) { 
+                let day = document.getElementById('day-select').value;
+                let time = document.getElementById('time-select').value;
+
+                if (day != "any") {
+                    let openKey = day + 'Open';
+                    let closeKey = day + 'Close';
+
+                    if (feature.properties[openKey] == "Open 24 Hours") {
+                        return 0.8;
+                    } else if (time == 0 && feature.properties[openKey] != "Closed") {
+                        return 0.8;
+                    } else if (parseInt(feature.properties[openKey], 10) <= time && parseInt(feature.properties[closeKey], 10) >= time) {
+                        return 0.8;
+                    } else {
+                        return 0;
+                    }
+                } else {
+                    return 0.8;
+                }
             };
 
             document.getElementById('range-type').addEventListener('change', function() {
@@ -177,16 +264,29 @@
                     radius: 3,
                     weight: 0.5
                 });}
-            })
+            });
 
             var grocery_stores = L.geoJSON(groceries, {
                 onEachFeature : onEachFeature,
                 pointToLayer: function(feature, ll){
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
-                    opacity: 1,
-                    fillColor: '#a0b59e',
-                    fillOpacity: 0.8,
+                    opacity: filterByHours(feature),
+                    fillColor: '#90c78a',
+                    fillOpacity: filterByHours(feature),
+                    radius: 6,
+                    weight: 2
+                });}
+            });
+
+            var convenience_stores = L.geoJSON(convenience, {
+                onEachFeature : onEachFeature,
+                pointToLayer: function(feature, ll){
+                return L.circleMarker(ll, {
+                    color: getColorOutline(feature.properties.accepts_snap),
+                    opacity: filterByHours(feature),
+                    fillColor: '#dc9074',
+                    fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
                 });}
@@ -306,6 +406,25 @@
                     await calculateIsochrones(startLocation, profileInput, rangeInput, rangeTypeInput);
                 });
 
+            function updateLayers(varlayer) {
+                varlayer.eachLayer(function(layer) {
+                    layer.setStyle({
+                        opacity: filterByHours(layer.feature),
+                        fillOpacity: filterByHours(layer.feature)
+                    });
+                });
+            }
+
+            document.getElementById('day-select').addEventListener('change', function() {
+                updateLayers(grocery_stores);
+                updateLayers(convenience_stores);
+            });
+
+            document.getElementById('time-select').addEventListener('change', function() {
+                updateLayers(grocery_stores);
+                updateLayers(convenience_stores);
+            });
+
             var overlayMaps = {
             "Neighborhood Boundaries": neighborhood_boundaries,
             "Bike Racks": bike_racks,
@@ -314,7 +433,8 @@
             "Grocery Stores": grocery_stores,
             "Restaurants": restaurant_locations,
             "Drinks and Sweets": sweets,
-            "Specialty Grocery Stores": specialty_grocers
+            "Specialty Grocery Stores": specialty_grocers,
+            "Convenience Stores": convenience_stores
             };
 
             var layerControl = L.control.layers(null, overlayMaps, {collapsed:false}).addTo(map);
@@ -322,7 +442,7 @@
             var legend = L.control({position: 'bottomright'})
             legend.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'info legend'),
-                    types = ["Accepts SNAP", "Does Not Accept SNAP", "Grocery Store", "Restaurant", "Drinks and Sweets", "Specialty Grocery Store"],
+                    types = ["Accepts SNAP", "Does Not Accept SNAP", "Grocery Store", "Convenience Store", "Restaurant", "Drink or Sweet", "Specialty Grocery Store"],
                     labels = [];
                     div.innerHTML += '<b>Legend</b><br/>'
                 

@@ -1,0 +1,4597 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.927824,037.320027 ]
+     },
+     "properties": {
+     "Company Name":"6 To Late",
+     "Address":"2051 Scott St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.838903,037.282701 ]
+     },
+     "properties": {
+     "Company Name":"6 To Late Inc",
+     "Address":"3844 Monterey Hwy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95111,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.921924,037.305892 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1031 Leigh Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95126,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.842778,037.392396 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1040 Piedmont Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95132,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.853257,037.331719 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1173 Mclaughlin Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.932238,037.300877 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1335 S Bascom Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.909491,037.362085 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1408 N 1st St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.890813,037.246496 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1413 Kooser Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95118,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.891606,037.259213 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1421 Branham Ln",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95118,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.916150,037.310278 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1430 Fruitdale Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.813411,037.350505 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1434 S White Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95127,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.949463,037.297815 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1444 S Winchester Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.925719,037.261298 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"14700 Camden Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95124,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.878725,037.390088 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1591 Flickinger Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95131,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.902583,037.253756 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1595 Branham Ln",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95118,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.857978,037.352150 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1639 Alum Rock Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.907355,037.270007 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1674 Foxworthy Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95124,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.860768,037.359002 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1711 Mckee Rd # A",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.886969,037.341609 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"188 N 6th St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.923316,037.275260 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"1880 Curtner Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95124,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.836681,037.343692 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"2032 Story Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.931110,037.310460 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"2170 Fruitdale Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.932321,037.323179 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"2230 Stevens Creek Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.896821,037.310432 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"2440 Almaden Expwy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95125,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.823420,037.319302 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"2577 S King Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.876457,037.336945 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"284 S 11th St # A",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.797991,037.324326 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"2850 Quimby Rd # 105",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95148,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.842292,037.370110 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"298 N Capitol Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95127,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.834145,037.294820 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"3110 Senter Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95111,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.950826,037.301984 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"3111 Payne Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95117,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.797721,037.350659 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"3497 Marten Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95148,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.835687,037.376018 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"350 N White Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95127,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.960241,037.322875 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"3500 Stevens Creek Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95117,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.967006,037.308872 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"3775 Williams Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95117,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.833554,037.283437 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"3861 7 Trees Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95111,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.879969,037.332671 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"404 S 6th St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.834589,037.277871 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"4156 Monterey Hwy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95111,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.976125,037.294270 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"4199 Hamilton Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95130,
+     "Monday Open":"0600",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"0600",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"0600",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"0600",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"0600",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"0600",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"0600",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.822997,037.280516 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"4270 Senter Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95111,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.880447,037.340489 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"452 E Santa Clara St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.984144,037.321778 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"4625 Albany Dr",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95129,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.865145,037.264866 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"4630 Pearl Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95136,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.970796,037.319759 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"497 Kiely Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95117,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.992885,037.309127 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"5148 Moorpark Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95129,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.812913,037.262531 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"5152 Monterey Hwy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95111,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.866829,037.324715 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"550 Keyes St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.904193,037.232681 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"5745 Camden Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95124,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.846915,037.307724 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"602 Tully Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95111,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.850962,037.239837 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"6059 Cahalan Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95123,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.842294,037.251094 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"617 Blossom Hill Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95123,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.949748,037.329563 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"780 N Winchester Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.871592,037.329208 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"787 S 11th St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.914682,037.346193 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"890 Coleman Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95110,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.950656,037.309315 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"951 S Winchester Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.887059,037.336238 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"96 S 3rd St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95113,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.871998,037.373608 ]
+     },
+     "properties": {
+     "Company Name":"7-Eleven",
+     "Address":"998 Lundy Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95133,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.889481,037.336216 ]
+     },
+     "properties": {
+     "Company Name":"A K's In & Out Mini Market",
+     "Address":"11 S 2nd St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95113,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.861909,037.256956 ]
+     },
+     "properties": {
+     "Company Name":"Ahlone Mini Market",
+     "Address":"5330 Terner Way # 10",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95136,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.890490,037.336533 ]
+     },
+     "properties": {
+     "Company Name":"Aks In & Out Market",
+     "Address":"17 E Santa Clara St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95113,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.938438,037.413318 ]
+     },
+     "properties": {
+     "Company Name":"Alatorre Popcorn Shop",
+     "Address":"3700 Casa Verde St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95134,
+     "Monday Open":"Closed",
+     "Monday Close":"",
+     "Tuesday Open":"Closed",
+     "Tuesday Close":"",
+     "Wednesday Open":"Closed",
+     "Wednesday Close":"",
+     "Thursday Open":"Closed",
+     "Thursday Close":"",
+     "Friday Open":"Closed",
+     "Friday Close":"",
+     "Saturday Open":"Closed",
+     "Saturday Close":"",
+     "Sunday Open":"1600",
+     "Sunday Close":"2000"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.836530,037.314563 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"1100 Tully Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.861351,037.386693 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"1143 N Capitol Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95132,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.887911,037.407449 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"2104 N Capitol Ave # 2",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95132,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.809198,037.324043 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"2375 Quimby Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.833975,037.293467 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"3147 Senter Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95111,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.972785,037.320522 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"401 Saratoga Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95129,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.865277,037.265341 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"4610 Pearl Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95136,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.876726,037.259292 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"4995 Almaden Expy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95118,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.803622,037.256901 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"5498 Monterey Hwy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95111,
+     "Monday Open":"0500",
+     "Monday Close":"2200",
+     "Tuesday Open":"0500",
+     "Tuesday Close":"2200",
+     "Wednesday Open":"0500",
+     "Wednesday Close":"2200",
+     "Thursday Open":"0500",
+     "Thursday Close":"2200",
+     "Friday Open":"0500",
+     "Friday Close":"2200",
+     "Saturday Open":"0500",
+     "Saturday Close":"2200",
+     "Sunday Open":"0500",
+     "Sunday Close":"2200"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.903932,037.232348 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"5755 Camden Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95124,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.897178,037.350173 ]
+     },
+     "properties": {
+     "Company Name":"Ampm",
+     "Address":"697 N 4th St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.794083,037.314394 ]
+     },
+     "properties": {
+     "Company Name":"Bento N Snax LLC",
+     "Address":"3277 S White Rd Pmb 318",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95148,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.850616,037.274060 ]
+     },
+     "properties": {
+     "Company Name":"Bonfare Market",
+     "Address":"408 W Capitol Expy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95136,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.791831,037.313499 ]
+     },
+     "properties": {
+     "Company Name":"Circle K",
+     "Address":"3303 San Felipe Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95135,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.924786,037.365294 ]
+     },
+     "properties": {
+     "Company Name":"CNN",
+     "Address":"1701 Airport Blvd # A13",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95110,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.864633,037.313777 ]
+     },
+     "properties": {
+     "Company Name":"Corner Shop Stop",
+     "Address":"1684 S 7th St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"0600",
+     "Monday Close":"2100",
+     "Tuesday Open":"0600",
+     "Tuesday Close":"2100",
+     "Wednesday Open":"0600",
+     "Wednesday Close":"2100",
+     "Thursday Open":"0600",
+     "Thursday Close":"2100",
+     "Friday Open":"0600",
+     "Friday Close":"2100",
+     "Saturday Open":"0600",
+     "Saturday Close":"2100",
+     "Sunday Open":"0600",
+     "Sunday Close":"2000"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.869339,037.345993 ]
+     },
+     "properties": {
+     "Company Name":"Diana's Minnie Mart",
+     "Address":"1062 E Santa Clara St # 2b",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.903309,037.240857 ]
+     },
+     "properties": {
+     "Company Name":"Discount Mini Mart",
+     "Address":"1587 Kooser Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95118,
+     "Monday Open":"0700",
+     "Monday Close":"2300",
+     "Tuesday Open":"0700",
+     "Tuesday Close":"2300",
+     "Wednesday Open":"0700",
+     "Wednesday Close":"2300",
+     "Thursday Open":"0700",
+     "Thursday Close":"2300",
+     "Friday Open":"0700",
+     "Friday Close":"2300",
+     "Saturday Open":"0700",
+     "Saturday Close":"2300",
+     "Sunday Open":"0700",
+     "Sunday Close":"2300"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.889122,037.246636 ]
+     },
+     "properties": {
+     "Company Name":"Etminan Market",
+     "Address":"1373 Kooser Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95118,
+     "Monday Open":"0900",
+     "Monday Close":"2000",
+     "Tuesday Open":"0900",
+     "Tuesday Close":"2000",
+     "Wednesday Open":"0900",
+     "Wednesday Close":"2000",
+     "Thursday Open":"0900",
+     "Thursday Close":"2000",
+     "Friday Open":"0900",
+     "Friday Close":"2000",
+     "Saturday Open":"0900",
+     "Saturday Close":"2000",
+     "Sunday Open":"1000",
+     "Sunday Close":"1700"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.904626,037.355712 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"1002 N 1st St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.860548,037.385985 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"1111 N Capitol Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95133,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.837225,037.315153 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"1151 Tully Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -122.031856,037.303271 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"1188 S DE Anza Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95129,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.872684,037.315912 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"1418 Monterey Hwy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95110,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.888127,037.337838 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"147 E Santa Clara St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95113,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.871281,037.229714 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"16455 Almaden Expy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95120,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.992107,037.291157 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"1704 Saratoga Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95129,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.873110,037.374574 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"1715 Berryessa Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95133,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.887182,037.289606 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"2252 Lincoln Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95125,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.922810,037.351130 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"510 Newhall Dr",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95110,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.950645,037.315623 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"625 S Winchester Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.891721,037.362077 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"657 Horning St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.912919,037.397354 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"790 Montague Expy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95131,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.858356,037.250786 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"875 Blossom Hill Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95123,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.913257,037.310582 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"900 Meridian Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95126,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.934185,037.331946 ]
+     },
+     "properties": {
+     "Company Name":"Extra Mile",
+     "Address":"910 N Bascom Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.945868,037.410840 ]
+     },
+     "properties": {
+     "Company Name":"First Mart",
+     "Address":"3730 N 1st St # 100",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95134,
+     "Monday Open":"0900",
+     "Monday Close":"2100",
+     "Tuesday Open":"0900",
+     "Tuesday Close":"2100",
+     "Wednesday Open":"0900",
+     "Wednesday Close":"2100",
+     "Thursday Open":"0900",
+     "Thursday Close":"2100",
+     "Friday Open":"0900",
+     "Friday Close":"2100",
+     "Saturday Open":"0900",
+     "Saturday Close":"2100",
+     "Sunday Open":"0900",
+     "Sunday Close":"2000"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.839053,037.360188 ]
+     },
+     "properties": {
+     "Company Name":"Food Mart",
+     "Address":"2510 Alum Rock Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.860665,037.388218 ]
+     },
+     "properties": {
+     "Company Name":"Gabrielle's Food Market",
+     "Address":"1190 N Capitol Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95132,
+     "Monday Open":"0800",
+     "Monday Close":"1900",
+     "Tuesday Open":"Closed",
+     "Tuesday Close":"",
+     "Wednesday Open":"0800",
+     "Wednesday Close":"1900",
+     "Thursday Open":"0800",
+     "Thursday Close":"1900",
+     "Friday Open":"0800",
+     "Friday Close":"1900",
+     "Saturday Open":"0800",
+     "Saturday Close":"1900",
+     "Sunday Open":"0800",
+     "Sunday Close":"1900"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.887059,037.336238 ]
+     },
+     "properties": {
+     "Company Name":"Gallon Entertainment",
+     "Address":"88 S 3rd St Pmb 240",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95113,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.950518,037.320784 ]
+     },
+     "properties": {
+     "Company Name":"Gas Depot At Winchester",
+     "Address":"425 S Winchester Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.863365,037.355982 ]
+     },
+     "properties": {
+     "Company Name":"Gas Stop",
+     "Address":"1604 Mckee Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.899156,037.323609 ]
+     },
+     "properties": {
+     "Company Name":"Habesha Mini-Mart",
+     "Address":"394 Barack Obama Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95126,
+     "Monday Open":"0930",
+     "Monday Close":"1900",
+     "Tuesday Open":"0930",
+     "Tuesday Close":"1900",
+     "Wednesday Open":"0930",
+     "Wednesday Close":"1900",
+     "Thursday Open":"0930",
+     "Thursday Close":"1900",
+     "Friday Open":"0930",
+     "Friday Close":"1900",
+     "Saturday Open":"0930",
+     "Saturday Close":"2100",
+     "Sunday Open":"0930",
+     "Sunday Close":"2100"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.950645,037.315623 ]
+     },
+     "properties": {
+     "Company Name":"Hansra Gas",
+     "Address":"625 S Winchester Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.855310,037.361110 ]
+     },
+     "properties": {
+     "Company Name":"Kwikee Mart",
+     "Address":"2044 Mckee Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.805040,037.245209 ]
+     },
+     "properties": {
+     "Company Name":"Lil Grocer",
+     "Address":"5807 Cottle Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95123,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.872569,037.396658 ]
+     },
+     "properties": {
+     "Company Name":"Loop Neighborhood Market",
+     "Address":"1601 N Capitol Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95132,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.913062,037.294131 ]
+     },
+     "properties": {
+     "Company Name":"Loop Neighborhood Market",
+     "Address":"1610 Meridian Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95125,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.826051,037.321958 ]
+     },
+     "properties": {
+     "Company Name":"Loop Neighborhood Market",
+     "Address":"1698 Tully Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.873763,037.373925 ]
+     },
+     "properties": {
+     "Company Name":"Loop Neighborhood Market",
+     "Address":"1705 Berryessa Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95133,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.860832,037.304139 ]
+     },
+     "properties": {
+     "Company Name":"Loop Neighborhood Market",
+     "Address":"2180 Monterey Hwy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.791363,037.314461 ]
+     },
+     "properties": {
+     "Company Name":"Loop Neighborhood Market",
+     "Address":"3290 S White Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95148,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.779512,037.276686 ]
+     },
+     "properties": {
+     "Company Name":"Loop Neighborhood Market",
+     "Address":"5801 Silver Creek Valley Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95138,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.909460,037.326410 ]
+     },
+     "properties": {
+     "Company Name":"Mini Mart",
+     "Address":"1035 Park Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95126,
+     "Monday Open":"0800",
+     "Monday Close":"2300",
+     "Tuesday Open":"0800",
+     "Tuesday Close":"2300",
+     "Wednesday Open":"0800",
+     "Wednesday Close":"2300",
+     "Thursday Open":"0800",
+     "Thursday Close":"2300",
+     "Friday Open":"0800",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"0800",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"0900",
+     "Sunday Close":"2300"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.879464,037.278924 ]
+     },
+     "properties": {
+     "Company Name":"Mini Mart",
+     "Address":"2970 Almaden Expy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95125,
+     "Monday Open":"0930",
+     "Monday Close":"2130",
+     "Tuesday Open":"0930",
+     "Tuesday Close":"2130",
+     "Wednesday Open":"0930",
+     "Wednesday Close":"2130",
+     "Thursday Open":"0930",
+     "Thursday Close":"2130",
+     "Friday Open":"0930",
+     "Friday Close":"2230",
+     "Saturday Open":"0930",
+     "Saturday Close":"2230",
+     "Sunday Open":"0930",
+     "Sunday Close":"1900"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.843765,037.370221 ]
+     },
+     "properties": {
+     "Company Name":"My Goods",
+     "Address":"2695 Mckee Rd # X",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.809891,037.311668 ]
+     },
+     "properties": {
+     "Company Name":"New Aborn Liquors",
+     "Address":"2960 Aborn Square Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95121,
+     "Monday Open":"0900",
+     "Monday Close":"2300",
+     "Tuesday Open":"0900",
+     "Tuesday Close":"2300",
+     "Wednesday Open":"0900",
+     "Wednesday Close":"2300",
+     "Thursday Open":"0900",
+     "Thursday Close":"2300",
+     "Friday Open":"0900",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"0900",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"0900",
+     "Sunday Close":"2300"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.797721,037.350659 ]
+     },
+     "properties": {
+     "Company Name":"NG Edward",
+     "Address":"3497 Marten Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95148,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.853090,037.367117 ]
+     },
+     "properties": {
+     "Company Name":"Noon's Playhouse",
+     "Address":"396 Hans Way",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95133,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.804598,037.249091 ]
+     },
+     "properties": {
+     "Company Name":"Pacific Liquor",
+     "Address":"5721 Cottle Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95123,
+     "Monday Open":"0900",
+     "Monday Close":"2000",
+     "Tuesday Open":"0900",
+     "Tuesday Close":"2000",
+     "Wednesday Open":"0900",
+     "Wednesday Close":"2000",
+     "Thursday Open":"0900",
+     "Thursday Close":"2000",
+     "Friday Open":"0900",
+     "Friday Close":"2000",
+     "Saturday Open":"0900",
+     "Saturday Close":"2000",
+     "Sunday Open":"0900",
+     "Sunday Close":"1900"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.913868,037.340671 ]
+     },
+     "properties": {
+     "Company Name":"Paul's Quickstop",
+     "Address":"709 Stockton Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95126,
+     "Monday Open":"0700",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"0700",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"0700",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"0700",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"0700",
+     "Friday Close":"0100",
+     "Saturday Open":"0700",
+     "Saturday Close":"0100",
+     "Sunday Open":"0700",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.833695,037.331109 ]
+     },
+     "properties": {
+     "Company Name":"Pop's Mini Market",
+     "Address":"1718 Ocala Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.857018,037.330014 ]
+     },
+     "properties": {
+     "Company Name":"Quik Stop",
+     "Address":"1100 Lucretia Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"0700",
+     "Monday Close":"1900",
+     "Tuesday Open":"0700",
+     "Tuesday Close":"1900",
+     "Wednesday Open":"0700",
+     "Wednesday Close":"1900",
+     "Thursday Open":"0700",
+     "Thursday Close":"1900",
+     "Friday Open":"0700",
+     "Friday Close":"1900",
+     "Saturday Open":"0700",
+     "Saturday Close":"1900",
+     "Sunday Open":"0700",
+     "Sunday Close":"1900"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.830639,037.347916 ]
+     },
+     "properties": {
+     "Company Name":"Quik Stop",
+     "Address":"1105 Leeward Dr",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.800057,037.355310 ]
+     },
+     "properties": {
+     "Company Name":"Quik Stop",
+     "Address":"1510 Mount Pleasant Dr",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95127,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.935307,037.272142 ]
+     },
+     "properties": {
+     "Company Name":"Quik Stop",
+     "Address":"2704 S Bascom Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95124,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.869760,037.273002 ]
+     },
+     "properties": {
+     "Company Name":"Quik Stop",
+     "Address":"3695 Pearl Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95136,
+     "Monday Open":"0700",
+     "Monday Close":"1900",
+     "Tuesday Open":"0700",
+     "Tuesday Close":"1900",
+     "Wednesday Open":"0700",
+     "Wednesday Close":"1900",
+     "Thursday Open":"0700",
+     "Thursday Close":"1900",
+     "Friday Open":"0700",
+     "Friday Close":"1900",
+     "Saturday Open":"0700",
+     "Saturday Close":"1900",
+     "Sunday Open":"0700",
+     "Sunday Close":"1900"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.827059,037.365904 ]
+     },
+     "properties": {
+     "Company Name":"Quik Stop",
+     "Address":"5 Stewart Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95127,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.843765,037.370221 ]
+     },
+     "properties": {
+     "Company Name":"Rocket",
+     "Address":"2695 Mckee Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.776122,037.226951 ]
+     },
+     "properties": {
+     "Company Name":"Rocket",
+     "Address":"7022 Santa Teresa Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95139,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -122.032606,037.307978 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"1051 S DE Anza Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95129,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.902724,037.309921 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"1061 Lincoln Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95125,
+     "Monday Open":"0600",
+     "Monday Close":"2300",
+     "Tuesday Open":"0600",
+     "Tuesday Close":"2300",
+     "Wednesday Open":"0600",
+     "Wednesday Close":"2300",
+     "Thursday Open":"0600",
+     "Thursday Close":"2300",
+     "Friday Open":"0600",
+     "Friday Close":"2300",
+     "Saturday Open":"0600",
+     "Saturday Close":"2300",
+     "Sunday Open":"0700",
+     "Sunday Close":"2300"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.846719,037.400407 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"1304 Piedmont Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95132,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.990062,037.293933 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"1555 Saratoga Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95129,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.906284,037.270892 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"1655 Foxworthy Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95124,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.832604,037.347580 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"2305 Story Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"0500",
+     "Monday Close":"2200",
+     "Tuesday Open":"0500",
+     "Tuesday Close":"2200",
+     "Wednesday Open":"0500",
+     "Wednesday Close":"2200",
+     "Thursday Open":"0500",
+     "Thursday Close":"2200",
+     "Friday Open":"0500",
+     "Friday Close":"2200",
+     "Saturday Open":"0500",
+     "Saturday Close":"2200",
+     "Sunday Open":"0500",
+     "Sunday Close":"2200"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.844914,037.287996 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"3090 Monterey Hwy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95111,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.978322,037.307920 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"4200 Williams Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95129,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.884798,037.345169 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"455 E Julian St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95112,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.874438,037.260257 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"4950 Almaden Expy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95118,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.822545,037.359511 ]
+     },
+     "properties": {
+     "Company Name":"Rotten Robbie",
+     "Address":"605 S White Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95127,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.858094,037.384868 ]
+     },
+     "properties": {
+     "Company Name":"S & M Snacks LLC",
+     "Address":"1060 N Capitol Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95133,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.826114,037.350671 ]
+     },
+     "properties": {
+     "Company Name":"S & S Market",
+     "Address":"1148 S Capitol Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95127,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.871145,037.350769 ]
+     },
+     "properties": {
+     "Company Name":"San Jose Snack Shop",
+     "Address":"1152 E Julian St # 20",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.774439,037.239367 ]
+     },
+     "properties": {
+     "Company Name":"Speedway",
+     "Address":"6050 Monterey Hwy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95138,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.821612,037.300484 ]
+     },
+     "properties": {
+     "Company Name":"Speedway Express",
+     "Address":"1091 E Capitol Expy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95121,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.859854,037.386544 ]
+     },
+     "properties": {
+     "Company Name":"Speedway Express",
+     "Address":"1140 N Capitol Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95133,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.869283,037.351838 ]
+     },
+     "properties": {
+     "Company Name":"Speedway Express",
+     "Address":"1256 E Julian St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.887978,037.246327 ]
+     },
+     "properties": {
+     "Company Name":"Speedway Express",
+     "Address":"1365 Kooser Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95118,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.950447,037.297533 ]
+     },
+     "properties": {
+     "Company Name":"Speedway Express",
+     "Address":"1465 S Winchester Blvd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95128,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.859109,037.350871 ]
+     },
+     "properties": {
+     "Company Name":"Speedway Express",
+     "Address":"1598 Alum Rock Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.824403,037.352104 ]
+     },
+     "properties": {
+     "Company Name":"Speedway Express",
+     "Address":"2790 Story Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95127,
+     "Monday Open":"Open 24 Hours",
+     "Monday Close":"Open 24 Hours",
+     "Tuesday Open":"Open 24 Hours",
+     "Tuesday Close":"Open 24 Hours",
+     "Wednesday Open":"Open 24 Hours",
+     "Wednesday Close":"Open 24 Hours",
+     "Thursday Open":"Open 24 Hours",
+     "Thursday Close":"Open 24 Hours",
+     "Friday Open":"Open 24 Hours",
+     "Friday Close":"Open 24 Hours",
+     "Saturday Open":"Open 24 Hours",
+     "Saturday Close":"Open 24 Hours",
+     "Sunday Open":"Open 24 Hours",
+     "Sunday Close":"Open 24 Hours"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.931210,037.267057 ]
+     },
+     "properties": {
+     "Company Name":"Speedway Express",
+     "Address":"3010 Union Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95124,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.833771,037.359639 ]
+     },
+     "properties": {
+     "Company Name":"Stop & Buy Number 2",
+     "Address":"175 S Capitol Ave",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95127,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.829010,037.320733 ]
+     },
+     "properties": {
+     "Company Name":"Stop 'N' Buy",
+     "Address":"1601 Tully Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"0600",
+     "Monday Close":"0100",
+     "Tuesday Open":"0600",
+     "Tuesday Close":"0100",
+     "Wednesday Open":"0600",
+     "Wednesday Close":"0100",
+     "Thursday Open":"0600",
+     "Thursday Close":"0100",
+     "Friday Open":"0600",
+     "Friday Close":"0100",
+     "Saturday Open":"0600",
+     "Saturday Close":"0100",
+     "Sunday Open":"0600",
+     "Sunday Close":"0100"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.811060,037.305299 ]
+     },
+     "properties": {
+     "Company Name":"Stop N Save",
+     "Address":"1626 E Capitol Expy",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95121,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.850932,037.365599 ]
+     },
+     "properties": {
+     "Company Name":"Stop N Save",
+     "Address":"2297 Mckee Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.824563,037.320044 ]
+     },
+     "properties": {
+     "Company Name":"Stop N Save",
+     "Address":"2507 S King Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.890618,037.334309 ]
+     },
+     "properties": {
+     "Company Name":"Street Snacks",
+     "Address":"80 S Market St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95113,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.857308,037.331199 ]
+     },
+     "properties": {
+     "Company Name":"Sweet Gelato Mini Mart",
+     "Address":"979 Story Rd # 7084",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.880978,037.319334 ]
+     },
+     "properties": {
+     "Company Name":"T & T Gas & Mini Mart",
+     "Address":"150 Willow St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95110,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.791873,037.313036 ]
+     },
+     "properties": {
+     "Company Name":"Tran Mini Mart",
+     "Address":"3305 San Felipe Rd",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95135,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.825212,037.323283 ]
+     },
+     "properties": {
+     "Company Name":"Tully Market",
+     "Address":"1709 Tully Rd # D",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95122,
+     "Monday Open":"0700",
+     "Monday Close":"2300",
+     "Tuesday Open":"0700",
+     "Tuesday Close":"2300",
+     "Wednesday Open":"0700",
+     "Wednesday Close":"2300",
+     "Thursday Open":"0700",
+     "Thursday Close":"2300",
+     "Friday Open":"0700",
+     "Friday Close":"2300",
+     "Saturday Open":"0700",
+     "Saturday Close":"2300",
+     "Sunday Open":"0700",
+     "Sunday Close":"2300"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.865931,037.348163 ]
+     },
+     "properties": {
+     "Company Name":"Western Union Agent Location",
+     "Address":"1255 E Santa Clara St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP Code":95116,
+     "Monday Open":"",
+     "Monday Close":"",
+     "Tuesday Open":"",
+     "Tuesday Close":"",
+     "Wednesday Open":"",
+     "Wednesday Close":"",
+     "Thursday Open":"",
+     "Thursday Close":"",
+     "Friday Open":"",
+     "Friday Close":"",
+     "Saturday Open":"",
+     "Saturday Close":"",
+     "Sunday Open":"",
+     "Sunday Close":""
+     }
+   }
+ ]
+ }

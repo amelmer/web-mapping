@@ -5,54 +5,61 @@ setwd("/Users/allisonelmer/Documents/GitHub/web-mapping/final-project")
 
 snap_data <- st_read("snap/snap_retailers.json")
 
-match_retailers <- function(street_number, street_name, address) {
-  street_name <- gsub("Road", "Rd", street_name)
-  street_name <- gsub("Avenue", "Ave", street_name)
-  street_name <- gsub("Expressway", "Expy", street_name)
-  street_name <- gsub("Street", "St", street_name)
-  street_name <- gsub("Lane", "Ln", street_name)
-  street_name <- gsub("Boulevard", "Blvd", street_name)
-  street_name <- gsub("Highway", "Hwy", street_name)
-  street_name <- gsub("North", "N", street_name)
-  street_name <- gsub("South", "S", street_name)
-  street_name <- gsub("West", "W", street_name)
-  street_name <- gsub("East", "E", street_name)
-  print(street_name)
+street_abbv <- c("Road" = "Rd", "Avenue" = "Ave", "Expressway" = "Expy",
+                 "Street" = "St", "Lane" = "Ln", "Boulevard" = "Blvd",
+                 "Highway" = "Hwy", "North" = "N", "South" = "S",
+                 "West" = "W", "East" = "E")
+
+match_retailers <- function(address1, address2) {
+  address1 <- str_replace_all(address1, street_abbv)
+  address2 <- str_replace_all(address2, street_abbv)
   
-  address <- gsub("Road", "Rd", address)
-  address <- gsub("Avenue", "Ave", address)
-  address <- gsub("Expressway", "Expy", address)
-  address <- gsub("Street", "St", address)
-  address <- gsub("Lane", "Ln", address)
-  address <- gsub("Boulevard", "Blvd", address)
-  address <- gsub("Highway", "Hwy", address)
-  address <- gsub("North", "N", address)
-  address <- gsub("South", "S", address)
-  address <- gsub("West", "W", address)
-  address <- gsub("East", "E", address)
-  print(address)
-  
-  if (c(paste0(street_number, " ", str_to_lower(street_name))) == str_to_lower(address)) {
+  if (str_to_lower(address1) == str_to_lower(address2)) {
     return(1)
   } else {
     return(0)
   }
 }
 
+data_cleaning <- function(df) {
+  df <- df %>% 
+    mutate(Address = gsub("# [a-zA-Z0-9]*", "", Address),
+           across(ends_with(".Close"), ~{
+             open_col <- str_replace(cur_column(), "\\.Close$", ".Open")
+             case_when(
+               df[[open_col]] == "Open 24 Hours" ~ "Open 24 Hours",
+               df[[open_col]] == "Closed" ~ "Closed",
+               . == "" ~ NA_character_,
+               TRUE ~ .
+             )
+           }),
+           across(ends_with(".Open"), ~{
+             close_col <- str_replace(cur_column(), "\\.Open$", ".Close")
+             case_when(
+               df[[close_col]] == "Open 24 Hours" ~ "Open 24 Hours",
+               . == "" ~ NA_character_,
+               TRUE ~ .
+             )
+           })
+    )
+  
+  names(df) <- gsub("\\.", "", names(df))
+  
+  return(df)
+}
+
 # iterate over grocery stores
 grocery_data <- st_read("snap/groceries.geojson")
 
-print(c(paste0(grocery_data$addr.housenumber[[20]], " ", grocery_data$addr.street[[20]])))
-print(snap_data$Store_Street_Address[[10]])
+grocery_data <- data_cleaning(grocery_data)
 
 grocery_data$accepts_snap <- NA
 
-for (i in 1:length(grocery_data$id)) {
+for (i in 1:length(grocery_data$CompanyName)) {
   for (j in 1:length(snap_data$Record_ID)) {
-    distance <- match_retailers(grocery_data$addr.housenumber[[i]], 
-                                grocery_data$addr.street[[i]], 
+    distance <- match_retailers(grocery_data$Address[[i]], 
                                 snap_data$Store_Street_Address[[j]])
-
+    
     if (distance == 1) {
       grocery_data$accepts_snap[[i]] <- 1
       break
@@ -63,7 +70,6 @@ for (i in 1:length(grocery_data$id)) {
 }
 
 st_write(grocery_data, "groceries_snap.geojson")
-
 
 # iterate over drinks and sweets
 drinks_sweets <- st_read("snap/drinks_sweets.geojson")
