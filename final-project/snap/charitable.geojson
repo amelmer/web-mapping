@@ -1,0 +1,89 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.899948,037.401940 ]
+     },
+     "properties": {
+     "Company.Name":"Bishops' Storehouse",
+     "Address":"2295 Ringwood Ave # A1",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP.Code":95131,
+     "Monday.Open":"Closed",
+     "Monday.Close":"",
+     "Tuesday.Open":830,
+     "Tuesday.Close":1230,
+     "Wednesday.Open":1030,
+     "Wednesday.Close":1430,
+     "Thursday.Open":"Closed",
+     "Thursday.Close":"",
+     "Friday.Open":"Closed",
+     "Friday.Close":"",
+     "Saturday.Open":"0830",
+     "Saturday.Close":1230,
+     "Sunday.Open":"Closed",
+     "Sunday.Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.897025,037.370890 ]
+     },
+     "properties": {
+     "Company.Name":"Loaves & Fishes Family Kitchen",
+     "Address":"1500 Berger Dr",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP.Code":95112,
+     "Monday.Open":"0900",
+     "Monday.Close":1600,
+     "Tuesday.Open":900,
+     "Tuesday.Close":1600,
+     "Wednesday.Open":900,
+     "Wednesday.Close":1600,
+     "Thursday.Open":"0900",
+     "Thursday.Close":1600,
+     "Friday.Open":"0900",
+     "Friday.Close":1600,
+     "Saturday.Open":"Closed",
+     "Saturday.Close":"",
+     "Sunday.Open":"Closed",
+     "Sunday.Close":""
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -121.952612,037.413249 ]
+     },
+     "properties": {
+     "Company.Name":"Second Harvest-Silicon Vly",
+     "Address":"4001 N 1st St",
+     "City":"San Jose",
+     "State":"CA",
+     "ZIP.Code":95134,
+     "Monday.Open":"0800",
+     "Monday.Close":1700,
+     "Tuesday.Open":800,
+     "Tuesday.Close":1700,
+     "Wednesday.Open":800,
+     "Wednesday.Close":1700,
+     "Thursday.Open":"0800",
+     "Thursday.Close":1700,
+     "Friday.Open":"0800",
+     "Friday.Close":1700,
+     "Saturday.Open":"Closed",
+     "Saturday.Close":"",
+     "Sunday.Open":"Closed",
+     "Sunday.Close":""
+     }
+   }
+ ]
+ }

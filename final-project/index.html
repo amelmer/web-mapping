@@ -5,10 +5,11 @@
         <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
         <script src="groceries_snap.js"></script>
-        <script src="restaurants_snap.js"></script>
-        <script src="drinks_sweets_snap.js"></script>
-        <script src="specialty_snap.js"></script>
+        <script src="restaurant_snap.js"></script>
+        <script src="sweets_snap.js"></script>
         <script src="convenience_snap.js"></script>
+        <script src="farm_snap.js"></script>
+        <script src="charitable_snap.js"></script>
         <script src="Neighborhoods.js"></script>
         <script src="City_Limits.js"></script>
         <script src="Streets.js"></script>
@@ -97,9 +98,43 @@
                 opacity: 1;
             }
 
+            .tab {
+                overflow: hidden;
+                border: 1px solid #ccc;
+                background-color: #f1f1f1;
+            }
+
+            .tab button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+            }
+
+            .tab button:hover {
+                background-color: #ddd;
+            }
+
+            .tab button.active {
+                background-color: #ccc;
+            }
         </style>
     </head>
     <body>
+        <h1>Food Access in San Jose</h1>
+        <div id="tabs">
+            <button class="tablinks" onclick="openTab(event, 'map')">Map</button>
+            <button class="tablinks" onclick="openTab(event, 'instruction')">Tips</button>
+        </div>
+        <div id="mapTab" class="tabcontent">
+            <div id="map" style="width: 100vw; height: 80vh;"></div>
+        </div>
+        <div id="instructionTab" class="tabcontent" style="display:none;">
+            <h2>Instructions</h2>
+        </div>
         <div id="input-box">
             <label for="start-location">Start Location:</label>
             <input type="text" id="start-location" placeholder="Click on the map to select a location">
@@ -159,7 +194,21 @@
                     <option value=2400>12:00AM</option>
                 </select>
         </div>
-        <div id="map"></div>
+        <script>
+            function openTab(evt, tabName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(tabName + "Tab").style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+        </script>
         <script type="module">
             const Isochrones = new Openrouteservice.Isochrones({ api_key: "5b3ce3597851110001cf6248975a872ddf4b41b095d206e5e5197267" });
 
@@ -179,7 +228,7 @@
                     weight: 2,
                     opacity: 1,
                     color: '#838383',
-                    fillOpacity: 0.5
+                    fillOpacity: 0
                 };
             };
 
@@ -204,8 +253,9 @@
                 value == "Grocery Store" ? '#90c78a':
                 value == "Restaurant" ? '#b39eb5':
                 value == "Drink or Sweet" ? '#aec6cf':
-                value == "Specialty Grocery Store" ? '#ffd1dc':
+                value == "Specialty Grocer or Farm" ? '#ffd1dc':
                 value == "Convenience Store" ? "#dc9074":
+                value == "Charitable Food" ? "#dcdc74":
                 'red';
             };
 
@@ -297,9 +347,9 @@
                 pointToLayer: function(feature, ll){
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
-                    opacity: 1,
+                    opacity: filterByHours(feature),
                     fillColor: '#b39eb5',
-                    fillOpacity: 0.8,
+                    fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
                 });}
@@ -310,22 +360,35 @@
                 pointToLayer: function(feature, ll){
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
-                    opacity: 1,
+                    opacity: filterByHours(feature),
                     fillColor: '#aec6cf',
-                    fillOpacity: 0.8,
+                    fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
                 });}
             });
 
-            var specialty_grocers = L.geoJSON(specialty, {
+            var farm = L.geoJSON(farm_specialty, {
                 onEachFeature : onEachFeature,
                 pointToLayer: function(feature, ll){
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
-                    opacity: 1,
+                    opacity: filterByHours(feature),
                     fillColor: '#ffd1dc',
-                    fillOpacity: 0.8,
+                    fillOpacity: filterByHours(feature),
+                    radius: 6,
+                    weight: 2
+                });}
+            });
+
+            var charitable_food = L.geoJSON(charity, {
+                onEachFeature : onEachFeature,
+                pointToLayer: function(feature, ll){
+                return L.circleMarker(ll, {
+                    color: getColorOutline(feature.properties.accepts_snap),
+                    opacity: filterByHours(feature),
+                    fillColor: '#dcdc74',
+                    fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
                 });}
@@ -418,11 +481,19 @@
             document.getElementById('day-select').addEventListener('change', function() {
                 updateLayers(grocery_stores);
                 updateLayers(convenience_stores);
+                updateLayers(restaurant_locations);
+                updateLayers(sweets);
+                updateLayers(farm);
+                updateLayers(charitable_food);
             });
 
             document.getElementById('time-select').addEventListener('change', function() {
                 updateLayers(grocery_stores);
                 updateLayers(convenience_stores);
+                updateLayers(restaurant_locations);
+                updateLayers(sweets);
+                updateLayers(farm);
+                updateLayers(charitable_food);
             });
 
             var overlayMaps = {
@@ -433,8 +504,9 @@
             "Grocery Stores": grocery_stores,
             "Restaurants": restaurant_locations,
             "Drinks and Sweets": sweets,
-            "Specialty Grocery Stores": specialty_grocers,
-            "Convenience Stores": convenience_stores
+            "Convenience Stores": convenience_stores,
+            "Speciality Grocers & Farms": farm,
+            "Charitable Food": charitable_food
             };
 
             var layerControl = L.control.layers(null, overlayMaps, {collapsed:false}).addTo(map);
@@ -442,7 +514,7 @@
             var legend = L.control({position: 'bottomright'})
             legend.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'info legend'),
-                    types = ["Accepts SNAP", "Does Not Accept SNAP", "Grocery Store", "Convenience Store", "Restaurant", "Drink or Sweet", "Specialty Grocery Store"],
+                    types = ["Accepts SNAP", "Does Not Accept SNAP", "Charitable Food", "Grocery Store", "Convenience Store", "Restaurant", "Drink or Sweet", "Specialty Grocer or Farm"],
                     labels = [];
                     div.innerHTML += '<b>Legend</b><br/>'
                 

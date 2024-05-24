@@ -1,0 +1,1909 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.906833,037.330270 ]
+   },
+   "properties": {
+   "Company Name":"Alfredo's Produce",
+   "Address":"55 Sunol St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95126,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.954974,037.414897 ]
+   },
+   "properties": {
+   "Company Name":"Bayolis Farms LLC",
+   "Address":"1 Vista Montana # 5432",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95134,
+   "Monday.Open":"0900",
+   "Monday.Close":"1700",
+   "Tuesday.Open":"0900",
+   "Tuesday.Close":"1700",
+   "Wednesday.Open":"Closed",
+   "Wednesday.Close":"",
+   "Thursday.Open":"Closed",
+   "Thursday.Close":"",
+   "Friday.Open":"0900",
+   "Friday.Close":"1700",
+   "Saturday.Open":"Closed",
+   "Saturday.Close":"",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.786025,037.250144 ]
+   },
+   "properties": {
+   "Company Name":"Bobbie's Fruit Design",
+   "Address":"109 Meadwell Ct",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95138,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.929122,037.320123 ]
+   },
+   "properties": {
+   "Company Name":"Brown Cap Farms LLC",
+   "Address":"492 Arleta Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95128,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.864115,037.366048 ]
+   },
+   "properties": {
+   "Company Name":"Chong's Produce Inc",
+   "Address":"1860 Dobbin Dr",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95133,
+   "Monday.Open":"0700",
+   "Monday.Close":"1600",
+   "Tuesday.Open":"0700",
+   "Tuesday.Close":"1600",
+   "Wednesday.Open":"0700",
+   "Wednesday.Close":"1600",
+   "Thursday.Open":"0700",
+   "Thursday.Close":"1600",
+   "Friday.Open":"0700",
+   "Friday.Close":"1600",
+   "Saturday.Open":"0700",
+   "Saturday.Close":"1600",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.883565,037.261165 ]
+   },
+   "properties": {
+   "Company Name":"Chris Produce",
+   "Address":"",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95118,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.830212,037.230478 ]
+   },
+   "properties": {
+   "Company Name":"Coastal Fresh Produce",
+   "Address":"6306 Snell Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95123,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.82855,037.339360 ]
+   },
+   "properties": {
+   "Company Name":"Crimson Farm Inc",
+   "Address":"1632 Karl St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95122,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.869339,037.345993 ]
+   },
+   "properties": {
+   "Company Name":"Don Mateo Foods",
+   "Address":"1062 E Santa Clara St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95116,
+   "Monday.Open":"0930",
+   "Monday.Close":"1730",
+   "Tuesday.Open":"0930",
+   "Tuesday.Close":"1730",
+   "Wednesday.Open":"0930",
+   "Wednesday.Close":"1730",
+   "Thursday.Open":"0930",
+   "Thursday.Close":"1730",
+   "Friday.Open":"0930",
+   "Friday.Close":"1730",
+   "Saturday.Open":"1030",
+   "Saturday.Close":"1630",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.875524,037.322970 ]
+   },
+   "properties": {
+   "Company Name":"Eddie's Produce",
+   "Address":"1005 S 5th St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95112,
+   "Monday.Open":"0500",
+   "Monday.Close":"1300",
+   "Tuesday.Open":"0500",
+   "Tuesday.Close":"1300",
+   "Wednesday.Open":"0500",
+   "Wednesday.Close":"1300",
+   "Thursday.Open":"0500",
+   "Thursday.Close":"1300",
+   "Friday.Open":"0500",
+   "Friday.Close":"1300",
+   "Saturday.Open":"0500",
+   "Saturday.Close":"1300",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.859064,037.339280 ]
+   },
+   "properties": {
+   "Company Name":"Filomena Farms",
+   "Address":"671 Lotus St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95116,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.794681,037.326089 ]
+   },
+   "properties": {
+   "Company Name":"Friends Farm Inc",
+   "Address":"2916 Allenwood Ct",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95148,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.840438,037.279700 ]
+   },
+   "properties": {
+   "Company Name":"Frutas Y Verduras",
+   "Address":"3630 Hillcap Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95136,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.90547,037.368826 ]
+   },
+   "properties": {
+   "Company Name":"Galli Produce Inc",
+   "Address":"1650 Old Bayshore Hwy",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95112,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.803012,037.391781 ]
+   },
+   "properties": {
+   "Company Name":"Grundmann Farm LLC",
+   "Address":"17120 Crothers Rd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95127,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.86624,037.364601 ]
+   },
+   "properties": {
+   "Company Name":"Hacienda Produce Co",
+   "Address":"660 N King Rd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95133,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.915701,037.334080 ]
+   },
+   "properties": {
+   "Company Name":"Happy Goats Farm Inc",
+   "Address":"1501 The Alameda",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95126,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.907795,037.249252 ]
+   },
+   "properties": {
+   "Company Name":"JP Farms",
+   "Address":"4977 Carter Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95118,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.91884,037.294084 ]
+   },
+   "properties": {
+   "Company Name":"L N D Farms",
+   "Address":"1830 Hamilton Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95125,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.779136,037.317088 ]
+   },
+   "properties": {
+   "Company Name":"Loving Valley Farms LLC",
+   "Address":"3141 Heritage Valley Dr",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95148,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.845287,037.291462 ]
+   },
+   "properties": {
+   "Company Name":"Magana Produce",
+   "Address":"140 Lewis Rd # 8",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95111,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.891481,037.335269 ]
+   },
+   "properties": {
+   "Company Name":"Mich Produce Inc",
+   "Address":"84 W Santa Clara St # 770",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95113,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.864404,037.260037 ]
+   },
+   "properties": {
+   "Company Name":"Mt Diablo Surveyors Historical",
+   "Address":"5042 Amethyst Ct",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95136,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.964345,037.314387 ]
+   },
+   "properties": {
+   "Company Name":"Olive Seven Corp",
+   "Address":"3652 Debra Way",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95117,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.911656,037.258755 ]
+   },
+   "properties": {
+   "Company Name":"Parky's Produce",
+   "Address":"4023 Paladin Dr",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95124,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.824273,037.299882 ]
+   },
+   "properties": {
+   "Company Name":"Perez Urban Farm LLC",
+   "Address":"1009 E Capitol Expy Pmb 542",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95121,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.887379,037.334862 ]
+   },
+   "properties": {
+   "Company Name":"Produce USA",
+   "Address":"88 E San Fernando St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95113,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.823652,037.192770 ]
+   },
+   "properties": {
+   "Company Name":"Ray Of Sunshine Farm",
+   "Address":"20110 Almaden Rd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95120,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.877923,037.253291 ]
+   },
+   "properties": {
+   "Company Name":"Real Produce",
+   "Address":"5353 Almaden Expy # 44",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95118,
+   "Monday.Open":"0800",
+   "Monday.Close":"2030",
+   "Tuesday.Open":"0800",
+   "Tuesday.Close":"2030",
+   "Wednesday.Open":"0800",
+   "Wednesday.Close":"2030",
+   "Thursday.Open":"0800",
+   "Thursday.Close":"2030",
+   "Friday.Open":"0800",
+   "Friday.Close":"2030",
+   "Saturday.Open":"0800",
+   "Saturday.Close":"2030",
+   "Sunday.Open":"0800",
+   "Sunday.Close":"2030"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.824755,037.345603 ]
+   },
+   "properties": {
+   "Company Name":"Road Produce",
+   "Address":"1450 Leeward Dr # 808",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95122,
+   "Monday.Open":"0800",
+   "Monday.Close":"1700",
+   "Tuesday.Open":"0800",
+   "Tuesday.Close":"1700",
+   "Wednesday.Open":"0800",
+   "Wednesday.Close":"1700",
+   "Thursday.Open":"0800",
+   "Thursday.Close":"1700",
+   "Friday.Open":"0800",
+   "Friday.Close":"1700",
+   "Saturday.Open":"0800",
+   "Saturday.Close":"1700",
+   "Sunday.Open":"0800",
+   "Sunday.Close":"1700"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.771261,037.300472 ]
+   },
+   "properties": {
+   "Company Name":"Scripps Farm LLC",
+   "Address":"4848 San Felipe Rd # 145",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95135,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.904405,037.336980 ]
+   },
+   "properties": {
+   "Company Name":"T & S Produce",
+   "Address":"370 N Montgomery St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95110,
+   "Monday.Open":"1100",
+   "Monday.Close":"1700",
+   "Tuesday.Open":"1100",
+   "Tuesday.Close":"1700",
+   "Wednesday.Open":"1100",
+   "Wednesday.Close":"1700",
+   "Thursday.Open":"1100",
+   "Thursday.Close":"1700",
+   "Friday.Open":"1100",
+   "Friday.Close":"1700",
+   "Saturday.Open":"1100",
+   "Saturday.Close":"1600",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.855121,037.330745 ]
+   },
+   "properties": {
+   "Company Name":"Tran Tropical Produce LLC",
+   "Address":"992 Story Rd # 30",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95122,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.846723,037.340028 ]
+   },
+   "properties": {
+   "Company Name":"Veggielution",
+   "Address":"647 S King Rd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95116,
+   "Monday.Open":"Closed",
+   "Monday.Close":"",
+   "Tuesday.Open":"0800",
+   "Tuesday.Close":"1700",
+   "Wednesday.Open":"0800",
+   "Wednesday.Close":"1700",
+   "Thursday.Open":"0800",
+   "Thursday.Close":"1700",
+   "Friday.Open":"0800",
+   "Friday.Close":"1700",
+   "Saturday.Open":"0800",
+   "Saturday.Close":"1700",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.922604,037.339714 ]
+   },
+   "properties": {
+   "Company Name":"Venice Produce Inc",
+   "Address":"1871 The Alameda # 331",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95126,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.901427,037.276082 ]
+   },
+   "properties": {
+   "Company Name":"West Village Farms Inc",
+   "Address":"1611 Trona Way",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95125,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.906873,037.285584 ]
+   },
+   "properties": {
+   "Company Name":"Westwind Farms Inc",
+   "Address":"1627 Mulberry Ln",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95125,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.890234,037.241470 ]
+   },
+   "properties": {
+   "Company Name":"Yummy Tummy Farms LLC",
+   "Address":"5611 Doorn Ln",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95118,
+   "Monday.Open":"Closed",
+   "Monday.Close":"",
+   "Tuesday.Open":"Closed",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"Closed",
+   "Wednesday.Close":"",
+   "Thursday.Open":"Closed",
+   "Thursday.Close":"",
+   "Friday.Open":"Closed",
+   "Friday.Close":"",
+   "Saturday.Open":"0900",
+   "Saturday.Close":"1200",
+   "Sunday.Open":"0900",
+   "Sunday.Close":"1200"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.827695,037.362125 ]
+   },
+   "properties": {
+   "Company Name":"Zoria Farms",
+   "Address":"234 N Capitol Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95127,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.897843,037.303846 ]
+   },
+   "properties": {
+   "Company Name":"20twenty Cheese Bar",
+   "Address":"1389 Lincoln Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95125,
+   "Monday.Open":"Closed",
+   "Monday.Close":"",
+   "Tuesday.Open":"Closed",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"1600",
+   "Wednesday.Close":"2000",
+   "Thursday.Open":"1600",
+   "Thursday.Close":"2000",
+   "Friday.Open":"1600",
+   "Friday.Close":"2030",
+   "Saturday.Open":"1600",
+   "Saturday.Close":"2030",
+   "Sunday.Open":"1500",
+   "Sunday.Close":"1900"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.776757,037.317334 ]
+   },
+   "properties": {
+   "Company Name":"America's Choice Steak Seafood",
+   "Address":"3474 Heritage Oaks Dr",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95148,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.886981,037.388632 ]
+   },
+   "properties": {
+   "Company Name":"American Best Seafood Inc",
+   "Address":"1750 Lundy Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95161,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.855974,037.334056 ]
+   },
+   "properties": {
+   "Company Name":"Angela Q Food & Deli",
+   "Address":"953 Mclaughlin Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95122,
+   "Monday.Open":"0700",
+   "Monday.Close":"2100",
+   "Tuesday.Open":"0700",
+   "Tuesday.Close":"2100",
+   "Wednesday.Open":"0700",
+   "Wednesday.Close":"2100",
+   "Thursday.Open":"0700",
+   "Thursday.Close":"2100",
+   "Friday.Open":"0700",
+   "Friday.Close":"2100",
+   "Saturday.Open":"0700",
+   "Saturday.Close":"2100",
+   "Sunday.Open":"0700",
+   "Sunday.Close":"2100"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.827603,037.380105 ]
+   },
+   "properties": {
+   "Company Name":"Antipasto's By De Rose",
+   "Address":"3454 Mckee Rd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95127,
+   "Monday.Open":"Closed",
+   "Monday.Close":"",
+   "Tuesday.Open":"1000",
+   "Tuesday.Close":"1700",
+   "Wednesday.Open":"1000",
+   "Wednesday.Close":"1700",
+   "Thursday.Open":"1000",
+   "Thursday.Close":"1700",
+   "Friday.Open":"1000",
+   "Friday.Close":"1700",
+   "Saturday.Open":"1000",
+   "Saturday.Close":"1700",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.82459,037.319376 ]
+   },
+   "properties": {
+   "Company Name":"Asian Live Seafood",
+   "Address":"2559 S King Rd # 1",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95122,
+   "Monday.Open":"0830",
+   "Monday.Close":"1900",
+   "Tuesday.Open":"0830",
+   "Tuesday.Close":"1900",
+   "Wednesday.Open":"0830",
+   "Wednesday.Close":"1900",
+   "Thursday.Open":"0830",
+   "Thursday.Close":"1900",
+   "Friday.Open":"0830",
+   "Friday.Close":"1900",
+   "Saturday.Open":"0830",
+   "Saturday.Close":"1900",
+   "Sunday.Open":"0830",
+   "Sunday.Close":"1900"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.897745,037.370444 ]
+   },
+   "properties": {
+   "Company Name":"Berger Seafoods",
+   "Address":"1479 Berger Dr",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95112,
+   "Monday.Open":"0800",
+   "Monday.Close":"1800",
+   "Tuesday.Open":"0800",
+   "Tuesday.Close":"1800",
+   "Wednesday.Open":"0800",
+   "Wednesday.Close":"1800",
+   "Thursday.Open":"0800",
+   "Thursday.Close":"1800",
+   "Friday.Open":"0800",
+   "Friday.Close":"1800",
+   "Saturday.Open":"Closed",
+   "Saturday.Close":"",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.954924,037.416170 ]
+   },
+   "properties": {
+   "Company Name":"Blue Water Seafood & Crab",
+   "Address":"4180 N 1st St # 10",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95134,
+   "Monday.Open":"1100",
+   "Monday.Close":"Open 24 Hours",
+   "Tuesday.Open":"1100",
+   "Tuesday.Close":"Open 24 Hours",
+   "Wednesday.Open":"1100",
+   "Wednesday.Close":"Open 24 Hours",
+   "Thursday.Open":"1100",
+   "Thursday.Close":"Open 24 Hours",
+   "Friday.Open":"1100",
+   "Friday.Close":"Open 24 Hours",
+   "Saturday.Open":"1000",
+   "Saturday.Close":"Open 24 Hours",
+   "Sunday.Open":"1000",
+   "Sunday.Close":"Open 24 Hours"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.864941,037.303049 ]
+   },
+   "properties": {
+   "Company Name":"Boiling Crab",
+   "Address":"71 Curtner Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95125,
+   "Monday.Open":"1500",
+   "Monday.Close":"2100",
+   "Tuesday.Open":"1500",
+   "Tuesday.Close":"2100",
+   "Wednesday.Open":"1500",
+   "Wednesday.Close":"2100",
+   "Thursday.Open":"1500",
+   "Thursday.Close":"2100",
+   "Friday.Open":"1500",
+   "Friday.Close":"2100",
+   "Saturday.Open":"1200",
+   "Saturday.Close":"2100",
+   "Sunday.Open":"1200",
+   "Sunday.Close":"2100"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.873729,037.372700 ]
+   },
+   "properties": {
+   "Company Name":"Crawfish House & Seafoods",
+   "Address":"1696 Berryessa Rd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95133,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.912677,037.368315 ]
+   },
+   "properties": {
+   "Company Name":"Crust-Fresh Sourdough Deli",
+   "Address":"1734 N 1st St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95112,
+   "Monday.Open":"1030",
+   "Monday.Close":"1500",
+   "Tuesday.Open":"1030",
+   "Tuesday.Close":"1500",
+   "Wednesday.Open":"1030",
+   "Wednesday.Close":"1500",
+   "Thursday.Open":"1030",
+   "Thursday.Close":"1500",
+   "Friday.Open":"1030",
+   "Friday.Close":"1500",
+   "Saturday.Open":"Closed",
+   "Saturday.Close":"",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.854994,037.331349 ]
+   },
+   "properties": {
+   "Company Name":"Duc Huong Sandwich",
+   "Address":"1020 Story Rd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95122,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.914448,037.392883 ]
+   },
+   "properties": {
+   "Company Name":"El Puerto Seafoods Inc",
+   "Address":"2311 Kruse Dr",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95131,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.947486,037.320005 ]
+   },
+   "properties": {
+   "Company Name":"EMC Seafood & Raw Bar",
+   "Address":"378 Santana Row # 1100",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95128,
+   "Monday.Open":"1130",
+   "Monday.Close":"2200",
+   "Tuesday.Open":"1130",
+   "Tuesday.Close":"2200",
+   "Wednesday.Open":"1130",
+   "Wednesday.Close":"2200",
+   "Thursday.Open":"1130",
+   "Thursday.Close":"2200",
+   "Friday.Open":"1130",
+   "Friday.Close":"Open 24 Hours",
+   "Saturday.Open":"1130",
+   "Saturday.Close":"Open 24 Hours",
+   "Sunday.Open":"1130",
+   "Sunday.Close":"2200"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.907087,037.246281 ]
+   },
+   "properties": {
+   "Company Name":"Fish Of South Valley",
+   "Address":"5100 Camden Ave",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95124,
+   "Monday.Open":"Closed",
+   "Monday.Close":"",
+   "Tuesday.Open":"Closed",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"Closed",
+   "Wednesday.Close":"",
+   "Thursday.Open":"1600",
+   "Thursday.Close":"1730",
+   "Friday.Open":"Closed",
+   "Friday.Close":"",
+   "Saturday.Open":"Closed",
+   "Saturday.Close":"",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.908799,037.252914 ]
+   },
+   "properties": {
+   "Company Name":"Greek Town",
+   "Address":"1691 Branham Ln",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95118,
+   "Monday.Open":"1000",
+   "Monday.Close":"1900",
+   "Tuesday.Open":"1000",
+   "Tuesday.Close":"1900",
+   "Wednesday.Open":"1000",
+   "Wednesday.Close":"1900",
+   "Thursday.Open":"1000",
+   "Thursday.Close":"1900",
+   "Friday.Open":"1000",
+   "Friday.Close":"1900",
+   "Saturday.Open":"1000",
+   "Saturday.Close":"1900",
+   "Sunday.Open":"1100",
+   "Sunday.Close":"1600"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.980828,037.308849 ]
+   },
+   "properties": {
+   "Company Name":"Jerky Giant",
+   "Address":"992 Leo Dr",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95129,
+   "Monday.Open":"0700",
+   "Monday.Close":"1800",
+   "Tuesday.Open":"0700",
+   "Tuesday.Close":"1800",
+   "Wednesday.Open":"0700",
+   "Wednesday.Close":"1800",
+   "Thursday.Open":"0700",
+   "Thursday.Close":"1800",
+   "Friday.Open":"0700",
+   "Friday.Close":"1800",
+   "Saturday.Open":"Closed",
+   "Saturday.Close":"",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.826883,037.295251 ]
+   },
+   "properties": {
+   "Company Name":"K & K Seafood",
+   "Address":"3243 Locke Dr",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95111,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.86245,037.349189 ]
+   },
+   "properties": {
+   "Company Name":"L & F Fish Market",
+   "Address":"1448 E Santa Clara St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95116,
+   "Monday.Open":"Closed",
+   "Monday.Close":"",
+   "Tuesday.Open":"0800",
+   "Tuesday.Close":"1500",
+   "Wednesday.Open":"0800",
+   "Wednesday.Close":"1500",
+   "Thursday.Open":"0800",
+   "Thursday.Close":"1500",
+   "Friday.Open":"0800",
+   "Friday.Close":"1500",
+   "Saturday.Open":"0800",
+   "Saturday.Close":"1500",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.950485,037.296572 ]
+   },
+   "properties": {
+   "Company Name":"Los Cuates Meat",
+   "Address":"1507 S Winchester Blvd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95128,
+   "Monday.Open":"0700",
+   "Monday.Close":"2200",
+   "Tuesday.Open":"0700",
+   "Tuesday.Close":"2200",
+   "Wednesday.Open":"0700",
+   "Wednesday.Close":"2200",
+   "Thursday.Open":"0700",
+   "Thursday.Close":"2200",
+   "Friday.Open":"0700",
+   "Friday.Close":"2200",
+   "Saturday.Open":"0700",
+   "Saturday.Close":"2200",
+   "Sunday.Open":"0700",
+   "Sunday.Close":"2200"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.950485,037.296572 ]
+   },
+   "properties": {
+   "Company Name":"Los Primos Meat Market",
+   "Address":"1539 S Winchester Blvd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95128,
+   "Monday.Open":"0700",
+   "Monday.Close":"2100",
+   "Tuesday.Open":"0700",
+   "Tuesday.Close":"2100",
+   "Wednesday.Open":"0700",
+   "Wednesday.Close":"2100",
+   "Thursday.Open":"0700",
+   "Thursday.Close":"2100",
+   "Friday.Open":"0700",
+   "Friday.Close":"2100",
+   "Saturday.Open":"0700",
+   "Saturday.Close":"2100",
+   "Sunday.Open":"0700",
+   "Sunday.Close":"2100"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.889122,037.246636 ]
+   },
+   "properties": {
+   "Company Name":"Mi Rancho",
+   "Address":"1383 Kooser Rd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95118,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.7847,037.321540 ]
+   },
+   "properties": {
+   "Company Name":"Pham's Fresh Fish",
+   "Address":"3122 Stevens Ln",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95148,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.828554,037.365212 ]
+   },
+   "properties": {
+   "Company Name":"Primos Deli",
+   "Address":"3054 Alum Rock Ave # C",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95127,
+   "Monday.Open":"1100",
+   "Monday.Close":"1700",
+   "Tuesday.Open":"1100",
+   "Tuesday.Close":"1700",
+   "Wednesday.Open":"1100",
+   "Wednesday.Close":"1700",
+   "Thursday.Open":"1100",
+   "Thursday.Close":"1700",
+   "Friday.Open":"1100",
+   "Friday.Close":"1700",
+   "Saturday.Open":"1100",
+   "Saturday.Close":"1500",
+   "Sunday.Open":"Closed",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.867932,037.346701 ]
+   },
+   "properties": {
+   "Company Name":"San Jose Meat Market",
+   "Address":"1130 E Santa Clara St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95116,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.915485,037.343251 ]
+   },
+   "properties": {
+   "Company Name":"Sheng Fresh Seafood",
+   "Address":"625 Emory St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95110,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.824563,037.320044 ]
+   },
+   "properties": {
+   "Company Name":"T T Seafood Number One",
+   "Address":"2517 S King Rd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95122,
+   "Monday.Open":"",
+   "Monday.Close":"",
+   "Tuesday.Open":"",
+   "Tuesday.Close":"",
+   "Wednesday.Open":"",
+   "Wednesday.Close":"",
+   "Thursday.Open":"",
+   "Thursday.Close":"",
+   "Friday.Open":"",
+   "Friday.Close":"",
+   "Saturday.Open":"",
+   "Saturday.Close":"",
+   "Sunday.Open":"",
+   "Sunday.Close":""
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.881825,037.324061 ]
+   },
+   "properties": {
+   "Company Name":"Vasquez Seafoods LLC",
+   "Address":"799 S 1st St",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95113,
+   "Monday.Open":"1100",
+   "Monday.Close":"2100",
+   "Tuesday.Open":"1100",
+   "Tuesday.Close":"2100",
+   "Wednesday.Open":"1100",
+   "Wednesday.Close":"2100",
+   "Thursday.Open":"1100",
+   "Thursday.Close":"2100",
+   "Friday.Open":"1100",
+   "Friday.Close":"2200",
+   "Saturday.Open":"1100",
+   "Saturday.Close":"2200",
+   "Sunday.Open":"1100",
+   "Sunday.Close":"2200"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.835618,037.315314 ]
+   },
+   "properties": {
+   "Company Name":"Wing Lee Fresh Poultry & Meat",
+   "Address":"1166 Tully Rd",
+   "City":"San Jose",
+   "State":"CA",
+   "ZIP Code":95122,
+   "Monday.Open":"0830",
+   "Monday.Close":"1900",
+   "Tuesday.Open":"0830",
+   "Tuesday.Close":"1900",
+   "Wednesday.Open":"0830",
+   "Wednesday.Close":"1900",
+   "Thursday.Open":"0830",
+   "Thursday.Close":"1900",
+   "Friday.Open":"0830",
+   "Friday.Close":"1900",
+   "Saturday.Open":"0830",
+   "Saturday.Close":"1900",
+   "Sunday.Open":"0830",
+   "Sunday.Close":"1830"
+   }
+ }
+]
+}

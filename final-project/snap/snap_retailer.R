@@ -71,45 +71,95 @@ for (i in 1:length(grocery_data$CompanyName)) {
 
 st_write(grocery_data, "groceries_snap.geojson")
 
-# iterate over drinks and sweets
-drinks_sweets <- st_read("snap/drinks_sweets.geojson")
+# iterate over convenience stores
+convenience_data <- st_read("snap/convenience.geojson")
 
-for (i in 1:length(drinks_sweets$id)) {
+convenience_data <- data_cleaning(convenience_data)
+
+convenience_data$accepts_snap <- NA
+
+for (i in 1:length(convenience_data$CompanyName)) {
   for (j in 1:length(snap_data$Record_ID)) {
-    distance <- match_retailers(drinks_sweets$addr.housenumber[[i]], 
-                                drinks_sweets$addr.street[[i]], 
+    distance <- match_retailers(convenience_data$Address[[i]], 
                                 snap_data$Store_Street_Address[[j]])
+    
     if (distance == 1) {
-      drinks_sweets$accepts_snap <- 1
+      convenience_data$accepts_snap[[i]] <- 1
       break
     } else {
-      drinks_sweets$accepts_snap <- 0
+      convenience_data$accepts_snap[[i]] <- 0
     }
   }
 }
 
-st_write(drinks_sweets, "drinks_sweets_snap.geojson")
+st_write(convenience_data, "convenience_snap.geojson")
 
-# iterate over farm
-farm <- st_read("snap/farm.geojson")
+# iterate over restaurants
+restaurant_data <- st_read("snap/restaurants.geojson")
 
-farm$accepts_snap <- NA
+restaurant_data <- data_cleaning(restaurant_data)
 
-for (i in 1:length(farm$id)) {
+restaurant_data$accepts_snap <- NA
+
+for (i in 1:length(restaurant_data$CompanyName)) {
   for (j in 1:length(snap_data$Record_ID)) {
-    distance <- match_retailers(farm$addr.housenumber[[i]], 
-                                farm$addr.street[[i]], 
+    distance <- match_retailers(restaurant_data$Address[[i]], 
                                 snap_data$Store_Street_Address[[j]])
+    
     if (distance == 1) {
-      farm$accepts_snap[[i]] <- 1
+      restaurant_data$accepts_snap[[i]] <- 1
       break
     } else {
-      farm$accepts_snap[[i]] <- 0
+      restaurant_data$accepts_snap[[i]] <- 0
     }
   }
 }
 
-st_write(farm, "farm_snap.geojson")
+st_write(restaurant_data, "restaurant_snap.geojson")
+
+# iterate over sweets
+sweets_data <- st_read("snap/sweets.geojson")
+
+sweets_data <- data_cleaning(sweets_data)
+
+sweets_data$accepts_snap <- NA
+
+for (i in 1:length(sweets_data$CompanyName)) {
+  for (j in 1:length(snap_data$Record_ID)) {
+    distance <- match_retailers(sweets_data$Address[[i]],
+                                snap_data$Store_Street_Address[[j]])
+    if (distance == 1) {
+      sweets_data$accepts_snap <- 1
+      break
+    } else {
+      sweets_data$accepts_snap <- 0
+    }
+  }
+}
+
+st_write(sweets_data, "sweets_snap.geojson")
+
+# iterate over farms
+farm_data <- st_read("snap/farms.geojson")
+
+farm_data <- data_cleaning(farm_data)
+
+farm_data$accepts_snap <- NA
+
+for (i in 1:length(farm_data$CompanyName)) {
+  for (j in 1:length(snap_data$Record_ID)) {
+    distance <- match_retailers(farm_data$Address[[i]],
+                                snap_data$Store_Street_Address[[j]])
+    if (distance == 1) {
+      farm_data$accepts_snap[[i]] <- 1
+      break
+    } else {
+      farm_data$accepts_snap[[i]] <- 0
+    }
+  }
+}
+
+st_write(farm_data, "farm_snap.geojson")
 
 # iterate over restaurants
 restaurants <- st_read("snap/restaurants.geojson")
@@ -133,24 +183,28 @@ for (i in 1:length(restaurants$id)) {
 
 st_write(restaurants, "restaurants_snap.geojson")
 
-# iterate over specialty grocery stores
-specialty <- st_read("snap/specialty.geojson")
+# iterate over food banks
+charitable_data <- st_read("snap/charitable.geojson")
 
-specialty$accepts_snap <- NA
+charitable_data <- charitable_data %>% 
+  mutate(across(Company.Name:Sunday.Close, as.character))
 
-for (i in 1:length(specialty$id)) {
+charitable_data <- data_cleaning(charitable_data)
+
+charitable_data$accepts_snap <- NA
+
+for (i in 1:length(charitable_data$CompanyName)) {
   for (j in 1:length(snap_data$Record_ID)) {
 
-    distance <- match_retailers(specialty$addr.housenumber[[i]], 
-                                specialty$addr.street[[i]], 
+    distance <- match_retailers(charitable_data$Address[[i]],
                                 snap_data$Store_Street_Address[[j]])
     if (distance == 1) {
-      specialty$accepts_snap[[i]] <- 1
+      charitable_data$accepts_snap[[i]] <- 1
       break
     } else {
-      specialty$accepts_snap[[i]] <- 0
+      charitable_data$accepts_snap[[i]] <- 0
     }
   }
 }
 
-st_write(specialty, "snap/specialty_snap.geojson")
+st_write(charitable_data, "charitable_snap.geojson")
