@@ -18,31 +18,22 @@
         <script src="Affordable_Rental_Housing.js"></script>
         <script type="module" src="node_modules/openrouteservice-js/dist/ors-js-client.js"></script>
         <style>
+            * {
+                font-family:Arial, Helvetica, sans-serif
+            }
             #map {
-                width: 100vw;
-                height: 100vh;
+                float: right;
+                width: 80vw; 
+                height: 80vh;
             }
 
-            #input-box {
-                position: absolute;
-                bottom: 10px;
-                left: 10px;
-                background-color: white;
+            #select-panel {
+                float: left; 
+                width:18.5vw; 
+                height: 80vh;
+                background-color: #f1f1f1;
                 padding: 10px;
-                border: 1px solid #ccc;
-                border-radius: 5px;
-                z-index: 1000;
-            }
-
-            #input-box label {
-                display: block;
-                margin-bottom: 5px;
-            }
-
-            #input-box input {
-                width: 100%;
-                padding: 5px;
-                margin-bottom: 10px;
+                box-sizing: border-box;
             }
 
             #calculate-button {
@@ -57,28 +48,6 @@
 
             #calculate-button:hover {
                 background-color: #0056b3;
-            }
-
-            #time-filter {
-                position: absolute;
-                bottom: 300px;
-                left: 10px;
-                background-color: white;
-                padding: 10px;
-                border: 1px solid #ccc;
-                border-radius: 5px;
-                z-index: 1000;
-            }
-
-            #time-filter label {
-                display: block;
-                margin-bottom: 5px;
-            }
-
-            #time-filter input {
-                width: 100%;
-                padding: 5px;
-                margin-bottom: 10px;
             }
 
             .legend {
@@ -110,8 +79,8 @@
                 border: none;
                 outline: none;
                 cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
+                padding: 14px 20px;
+                font-size: 17px;
             }
 
             .tab button:hover {
@@ -119,42 +88,23 @@
             }
 
             .tab button.active {
-                background-color: #ccc;
+                background-color: #ccc !important;
             }
         </style>
     </head>
     <body>
         <h1>Food Access in San Jose</h1>
-        <div id="tabs">
-            <button class="tablinks" onclick="openTab(event, 'map')">Map</button>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'map')" id="defaultOpen">Map</button>
             <button class="tablinks" onclick="openTab(event, 'instruction')">Tips</button>
         </div>
         <div id="mapTab" class="tabcontent">
-            <div id="map" style="width: 100vw; height: 80vh;"></div>
-        </div>
-        <div id="instructionTab" class="tabcontent" style="display:none;">
-            <h2>Instructions</h2>
-        </div>
-        <div id="input-box">
-            <label for="start-location">Start Location:</label>
-            <input type="text" id="start-location" placeholder="Click on the map to select a location">
-            <label for="profile">Mode of Transportation:</label>
-                <select id="profile">
-                    <option value="driving-car">Driving</option>
-                    <option value="cycling-regular">Biking</option>
-                    <option value="foot-walking">Walking</option>
-                </select>
-            <label for="range-type">Measurement:</label>
-                <select id="range-type">
-                    <option value="distance">Distance</option>
-                    <option value="time">Time</option>
-                </select>
-            <label for="range">Range:</label>
-                <input type="text" id="range" placeholder="Enter distance in meters">
-            <button id="calculate-button">Calculate Access</button>
-        </div>
-        <div id="time-filter">
-            <label for="day-select">Day:</label>
+            <br/>
+            <div id="select-panel">
+                <h3>Calculate Access</h3>
+                <p><b>Time of Day</b><br/>
+                Select the day and time at which you would like to assess food access:</p>
+                <label for="day-select">Day:</label>
                 <select id="day-select">
                     <option value="any" selected>Any</option>
                     <option value="Sunday">Sunday</option>
@@ -193,6 +143,32 @@
                     <option value=2300>11:00PM</option>
                     <option value=2400>12:00AM</option>
                 </select>
+                <br/><br/>
+                <p><b>Travel Time</b><br/>
+                Select the starting location and range for which you would like to assess food access:</p>
+                <label for="start-location">Start Location:</label>
+                <input type="text" id="start-location" placeholder="Click on the map to select"><br/>
+                <label for="profile">Mode of Transportation:</label>
+                    <select id="profile">
+                        <option value="driving-car">Driving</option>
+                        <option value="cycling-regular">Biking</option>
+                        <option value="foot-walking">Walking</option>
+                    </select><br/>
+                <label for="range-type">Measurement:</label>
+                    <select id="range-type">
+                        <option value="distance">Distance</option>
+                        <option value="time">Time</option>
+                    </select><br/>
+                <label for="range">Range:</label>
+                    <input type="text" id="range" placeholder="Enter distance in meters"><br/><br/>
+                <button id="calculate-button">Calculate Range</button>
+                <br/><br/><br/><br/>
+                <button onclick="openTab(event, 'instruction')" style="float:right;">Questions?</button>
+            </div>
+            <div id="map"></div>
+        </div>
+        <div id="instructionTab" class="tabcontent" style="display:none;">
+            <h2>Instructions</h2>
         </div>
         <script>
             function openTab(evt, tabName) {
@@ -206,8 +182,10 @@
                     tablinks[i].className = tablinks[i].className.replace(" active", "");
                 }
                 document.getElementById(tabName + "Tab").style.display = "block";
-                evt.currentTarget.className += " active";
+                evt.currentTarget.classList.add("active");
             }
+
+            document.getElementById("defaultOpen").click();
         </script>
         <script type="module">
             const Isochrones = new Openrouteservice.Isochrones({ api_key: "5b3ce3597851110001cf6248975a872ddf4b41b095d206e5e5197267" });
