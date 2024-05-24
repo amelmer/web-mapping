@@ -1,4 +1,4 @@
-var restaurants = {
+{
 "type": "FeatureCollection",
 "name": "restaurant_snap",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
@@ -1788,4 +1788,4 @@ var restaurants = {
 { "type": "Feature", "properties": { "CompanyName": "Zui Ze Cafe", "Address": "3975 Senter Rd ", "City": "San Jose", "State": "CA", "ZIPCode": 95111, "MondayOpen": null, "MondayClose": null, "TuesdayOpen": null, "TuesdayClose": null, "WednesdayOpen": null, "WednesdayClose": null, "ThursdayOpen": null, "ThursdayClose": null, "FridayOpen": null, "FridayClose": null, "SaturdayOpen": null, "SaturdayClose": null, "SundayOpen": null, "SundayClose": null, "accepts_snap": 0.0, "Type": "restaurant" }, "geometry": { "type": "Point", "coordinates": [ -121.824733, 37.283054 ] } },
 { "type": "Feature", "properties": { "CompanyName": "Zunigas Restaurant & Cakery", "Address": "1738 Alum Rock Ave ", "City": "San Jose", "State": "CA", "ZIPCode": 95116, "MondayOpen": "1030", "MondayClose": "2000", "TuesdayOpen": "Closed", "TuesdayClose": "Closed", "WednesdayOpen": "1030", "WednesdayClose": "2000", "ThursdayOpen": "1030", "ThursdayClose": "2000", "FridayOpen": "1030", "FridayClose": "2100", "SaturdayOpen": "1000", "SaturdayClose": "2100", "SundayOpen": "1000", "SundayClose": "2300", "accepts_snap": 0.0, "Type": "restaurant" }, "geometry": { "type": "Point", "coordinates": [ -121.84908, 37.355655 ] } }
 ]
-};
+}

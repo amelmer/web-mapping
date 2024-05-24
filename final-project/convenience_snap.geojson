@@ -1,4 +1,4 @@
-var convenience = {
+{
 "type": "FeatureCollection",
 "name": "convenience_snap",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
@@ -168,4 +168,4 @@ var convenience = {
 { "type": "Feature", "properties": { "CompanyName": "Tully Market", "Address": "1709 Tully Rd ", "City": "San Jose", "State": "CA", "ZIPCode": 95122, "MondayOpen": "0700", "MondayClose": "2300", "TuesdayOpen": "0700", "TuesdayClose": "2300", "WednesdayOpen": "0700", "WednesdayClose": "2300", "ThursdayOpen": "0700", "ThursdayClose": "2300", "FridayOpen": "0700", "FridayClose": "2300", "SaturdayOpen": "0700", "SaturdayClose": "2300", "SundayOpen": "0700", "SundayClose": "2300", "accepts_snap": 0.0, "Type": "convenience store" }, "geometry": { "type": "Point", "coordinates": [ -121.825212, 37.323283 ] } },
 { "type": "Feature", "properties": { "CompanyName": "Western Union Agent Location", "Address": "1255 E Santa Clara St", "City": "San Jose", "State": "CA", "ZIPCode": 95116, "MondayOpen": null, "MondayClose": null, "TuesdayOpen": null, "TuesdayClose": null, "WednesdayOpen": null, "WednesdayClose": null, "ThursdayOpen": null, "ThursdayClose": null, "FridayOpen": null, "FridayClose": null, "SaturdayOpen": null, "SaturdayClose": null, "SundayOpen": null, "SundayClose": null, "accepts_snap": 0.0, "Type": "convenience store" }, "geometry": { "type": "Point", "coordinates": [ -121.865931, 37.348163 ] } }
 ]
-};
+}

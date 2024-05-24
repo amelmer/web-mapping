@@ -1,4 +1,4 @@
-var groceries = {
+{
 "type": "FeatureCollection",
 "name": "groceries_snap",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
@@ -202,4 +202,4 @@ var groceries = {
 { "type": "Feature", "properties": { "CompanyName": "Costco Wholesale", "Address": "5301 Almaden Expy", "City": "San Jose", "State": "CA", "ZIPCode": 95118, "MondayOpen": "0900", "MondayClose": "2030", "TuesdayOpen": "0900", "TuesdayClose": "2030", "WednesdayOpen": "0900", "WednesdayClose": "2030", "ThursdayOpen": "0900", "ThursdayClose": "2030", "FridayOpen": "0900", "FridayClose": "2030", "SaturdayOpen": "0900", "SaturdayClose": "1900", "SundayOpen": "0900", "SundayClose": "1900", "accepts_snap": 0.0, "Type": "grocery" }, "geometry": { "type": "Point", "coordinates": [ -121.880197, 37.253211 ] } },
 { "type": "Feature", "properties": { "CompanyName": "Costco Wholesale", "Address": "6898 Raleigh Rd", "City": "San Jose", "State": "CA", "ZIPCode": 95119, "MondayOpen": "0900", "MondayClose": "2030", "TuesdayOpen": "0900", "TuesdayClose": "2030", "WednesdayOpen": "0900", "WednesdayClose": "2030", "ThursdayOpen": "0900", "ThursdayClose": "2030", "FridayOpen": "0900", "FridayClose": "2030", "SaturdayOpen": "0900", "SaturdayClose": "1900", "SundayOpen": "0900", "SundayClose": "1900", "accepts_snap": 0.0, "Type": "grocery" }, "geometry": { "type": "Point", "coordinates": [ -121.784957, 37.243246 ] } }
 ]
-};
+}

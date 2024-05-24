@@ -1,4 +1,4 @@
-var farm_specialty = {
+{
 "type": "FeatureCollection",
 "name": "farm_snap",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
@@ -72,4 +72,4 @@ var farm_specialty = {
 { "type": "Feature", "properties": { "CompanyName": "Vasquez Seafoods LLC", "Address": "799 S 1st St", "City": "San Jose", "State": "CA", "ZIPCode": 95113, "MondayOpen": "1100", "MondayClose": "2100", "TuesdayOpen": "1100", "TuesdayClose": "2100", "WednesdayOpen": "1100", "WednesdayClose": "2100", "ThursdayOpen": "1100", "ThursdayClose": "2100", "FridayOpen": "1100", "FridayClose": "2200", "SaturdayOpen": "1100", "SaturdayClose": "2200", "SundayOpen": "1100", "SundayClose": "2200", "accepts_snap": 0.0, "Type": "farm or specialty" }, "geometry": { "type": "Point", "coordinates": [ -121.881825, 37.324061 ] } },
 { "type": "Feature", "properties": { "CompanyName": "Wing Lee Fresh Poultry & Meat", "Address": "1166 Tully Rd", "City": "San Jose", "State": "CA", "ZIPCode": 95122, "MondayOpen": "0830", "MondayClose": "1900", "TuesdayOpen": "0830", "TuesdayClose": "1900", "WednesdayOpen": "0830", "WednesdayClose": "1900", "ThursdayOpen": "0830", "ThursdayClose": "1900", "FridayOpen": "0830", "FridayClose": "1900", "SaturdayOpen": "0830", "SaturdayClose": "1900", "SundayOpen": "0830", "SundayClose": "1830", "accepts_snap": 1.0, "Type": "farm or specialty" }, "geometry": { "type": "Point", "coordinates": [ -121.835618, 37.315314 ] } }
 ]
-};
+}

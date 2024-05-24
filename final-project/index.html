@@ -96,12 +96,14 @@
         <h1>Food Access in San Jose</h1>
         <div class="tab">
             <button class="tablinks" onclick="openTab(event, 'map')" id="defaultOpen">Map</button>
-            <button class="tablinks" onclick="openTab(event, 'instruction')">Tips</button>
+            <button class="tablinks" onclick="openTab(event, 'instruction')">Questions?</button>
         </div>
         <div id="mapTab" class="tabcontent">
             <br/>
             <div id="select-panel">
-                <h3>Calculate Access</h3>
+                <h3>Measure Access</h3>
+                <p>There are many ways to assess food access in an area. This map allows you to assess access using two measures, either separately or in combination. 
+                    <br/>Setting a time of day will filter the food options to what is open at the selected time. Calculating a range will outline on the map what is available within your specified range.</p>
                 <p><b>Time of Day</b><br/>
                 Select the day and time at which you would like to assess food access:</p>
                 <label for="day-select">Day:</label>
@@ -147,7 +149,7 @@
                 <p><b>Travel Time</b><br/>
                 Select the starting location and range for which you would like to assess food access:</p>
                 <label for="start-location">Start Location:</label>
-                <input type="text" id="start-location" placeholder="Click on the map to select"><br/>
+                <input type="text" id="start-location" placeholder="Click on the map to set"><br/>
                 <label for="profile">Mode of Transportation:</label>
                     <select id="profile">
                         <option value="driving-car">Driving</option>
@@ -162,13 +164,35 @@
                 <label for="range">Range:</label>
                     <input type="text" id="range" placeholder="Enter distance in meters"><br/><br/>
                 <button id="calculate-button">Calculate Range</button>
-                <br/><br/><br/><br/>
-                <button onclick="openTab(event, 'instruction')" style="float:right;">Questions?</button>
             </div>
             <div id="map"></div>
         </div>
         <div id="instructionTab" class="tabcontent" style="display:none;">
-            <h2>Instructions</h2>
+            <h2>Tips for Using the Map</h2>
+            <ol>
+                <li>Only toggle on layers that are useful for your assessment of access!</li>
+                <li>The recommended order for toggling on the map layers and interacting with the map is as follows:
+                    <ul>
+                        <li>Neighborhood Boundaries</li>
+                        <li>Bike Lanes</li>
+                        <li>Bike Racks and Affordable Housing</li>
+                        <li>Travel Time (zoom in on area of interest)</li>
+                        <li>Food Layers (Grocery Stores, Restaurants, etc)</li>
+                        <li>Time of Day</li>
+                    </ul>
+                </li>
+                <li>Note that when setting a time of day, some locations may disappear because their hours of operation are not known and not because they are closed.</li>
+                <li>Also note that while selecting a specific day of the week and setting time to "any" will filter the data to options that are open on that day, but setting day to "any" and selecting a specific time will not filter the options.</li>
+            </ol>
+            <h2>Food Categories</h2>
+            <ul>
+                <li>Charitable Food: food pantries; generally places to get free food</li>
+                <li>Convenience Stores: stores offering a limited range of groceries</li>
+                <li>Drinks and Sweets: beverage or sweets focused shops, including cafes, bakeries, and ice cream shops</li>
+                <li>Grocery Stores: stores offering full range of groceries, including fresh produce</li>
+                <li>Specialty Grocers and Farms: farm stands and specialty grocers, such as butchers and fishmongers</li>
+                <li>Restaurants: full service restaurants and fast food</li>
+            </ul>
         </div>
         <script>
             function openTab(evt, tabName) {
@@ -476,15 +500,15 @@
 
             var overlayMaps = {
             "Neighborhood Boundaries": neighborhood_boundaries,
-            "Bike Racks": bike_racks,
             "Bike Lanes": bike_lane,
+            "Bike Racks": bike_racks,
             "Affordable Housing": affordable_housing,
-            "Grocery Stores": grocery_stores,
-            "Restaurants": restaurant_locations,
-            "Drinks and Sweets": sweets,
+            "Charitable Food": charitable_food,
             "Convenience Stores": convenience_stores,
+            "Drinks and Sweets": sweets,
+            "Grocery Stores": grocery_stores,
             "Speciality Grocers & Farms": farm,
-            "Charitable Food": charitable_food
+            "Restaurants": restaurant_locations,
             };
 
             var layerControl = L.control.layers(null, overlayMaps, {collapsed:false}).addTo(map);
