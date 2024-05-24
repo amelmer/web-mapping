@@ -104,6 +104,25 @@
                 <h3>Measure Access</h3>
                 <p>There are many ways to assess food access in an area. This map allows you to assess access using two measures, either separately or in combination. 
                     <br/>Setting a time of day will filter the food options to what is open at the selected time. Calculating a range will outline on the map what is available within your specified range.</p>
+                <p><b>Travel Time</b><br/>
+                Select the starting location and range for which you would like to assess food access:</p>
+                <label for="start-location">Start Location:</label>
+                <input type="text" id="start-location" placeholder="Click on the map to set"><br/>
+                <label for="profile">Mode of Transportation:</label>
+                    <select id="profile">
+                        <option value="driving-car">Driving</option>
+                        <option value="cycling-regular">Biking</option>
+                        <option value="foot-walking">Walking</option>
+                    </select><br/>
+                <label for="range-type">Measurement:</label>
+                    <select id="range-type">
+                        <option value="distance">Distance</option>
+                        <option value="time">Time</option>
+                    </select><br/>
+                <label for="range">Range:</label>
+                    <input type="text" id="range" placeholder="Enter distance in meters"><br/><br/>
+                <button id="calculate-button">Calculate Range</button>
+                <br/>
                 <p><b>Time of Day</b><br/>
                 Select the day and time at which you would like to assess food access:</p>
                 <label for="day-select">Day:</label>
@@ -116,7 +135,7 @@
                     <option value="Thursday">Thursday</option>
                     <option value="Friday">Friday</option>
                     <option value="Saturday">Saturday</option>
-                </select>
+                </select><br/>
             <label for="time-select">Time:</label>
                 <select id="time-select">
                     <option value=0 selected>Any</option>
@@ -145,25 +164,6 @@
                     <option value=2300>11:00PM</option>
                     <option value=2400>12:00AM</option>
                 </select>
-                <br/><br/>
-                <p><b>Travel Time</b><br/>
-                Select the starting location and range for which you would like to assess food access:</p>
-                <label for="start-location">Start Location:</label>
-                <input type="text" id="start-location" placeholder="Click on the map to set"><br/>
-                <label for="profile">Mode of Transportation:</label>
-                    <select id="profile">
-                        <option value="driving-car">Driving</option>
-                        <option value="cycling-regular">Biking</option>
-                        <option value="foot-walking">Walking</option>
-                    </select><br/>
-                <label for="range-type">Measurement:</label>
-                    <select id="range-type">
-                        <option value="distance">Distance</option>
-                        <option value="time">Time</option>
-                    </select><br/>
-                <label for="range">Range:</label>
-                    <input type="text" id="range" placeholder="Enter distance in meters"><br/><br/>
-                <button id="calculate-button">Calculate Range</button>
             </div>
             <div id="map"></div>
         </div>
@@ -176,13 +176,17 @@
                         <li>Neighborhood Boundaries</li>
                         <li>Bike Lanes</li>
                         <li>Bike Racks and Affordable Housing</li>
-                        <li>Travel Time (zoom in on area of interest)</li>
+                        <li>Travel Time Measure (and zoom in on outlined area)</li>
                         <li>Food Layers (Grocery Stores, Restaurants, etc)</li>
-                        <li>Time of Day</li>
+                        <li>Time of Day Measure</li>
                     </ul>
                 </li>
-                <li>Note that when setting a time of day, some locations may disappear because their hours of operation are not known and not because they are closed.</li>
-                <li>Also note that while selecting a specific day of the week and setting time to "any" will filter the data to options that are open on that day, but setting day to "any" and selecting a specific time will not filter the options.</li>
+                <li>When setting a time of day, some locations may disappear because their hours of operation are not known and not because they are closed.</li>
+                <li>Selecting a specific day of the week and setting time to "any" will filter the data to options that are open at any time on that day
+                    <ul>
+                        <li>Setting day to "any" and selecting a specific time will not filter the options.</li>
+                    </ul>
+                </li>
             </ol>
             <h2>Food Categories</h2>
             <ul>
@@ -250,14 +254,14 @@
             };
 
             function getColorLegend(value) {
-                return value == "Accepts SNAP" ? '#003b00':
-                value == "Does Not Accept SNAP" ? '#96a496':
-                value == "Grocery Store" ? '#90c78a':
-                value == "Restaurant" ? '#b39eb5':
-                value == "Drink or Sweet" ? '#aec6cf':
-                value == "Specialty Grocer or Farm" ? '#ffd1dc':
-                value == "Convenience Store" ? "#dc9074":
-                value == "Charitable Food" ? "#dcdc74":
+                return value == "Accepts SNAP (outline)" ? '#003b00':
+                value == "Does Not Accept SNAP (outline)" ? '#96a496':
+                value == "Grocery Store" ? '#93ec93':
+                value == "Restaurant" ? '#b37de8':
+                value == "Drink or Sweet" ? '#7dcde8':
+                value == "Specialty Grocer or Farm" ? '#e87de8':
+                value == "Convenience Store" ? "#e8b37d":
+                value == "Charitable Food" ? "#e8e87d":
                 'red';
             };
 
@@ -324,7 +328,7 @@
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
                     opacity: filterByHours(feature),
-                    fillColor: '#90c78a',
+                    fillColor: '#93ec93',
                     fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
@@ -337,7 +341,7 @@
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
                     opacity: filterByHours(feature),
-                    fillColor: '#dc9074',
+                    fillColor: '#e8b37d',
                     fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
@@ -350,7 +354,7 @@
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
                     opacity: filterByHours(feature),
-                    fillColor: '#b39eb5',
+                    fillColor: '#b37de8',
                     fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
@@ -363,7 +367,7 @@
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
                     opacity: filterByHours(feature),
-                    fillColor: '#aec6cf',
+                    fillColor: '#7dcde8',
                     fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
@@ -376,7 +380,7 @@
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
                     opacity: filterByHours(feature),
-                    fillColor: '#ffd1dc',
+                    fillColor: '#e87de8',
                     fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
@@ -389,7 +393,7 @@
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
                     opacity: filterByHours(feature),
-                    fillColor: '#dcdc74',
+                    fillColor: '#e8e87d',
                     fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
@@ -499,7 +503,7 @@
             });
 
             var overlayMaps = {
-            "Neighborhood Boundaries": neighborhood_boundaries,
+            "Census Tracts": neighborhood_boundaries,
             "Bike Lanes": bike_lane,
             "Bike Racks": bike_racks,
             "Affordable Housing": affordable_housing,
@@ -516,7 +520,7 @@
             var legend = L.control({position: 'bottomright'})
             legend.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'info legend'),
-                    types = ["Accepts SNAP", "Does Not Accept SNAP", "Charitable Food", "Grocery Store", "Convenience Store", "Restaurant", "Drink or Sweet", "Specialty Grocer or Farm"],
+                    types = ["Accepts SNAP (outline)", "Does Not Accept SNAP (outline)", "Charitable Food", "Convenience Store", "Drink or Sweet", "Grocery Store", "Restaurant", "Specialty Grocer or Farm"],
                     labels = [];
                     div.innerHTML += '<b>Legend</b><br/>'
                 
