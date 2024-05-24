@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-05-24T15:04:06Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7094806054",
+        "addr:city": "San Jose",
+        "addr:housenumber": "1615",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "Remuda Lane",
+        "amenity": "social_facility",
+        "name": "Choicelunch",
+        "social_facility": "food_bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.908712,
+          37.3720775
+        ]
+      },
+      "id": "node/7094806054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8258759695",
+        "addr:city": "San Jose",
+        "addr:housenumber": "3150",
+        "addr:postcode": "95132",
+        "addr:state": "CA",
+        "addr:street": "Sierra Road",
+        "amenity": "social_facility",
+        "name": "Saint Victor Food Pantry",
+        "operator": "Diocese of San José",
+        "operator:type": "religious",
+        "operator:wikidata": "Q875815",
+        "social_facility": "food_bank",
+        "social_facility:for": "underprivileged"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8509995,
+          37.3968915
+        ]
+      },
+      "id": "node/8258759695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8562598601",
+        "addr:city": "San Jose",
+        "addr:housenumber": "2222",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Unified Way",
+        "amenity": "social_facility",
+        "fixme": "Somewhere on this property",
+        "name": "San Jose Unified School District Nutrition Services",
+        "operator": "San Jose Unified School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q7414497",
+        "social_facility": "food_bank",
+        "website": "https://www.sjusd.org/your-resources/student-nutrition-services/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8726693,
+          37.2964929
+        ]
+      },
+      "id": "node/8562598601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9998294791",
+        "addr:city": "San Jose",
+        "addr:housenumber": "990",
+        "addr:postcode": "95127",
+        "addr:state": "CA",
+        "addr:street": "South Capitol Avenue",
+        "amenity": "social_facility",
+        "name": "CCC Food Pantry",
+        "operator": "Crossroad Community Food Pantry",
+        "operator:type": "religious",
+        "social_facility": "food_bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8268231,
+          37.3522032
+        ]
+      },
+      "id": "node/9998294791"
+    }
+  ]
+}

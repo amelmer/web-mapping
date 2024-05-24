@@ -142,7 +142,7 @@ sweets_data$Type <- "sweets"
 sweets_data <- sweets_data %>% 
   mutate(Type = ifelse(grepl("Costco", CompanyName) == TRUE, "grocery", Type)) %>% 
   filter(CompanyName != "Loop Neighborhood Market" & CompanyName != "Lucky Supermarkets" 
-         & CompanyName != "McDonald's" & CompanyName != "Nordstrom" & CompanyName != "Panera Bread"
+         & CompanyName != "Mc Donald's" & CompanyName != "Nordstrom" & CompanyName != "Panera Bread"
          & CompanyName != "Safeway" & CompanyName != "Smashburger" & CompanyName != "Denny's")
 
 groceries_to_append <- sweets_data %>% 
@@ -178,11 +178,37 @@ farm_data$Type <- "farm or specialty"
 
 # iterate over food banks
 charitable_data <- st_read("snap/charitable.geojson")
+charitable_data2 <- st_read("snap/charitable2.geojson")
+
+charitable_data2 <- charitable_data2 %>% 
+  mutate(Address = c(paste0(addr.housenumber, " ", addr.street))) %>% 
+  select(name, Address, addr.city, addr.state, addr.postcode, geometry) %>% 
+  rename(CompanyName = name, City = addr.city, State = addr.state, ZipCode = addr.postcode)
+
+columns_to_create <- function(df, column_names) {
+  for (column_name in column_names) {
+    df[, column_name] <- NA
+  }
+  return(df)
+}
+
+columns <- c("MondayOpen", "MondayClose", "TuesdayOpen", "TuesdayClose", "WednesdayOpen", 
+             "WednesdayClose", "ThursdayOpen", "ThursdayClose", "FridayOpen", "FridayClose",
+             "SaturdayOpen", "SaturdayClose", "SundayOpen", "SundayClose")
+
+charitable_data2 <- columns_to_create(charitable_data2, columns)
+
+charitable_data2 <- charitable_data2 %>% 
+  select(-geometry, geometry)
 
 charitable_data <- charitable_data %>% 
   mutate(across(Company.Name:Sunday.Close, as.character))
 
 charitable_data <- data_cleaning(charitable_data)
+
+charitable_data_final <- charitable_data %>% 
+  rbind(charitable_data2)
+  
 
 charitable_data$accepts_snap <- NA
 
