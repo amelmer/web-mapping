@@ -170,7 +170,7 @@
         <div id="instructionTab" class="tabcontent" style="display:none;">
             <h2>Tips for Using the Map</h2>
             <ol>
-                <li>Only select layers in the top right box that are useful for your assessment of access!</li>
+                <li>Only select categories in the top right box that are useful for your assessment of access!</li>
                 <li>The recommended order for interacting with the map is as follows:
                     <ul>
                         <li>Neighborhood Boundaries</li>
@@ -187,6 +187,7 @@
                         <li>Setting day to "any" and selecting a specific time will not filter the options.</li>
                     </ul>
                 </li>
+                <li>Clicking on the dot of a displayed food option will show it's name!</li>
             </ol>
             <h2>Food Categories</h2>
             <ul>
@@ -196,6 +197,7 @@
                 <li>Grocery Stores: stores offering full range of groceries, including fresh produce</li>
                 <li>Specialty Grocers and Farms: farm stands and specialty grocers, such as butchers and fishmongers</li>
                 <li>Restaurants: full service restaurants and fast food</li>
+                <li>If a dot is outlined it dark green, that indicates that the business accepts SNAP.</li>
             </ul>
         </div>
         <script>
@@ -258,10 +260,10 @@
                 value == "Does Not Accept SNAP (outline)" ? '#96a496':
                 value == "Grocery Store" ? '#93ec93':
                 value == "Restaurant" ? '#b37de8':
-                value == "Drink or Sweet" ? '#7dcde8':
+                value == "Drink or Sweet" ? '#7de8e8':
                 value == "Specialty Grocer or Farm" ? '#e87de8':
                 value == "Convenience Store" ? "#e8b37d":
-                value == "Charitable Food" ? "#e8e87d":
+                value == "Charitable Food" ? "#7d98e8":
                 'red';
             };
 
@@ -367,7 +369,7 @@
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
                     opacity: filterByHours(feature),
-                    fillColor: '#7dcde8',
+                    fillColor: '#7de8e8',
                     fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
@@ -393,7 +395,7 @@
                 return L.circleMarker(ll, {
                     color: getColorOutline(feature.properties.accepts_snap),
                     opacity: filterByHours(feature),
-                    fillColor: '#e8e87d',
+                    fillColor: '#7d98e8',
                     fillOpacity: filterByHours(feature),
                     radius: 6,
                     weight: 2
@@ -532,6 +534,8 @@
             };
 
             legend.addTo(map);
+
+            $(".leaflet-control-layers-overlays").prepend("<label>Display Options</label>");
         </script>
     </body>
 </html>
