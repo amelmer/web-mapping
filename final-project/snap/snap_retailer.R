@@ -183,7 +183,7 @@ charitable_data2 <- st_read("snap/charitable2.geojson")
 charitable_data2 <- charitable_data2 %>% 
   mutate(Address = c(paste0(addr.housenumber, " ", addr.street))) %>% 
   select(name, Address, addr.city, addr.state, addr.postcode, geometry) %>% 
-  rename(CompanyName = name, City = addr.city, State = addr.state, ZipCode = addr.postcode)
+  rename(CompanyName = name, City = addr.city, State = addr.state, ZIPCode = addr.postcode)
 
 columns_to_create <- function(df, column_names) {
   for (column_name in column_names) {
@@ -208,25 +208,24 @@ charitable_data <- data_cleaning(charitable_data)
 
 charitable_data_final <- charitable_data %>% 
   rbind(charitable_data2)
-  
 
-charitable_data$accepts_snap <- NA
+charitable_data_final$accepts_snap <- NA
 
-for (i in 1:length(charitable_data$CompanyName)) {
+for (i in 1:length(charitable_data_final$CompanyName)) {
   for (j in 1:length(snap_data$Record_ID)) {
 
-    distance <- match_retailers(charitable_data$Address[[i]],
+    distance <- match_retailers(charitable_data_final$Address[[i]],
                                 snap_data$Store_Street_Address[[j]])
     if (distance == 1) {
-      charitable_data$accepts_snap[[i]] <- 1
+      charitable_data_final$accepts_snap[[i]] <- 1
       break
     } else {
-      charitable_data$accepts_snap[[i]] <- 0
+      charitable_data_final$accepts_snap[[i]] <- 0
     }
   }
 }
 
-charitable_data$Type <- "charitable"
+charitable_data_final$Type <- "charitable"
 
 # export data
 st_write(grocery_data, "groceries_snap.geojson")
@@ -234,4 +233,4 @@ st_write(convenience_data, "convenience_snap.geojson")
 st_write(restaurant_data, "restaurant_snap.geojson")
 st_write(sweets_data, "sweets_snap.geojson")
 st_write(farm_data, "farm_snap.geojson")
-st_write(charitable_data, "charitable_snap.geojson")
+st_write(charitable_data_final, "charitable_snap.geojson")
